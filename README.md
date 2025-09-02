@@ -10,7 +10,7 @@ Based on [Open Data Cube](https://www.opendatacube.org/). For the EODC, the foll
 1. Created a [database](https://opendatacube.readthedocs.io/en/latest/installation/database/setup.html) and [credentials](https://opendatacube.readthedocs.io/en/latest/installation/database/passing-configuration.html)
 2. Created a Python `environment.yaml`
 3. [Initialized](https://opendatacube.readthedocs.io/en/latest/installation/cli.html#datacube-system-init) the datacube schema
-4. Generated a tiling grid schema covering Natura sites
+4. Generated a tiling grid schema covering the affected [Natura2000](https://natura2000.eea.europa.eu/) sites
 5. [Defined EO products](https://opendatacube.readthedocs.io/en/latest/installation/product-definitions.html)
 6. Verified dataset storage, indexing, and retrieval from NAS using EO3 datasets and EODC
 
