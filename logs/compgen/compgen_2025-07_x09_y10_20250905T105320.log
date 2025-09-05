@@ -1,0 +1,42 @@
+2025-09-05 10:53:20,554 - INFO - composites.py:102 - #######################################################################
+2025-09-05 10:53:20,555 - INFO - composites.py:104 - Processing started
+2025-09-05 10:53:20,555 - INFO - composites.py:105 -         Tile: x09_y10
+2025-09-05 10:53:20,555 - INFO - composites.py:106 -         Time: 2025-07
+2025-09-05 10:53:20,555 - INFO - composites.py:109 -                           
+2025-09-05 10:53:20,555 - INFO - composites.py:110 - Establishing connection to datacube
+2025-09-05 10:53:21,132 - INFO - composites.py:113 -                           
+2025-09-05 10:53:21,133 - INFO - composites.py:114 - Sanity test: Check if dataset already exists in the datacube
+2025-09-05 10:53:21,154 - INFO - composites.py:133 - The composite requested was not found and it will be computed
+2025-09-05 10:53:21,154 - INFO - composites.py:136 -                                  
+2025-09-05 10:53:21,154 - INFO - composites.py:137 - Initializing Dask cluster for parallelization
+2025-09-05 10:53:26,380 - INFO - composites.py:161 - Dask dashboard is available at: http://127.0.0.1:8787/status
+2025-09-05 10:53:26,380 - INFO - composites.py:164 - Create directories and naming conversions
+2025-09-05 10:53:26,442 - ERROR - composites.py:484 -              ✖✖✖ FAILED loading for : Tile x09_y10 | Time: 2025-07 | with Exception: [WinError 1326] The user name or password is incorrect: '\\\\nas-rs.topo.auth.gr\\Latomeia\\DROUGHT\\composites\\x09\\y10\\2025\\07\\01'
+2025-09-05 10:53:26,442 - INFO - composites.py:489 - Closing Dask client
+2025-09-05 10:53:26,443 - INFO - composites.py:493 - Closing Dask cluster
+2025-09-05 10:53:26,443 - INFO - composites.py:494 - #######################################################################
+2025-09-05 10:53:27,154 - ERROR - composites.py:523 - Fatal error in composites.py
+Traceback (most recent call last):
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+OSError: [WinError 1326] The user name or password is incorrect: '\\\\nas-rs.topo.auth.gr\\Latomeia\\DROUGHT\\composites\\x09\\y10\\2025\\07\\01'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\fotakidis\AUTH_PROJECTS\drought\src\composites.py", line 519, in <module>
+    generate_composite(year_month=year_month, tile_id=tile_id, tile_geom=tile_geom)
+  File "C:\Users\fotakidis\AUTH_PROJECTS\drought\src\composites.py", line 174, in generate_composite
+    mkdir(dataset_path)
+  File "C:\Users\fotakidis\AUTH_PROJECTS\drought\src\utils\utils.py", line 32, in mkdir
+    Path(path).mkdir(parents=True, exist_ok=True)
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\pathlib.py", line 1320, in mkdir
+    if not exist_ok or not self.is_dir():
+                           ^^^^^^^^^^^^^
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\pathlib.py", line 875, in is_dir
+    return S_ISDIR(self.stat().st_mode)
+                   ^^^^^^^^^^^
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\pathlib.py", line 840, in stat
+    return os.stat(self, follow_symlinks=follow_symlinks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 1326] The user name or password is incorrect: '\\\\nas-rs.topo.auth.gr\\Latomeia\\DROUGHT\\composites\\x09\\y10\\2025\\07\\01'

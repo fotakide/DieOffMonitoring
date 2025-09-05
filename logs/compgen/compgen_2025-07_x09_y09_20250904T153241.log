@@ -1,0 +1,175 @@
+2025-09-04 15:32:41,505 - INFO - composites.py:102 - #######################################################################
+2025-09-04 15:32:41,506 - INFO - composites.py:104 - Processing started
+2025-09-04 15:32:41,506 - INFO - composites.py:105 -         Tile: x09_y09
+2025-09-04 15:32:41,506 - INFO - composites.py:106 -         Time: 2025-07
+2025-09-04 15:32:41,506 - INFO - composites.py:109 -                           
+2025-09-04 15:32:41,506 - INFO - composites.py:110 - Establishing connection to datacube
+2025-09-04 15:32:43,060 - INFO - composites.py:113 -                           
+2025-09-04 15:32:43,061 - INFO - composites.py:114 - Sanity test: Check if dataset already exists in the datacube
+2025-09-04 15:32:43,104 - INFO - composites.py:133 - The composite requested was not found and it will be computed
+2025-09-04 15:32:43,104 - INFO - composites.py:136 -                                  
+2025-09-04 15:32:43,104 - INFO - composites.py:137 - Initializing Dask cluster for parallelization
+2025-09-04 15:32:50,149 - INFO - composites.py:161 - Dask dashboard is available at: http://127.0.0.1:8787/status
+2025-09-04 15:32:50,149 - INFO - composites.py:164 - Create directories and naming conversions
+2025-09-04 15:32:50,159 - INFO - composites.py:177 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/composites/x09/y09/2025/07/01
+2025-09-04 15:32:50,159 - INFO - composites.py:180 -                           
+2025-09-04 15:32:50,159 - INFO - composites.py:181 - Retrieve tile geometry
+2025-09-04 15:32:50,192 - INFO - composites.py:192 - Create the Bounding Box (φ,λ)
+2025-09-04 15:32:50,192 - INFO - composites.py:198 - Create the Bounding Box (x,y)
+2025-09-04 15:32:50,192 - INFO - composites.py:211 -                           
+2025-09-04 15:32:50,192 - INFO - composites.py:212 - Connect to Planetary Computer STAC Catalog
+2025-09-04 15:32:50,561 - INFO - composites.py:220 - Search the STAC Catalog
+2025-09-04 15:32:50,643 - INFO - composites.py:232 -         Query parameters:
+2025-09-04 15:32:50,643 - INFO - composites.py:233 -             url:          https://planetarycomputer.microsoft.com/api/stac/v1/search
+2025-09-04 15:32:50,643 - INFO - composites.py:234 -             client:       microsoft-pc
+2025-09-04 15:32:50,643 - INFO - composites.py:235 -             collection:   sentinel-2-l2a
+2025-09-04 15:32:50,643 - INFO - composites.py:236 -             bbox:         (21.85970105220835, 37.36314648137922, 22.52163347994685, 37.9118519319046)
+2025-09-04 15:32:50,643 - INFO - composites.py:237 -             time range:   2025-07-01T00:00:00Z/2025-07-31T23:59:59Z
+2025-09-04 15:32:50,643 - INFO - composites.py:238 -             cloud cover:  0% - 70%
+2025-09-04 15:32:50,643 - INFO - composites.py:239 -             nodata cover: 0% - 33%
+2025-09-04 15:32:50,644 - INFO - composites.py:241 -                           
+2025-09-04 15:32:50,644 - INFO - composites.py:242 - Searching...
+2025-09-04 15:32:51,271 - INFO - composites.py:245 - Query found 46 items
+2025-09-04 15:32:51,282 - INFO - composites.py:247 - Searching for GRI REFINED scenes:
+2025-09-04 15:32:56,742 - INFO - sentinel2.py:78 - 1/46 - S2B_MSIL2A_20250731T092029_R093_T34SFH_20250731T115523 -> REFINED
+2025-09-04 15:33:04,144 - INFO - sentinel2.py:78 - 2/46 - S2B_MSIL2A_20250731T092029_R093_T34SFG_20250731T115523 -> REFINED
+2025-09-04 15:33:11,194 - INFO - sentinel2.py:78 - 3/46 - S2B_MSIL2A_20250731T092029_R093_T34SEH_20250731T115523 -> REFINED
+2025-09-04 15:33:17,583 - INFO - sentinel2.py:78 - 4/46 - S2B_MSIL2A_20250731T092029_R093_T34SEG_20250731T115523 -> REFINED
+2025-09-04 15:33:24,390 - INFO - sentinel2.py:78 - 5/46 - S2A_MSIL2A_20250728T092231_R093_T34SFH_20250728T111018 -> REFINED
+2025-09-04 15:33:31,639 - INFO - sentinel2.py:78 - 6/46 - S2A_MSIL2A_20250728T092231_R093_T34SFG_20250728T111018 -> REFINED
+2025-09-04 15:33:37,506 - INFO - sentinel2.py:78 - 7/46 - S2A_MSIL2A_20250728T092231_R093_T34SEH_20250728T111018 -> REFINED
+2025-09-04 15:33:43,899 - INFO - sentinel2.py:78 - 8/46 - S2A_MSIL2A_20250728T092231_R093_T34SEG_20250728T111018 -> REFINED
+2025-09-04 15:33:50,883 - INFO - sentinel2.py:78 - 9/46 - S2B_MSIL2A_20250728T090559_R050_T34SFG_20250728T101128 -> REFINED
+2025-09-04 15:33:57,112 - INFO - sentinel2.py:78 - 10/46 - S2C_MSIL2A_20250726T092051_R093_T34SFH_20250726T125415 -> REFINED
+2025-09-04 15:34:04,484 - INFO - sentinel2.py:78 - 11/46 - S2C_MSIL2A_20250726T092051_R093_T34SFG_20250726T125415 -> REFINED
+2025-09-04 15:34:10,515 - INFO - sentinel2.py:78 - 12/46 - S2C_MSIL2A_20250726T092051_R093_T34SEH_20250726T125415 -> REFINED
+2025-09-04 15:34:17,090 - INFO - sentinel2.py:78 - 13/46 - S2C_MSIL2A_20250726T092051_R093_T34SEG_20250726T125415 -> REFINED
+2025-09-04 15:34:22,826 - INFO - sentinel2.py:78 - 14/46 - S2A_MSIL2A_20250725T091041_R050_T34SFG_20250725T131619 -> REFINED
+2025-09-04 15:34:28,578 - INFO - sentinel2.py:78 - 15/46 - S2B_MSIL2A_20250721T092029_R093_T34SFH_20250721T120259 -> REFINED
+2025-09-04 15:34:35,134 - INFO - sentinel2.py:78 - 16/46 - S2B_MSIL2A_20250721T092029_R093_T34SFG_20250721T120259 -> REFINED
+2025-09-04 15:34:41,957 - INFO - sentinel2.py:78 - 17/46 - S2B_MSIL2A_20250721T092029_R093_T34SEH_20250721T120259 -> REFINED
+2025-09-04 15:34:49,987 - INFO - sentinel2.py:78 - 18/46 - S2B_MSIL2A_20250721T092029_R093_T34SEG_20250721T120259 -> REFINED
+2025-09-04 15:34:55,988 - INFO - sentinel2.py:78 - 19/46 - S2A_MSIL2A_20250718T092051_R093_T34SFH_20250718T125020 -> REFINED
+2025-09-04 15:35:01,948 - INFO - sentinel2.py:78 - 20/46 - S2A_MSIL2A_20250718T092051_R093_T34SFG_20250718T125020 -> REFINED
+2025-09-04 15:35:09,760 - INFO - sentinel2.py:78 - 21/46 - S2A_MSIL2A_20250718T092051_R093_T34SEH_20250718T125020 -> REFINED
+2025-09-04 15:35:16,042 - INFO - sentinel2.py:78 - 22/46 - S2A_MSIL2A_20250718T092051_R093_T34SEG_20250718T125020 -> REFINED
+2025-09-04 15:35:21,859 - INFO - sentinel2.py:78 - 23/46 - S2B_MSIL2A_20250718T090559_R050_T34SFG_20250718T120206 -> REFINED
+2025-09-04 15:35:27,824 - INFO - sentinel2.py:78 - 24/46 - S2C_MSIL2A_20250716T092051_R093_T34SFH_20250716T143214 -> REFINED
+2025-09-04 15:35:35,374 - INFO - sentinel2.py:78 - 25/46 - S2C_MSIL2A_20250716T092051_R093_T34SFG_20250716T143214 -> REFINED
+2025-09-04 15:35:41,797 - INFO - sentinel2.py:78 - 26/46 - S2C_MSIL2A_20250716T092051_R093_T34SEH_20250716T143214 -> REFINED
+2025-09-04 15:35:47,802 - INFO - sentinel2.py:78 - 27/46 - S2C_MSIL2A_20250716T092051_R093_T34SEG_20250716T143214 -> REFINED
+2025-09-04 15:35:54,337 - INFO - sentinel2.py:78 - 28/46 - S2A_MSIL2A_20250715T091331_R050_T34SFG_20250715T105310 -> REFINED
+2025-09-04 15:36:01,598 - INFO - sentinel2.py:78 - 29/46 - S2C_MSIL2A_20250713T090621_R050_T34SFG_20250713T130516 -> REFINED
+2025-09-04 15:36:08,570 - INFO - sentinel2.py:78 - 30/46 - S2B_MSIL2A_20250711T092029_R093_T34SFH_20250711T114113 -> REFINED
+2025-09-04 15:36:15,983 - INFO - sentinel2.py:78 - 31/46 - S2B_MSIL2A_20250711T092029_R093_T34SFG_20250711T114113 -> REFINED
+2025-09-04 15:36:23,328 - INFO - sentinel2.py:78 - 32/46 - S2B_MSIL2A_20250711T092029_R093_T34SEH_20250711T114113 -> REFINED
+2025-09-04 15:36:30,539 - INFO - sentinel2.py:78 - 33/46 - S2B_MSIL2A_20250711T092029_R093_T34SEG_20250711T114113 -> REFINED
+2025-09-04 15:36:36,578 - INFO - sentinel2.py:78 - 34/46 - S2A_MSIL2A_20250708T092231_R093_T34SFG_20250708T124914 -> REFINED
+2025-09-04 15:36:43,782 - INFO - sentinel2.py:78 - 35/46 - S2A_MSIL2A_20250708T092231_R093_T34SEG_20250708T124914 -> REFINED
+2025-09-04 15:36:50,263 - INFO - sentinel2.py:78 - 36/46 - S2B_MSIL2A_20250708T090559_R050_T34SFG_20250708T113616 -> REFINED
+2025-09-04 15:36:57,725 - INFO - sentinel2.py:78 - 37/46 - S2C_MSIL2A_20250706T092051_R093_T34SFH_20250706T131358 -> REFINED
+2025-09-04 15:37:06,728 - INFO - sentinel2.py:78 - 38/46 - S2C_MSIL2A_20250706T092051_R093_T34SFG_20250706T131358 -> REFINED
+2025-09-04 15:37:12,665 - INFO - sentinel2.py:78 - 39/46 - S2C_MSIL2A_20250706T092051_R093_T34SEH_20250706T131358 -> REFINED
+2025-09-04 15:37:18,722 - INFO - sentinel2.py:78 - 40/46 - S2C_MSIL2A_20250706T092051_R093_T34SEG_20250706T131358 -> REFINED
+2025-09-04 15:37:25,816 - INFO - sentinel2.py:78 - 41/46 - S2A_MSIL2A_20250705T091041_R050_T34SFG_20250705T111415 -> REFINED
+2025-09-04 15:37:32,398 - INFO - sentinel2.py:78 - 42/46 - S2C_MSIL2A_20250703T090621_R050_T34SFG_20250703T145718 -> REFINED
+2025-09-04 15:37:39,249 - INFO - sentinel2.py:78 - 43/46 - S2B_MSIL2A_20250701T092029_R093_T34SFH_20250701T115535 -> REFINED
+2025-09-04 15:37:46,230 - INFO - sentinel2.py:78 - 44/46 - S2B_MSIL2A_20250701T092029_R093_T34SFG_20250701T115535 -> REFINED
+2025-09-04 15:37:52,186 - INFO - sentinel2.py:78 - 45/46 - S2B_MSIL2A_20250701T092029_R093_T34SEH_20250701T115535 -> REFINED
+2025-09-04 15:37:58,249 - INFO - sentinel2.py:78 - 46/46 - S2B_MSIL2A_20250701T092029_R093_T34SEG_20250701T115535 -> REFINED
+2025-09-04 15:37:58,293 - INFO - composites.py:250 -                                  
+2025-09-04 15:37:58,295 - INFO - composites.py:251 - 46/46 were refined by GRI.
+2025-09-04 15:37:58,295 - INFO - composites.py:263 - Looking for up to 8 cleanest images within spatiotemporal range of each MGRS tile
+2025-09-04 15:37:58,295 - INFO - composites.py:277 - Filtered cleanest scenes: Kept 32 out of 46 items. 
+2025-09-04 15:37:58,296 - INFO - composites.py:278 -         Included MGRS Tiles: ['34SEG' '34SEH' '34SFG' '34SFH']
+2025-09-04 15:37:58,296 - INFO - composites.py:279 -         Included EPSG codes: [32634]
+2025-09-04 15:37:58,296 - INFO - composites.py:281 - Selected scenes:
+2025-09-04 15:37:58,297 - INFO - composites.py:283 -         S2A_MSIL2A_20250708T092231_R093_T34SEG_20250708T124914
+2025-09-04 15:37:58,307 - INFO - composites.py:283 -         S2C_MSIL2A_20250726T092051_R093_T34SEG_20250726T125415
+2025-09-04 15:37:58,307 - INFO - composites.py:283 -         S2C_MSIL2A_20250706T092051_R093_T34SEG_20250706T131358
+2025-09-04 15:37:58,327 - INFO - composites.py:283 -         S2A_MSIL2A_20250728T092231_R093_T34SEG_20250728T111018
+2025-09-04 15:37:58,331 - INFO - composites.py:283 -         S2B_MSIL2A_20250721T092029_R093_T34SEG_20250721T120259
+2025-09-04 15:37:58,332 - INFO - composites.py:283 -         S2A_MSIL2A_20250718T092051_R093_T34SEG_20250718T125020
+2025-09-04 15:37:58,332 - INFO - composites.py:283 -         S2C_MSIL2A_20250716T092051_R093_T34SEG_20250716T143214
+2025-09-04 15:37:58,332 - INFO - composites.py:283 -         S2B_MSIL2A_20250731T092029_R093_T34SEG_20250731T115523
+2025-09-04 15:37:58,340 - INFO - composites.py:283 -         S2C_MSIL2A_20250706T092051_R093_T34SEH_20250706T131358
+2025-09-04 15:37:58,340 - INFO - composites.py:283 -         S2C_MSIL2A_20250726T092051_R093_T34SEH_20250726T125415
+2025-09-04 15:37:58,342 - INFO - composites.py:283 -         S2B_MSIL2A_20250721T092029_R093_T34SEH_20250721T120259
+2025-09-04 15:37:58,342 - INFO - composites.py:283 -         S2A_MSIL2A_20250728T092231_R093_T34SEH_20250728T111018
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2C_MSIL2A_20250716T092051_R093_T34SEH_20250716T143214
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2A_MSIL2A_20250718T092051_R093_T34SEH_20250718T125020
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2B_MSIL2A_20250701T092029_R093_T34SEH_20250701T115535
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2B_MSIL2A_20250711T092029_R093_T34SEH_20250711T114113
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2A_MSIL2A_20250725T091041_R050_T34SFG_20250725T131619
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2C_MSIL2A_20250713T090621_R050_T34SFG_20250713T130516
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2B_MSIL2A_20250708T090559_R050_T34SFG_20250708T113616
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2A_MSIL2A_20250715T091331_R050_T34SFG_20250715T105310
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2A_MSIL2A_20250705T091041_R050_T34SFG_20250705T111415
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2B_MSIL2A_20250718T090559_R050_T34SFG_20250718T120206
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2B_MSIL2A_20250728T090559_R050_T34SFG_20250728T101128
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2C_MSIL2A_20250703T090621_R050_T34SFG_20250703T145718
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2C_MSIL2A_20250726T092051_R093_T34SFH_20250726T125415
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2A_MSIL2A_20250728T092231_R093_T34SFH_20250728T111018
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2B_MSIL2A_20250721T092029_R093_T34SFH_20250721T120259
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2C_MSIL2A_20250716T092051_R093_T34SFH_20250716T143214
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2A_MSIL2A_20250718T092051_R093_T34SFH_20250718T125020
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2C_MSIL2A_20250706T092051_R093_T34SFH_20250706T131358
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2B_MSIL2A_20250701T092029_R093_T34SFH_20250701T115535
+2025-09-04 15:37:58,343 - INFO - composites.py:283 -         S2B_MSIL2A_20250711T092029_R093_T34SFH_20250711T114113
+2025-09-04 15:37:58,813 - INFO - sentinel2.py:154 - Matplotlib backend: Agg
+2025-09-04 15:37:59,064 - INFO - sentinel2.py:224 - Write input scenes footprint overlay: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/composites/x09/y09/2025/07/01/S2L2A_medcomp_x09y09_202507_InDataFootprint.jpeg
+2025-09-04 15:37:59,382 - INFO - composites.py:297 -                                  
+2025-09-04 15:37:59,382 - INFO - composites.py:298 - Downstream STAC items from Planetary Computer
+2025-09-04 15:37:59,382 - INFO - timeseries_processing.py:115 -                                  
+2025-09-04 15:37:59,382 - INFO - timeseries_processing.py:116 - Loading bands of diferent resolutions in EPSG:32634
+2025-09-04 15:37:59,382 - INFO - timeseries_processing.py:120 -     Filtering items with native UTM EPSG:32634
+2025-09-04 15:37:59,382 - INFO - timeseries_processing.py:122 -     32 Items in EPSG:32634
+2025-09-04 15:37:59,382 - INFO - timeseries_processing.py:129 -                        
+2025-09-04 15:37:59,382 - INFO - timeseries_processing.py:130 -     Loading parameters:
+2025-09-04 15:37:59,382 - INFO - timeseries_processing.py:131 -         Bands: ['B05', 'B07', 'B8A', 'SCL']
+2025-09-04 15:37:59,382 - INFO - timeseries_processing.py:132 -         Spatial resolution: 20
+2025-09-04 15:37:59,382 - INFO - timeseries_processing.py:134 -         Get Assets from STAC Items
+2025-09-04 15:37:59,383 - INFO - timeseries_processing.py:47 -         Initialize the STAC client
+2025-09-04 15:38:00,235 - INFO - timeseries_processing.py:137 -         Loading 32 STAC Items....
+2025-09-04 15:40:10,465 - INFO - timeseries_processing.py:146 -         Cube has been downloaded
+2025-09-04 15:40:10,465 - INFO - timeseries_processing.py:156 -         Fix order of dimensions
+2025-09-04 15:40:10,467 - INFO - timeseries_processing.py:161 -         Append bands to the band-list of EPSG:32634
+2025-09-04 15:40:10,467 - INFO - timeseries_processing.py:129 -                        
+2025-09-04 15:40:10,467 - INFO - timeseries_processing.py:130 -     Loading parameters:
+2025-09-04 15:40:10,467 - INFO - timeseries_processing.py:131 -         Bands: ['B02', 'B03', 'B04']
+2025-09-04 15:40:10,467 - INFO - timeseries_processing.py:132 -         Spatial resolution: 10
+2025-09-04 15:40:10,473 - INFO - timeseries_processing.py:134 -         Get Assets from STAC Items
+2025-09-04 15:40:10,473 - INFO - timeseries_processing.py:47 -         Initialize the STAC client
+2025-09-04 15:40:11,215 - INFO - timeseries_processing.py:137 -         Loading 32 STAC Items....
+2025-09-04 16:09:10,376 - ERROR - composites.py:484 -              ✖✖✖ FAILED loading for : Tile x09_y09 | Time: 2025-07 | with Exception: Attempted to run task 'finalize-hlgfinalizecompute-f81cf6d70e28480f92cbd968595791bd' on 21 different workers, but all those workers died while running it. The last worker that attempt to run the task was tcp://127.0.0.1:53182. Inspecting worker logs is often a good next step to diagnose what went wrong. For more information see https://distributed.dask.org/en/stable/killed.html.
+2025-09-04 16:09:10,376 - INFO - composites.py:489 - Closing Dask client
+2025-09-04 16:09:10,410 - INFO - composites.py:493 - Closing Dask cluster
+2025-09-04 16:09:10,410 - INFO - composites.py:494 - #######################################################################
+2025-09-04 16:09:14,083 - ERROR - composites.py:523 - Fatal error in composites.py
+Traceback (most recent call last):
+  File "C:\Users\fotakidis\AUTH_PROJECTS\drought\src\composites.py", line 519, in <module>
+    generate_composite(year_month=year_month, tile_id=tile_id, tile_geom=tile_geom)
+  File "C:\Users\fotakidis\AUTH_PROJECTS\drought\src\composites.py", line 304, in generate_composite
+    processed_epsgs.append(process_epsg(filtered_items, aoi_bbox, EPSG))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fotakidis\AUTH_PROJECTS\drought\src\utils\timeseries_processing.py", line 138, in process_epsg
+    ds_cube = odc_stac_load_Items(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fotakidis\AUTH_PROJECTS\drought\src\utils\timeseries_processing.py", line 110, in odc_stac_load_Items
+    ).compute()
+      ^^^^^^^^^
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\site-packages\xarray\core\dataset.py", line 1072, in compute
+    return new.load(**kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\site-packages\xarray\core\dataset.py", line 899, in load
+    evaluated_data: tuple[np.ndarray[Any, Any], ...] = chunkmanager.compute(
+                                                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\site-packages\xarray\namedarray\daskmanager.py", line 85, in compute
+    return compute(*data, **kwargs)  # type: ignore[no-untyped-call, no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\site-packages\dask\base.py", line 681, in compute
+    results = schedule(expr, keys, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\site-packages\distributed\client.py", line 2403, in _gather
+    raise exception.with_traceback(traceback)
+distributed.scheduler.KilledWorker: Attempted to run task 'finalize-hlgfinalizecompute-f81cf6d70e28480f92cbd968595791bd' on 21 different workers, but all those workers died while running it. The last worker that attempt to run the task was tcp://127.0.0.1:53182. Inspecting worker logs is often a good next step to diagnose what went wrong. For more information see https://distributed.dask.org/en/stable/killed.html.

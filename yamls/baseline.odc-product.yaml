@@ -1,0 +1,70 @@
+---
+name: baseline
+license: CC-BY-4.0
+metadata_type: eo3
+description: Mean and Standard deviation of time series from 2020-01-01 to 2022-12-31
+
+# For all ‘nbar_’ bands, Surface Reflectance is scaled between 0 and 10,000.
+# Must be added in datacube
+
+metadata:
+  product:
+    name: baseline
+  properties:
+    odc:file_format: GeoTIFF
+    odc:product_family: ard
+    dea:product_maturity: stable
+
+load:
+  crs: EPSG:3035
+  resolution:
+    x: 20
+    y: -20
+  align:
+    x: 0
+    y: 0
+
+measurements:
+  # Mean value (3)
+      # Normalized Difference Vegetation Index
+  - name: "NDVI_mean"
+    aliases: [ndvi_m]
+    units: "1"
+    dtype: int16
+    nodata: -32768
+
+      # Enhanced Vegetation Index
+  - name: "EVI_mean"
+    aliases: [evi_m]
+    units: "1"
+    dtype: int16
+    nodata: -32768
+
+      # Plant Senescence Reflectance Index 2
+  - name: "PSRI2_mean"
+    aliases: [psri2_m]
+    units: "1"
+    dtype: int16
+    nodata: -32768
+
+  # Standard deviation value (3)
+      # Normalized Difference Vegetation Index
+  - name: "NDVI_std"
+    aliases: [ndvi_s]
+    units: "1"
+    dtype: int16
+    nodata: -32768
+
+      # Enhanced Vegetation Index
+  - name: "EVI_std"
+    aliases: [evi_s]
+    units: "1"
+    dtype: int16
+    nodata: -32768
+
+      # Plant Senescence Reflectance Index 2
+  - name: "PSRI2_std"
+    aliases: [psri2_s]
+    units: "1"
+    dtype: int16
+    nodata: -32768    

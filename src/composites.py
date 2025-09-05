@@ -138,12 +138,12 @@ def generate_composite(year_month: str, tile_id: str, tile_geom: dict):
         
         dask.config.set({
             'array.chunk-size': "256 MiB",
-            'array.slicing.split_large_chunks': True, #This can make AXIOM very slow
+            'array.slicing.split_large_chunks': True, 
             'distributed.comm.timeouts.connect': '120s',
             'distributed.comm.timeouts.tcp': '120s',
             'distributed.comm.retry.count': 10,
             'distributed.scheduler.allowed-failures': 20,
-            "distributed.scheduler.worker-saturation": 1.1, #This should use the new behaviour which helps with memory pile up
+            "distributed.scheduler.worker-saturation": 1.1, # helps with memory pile up
             })
         
         cluster = LocalCluster(
@@ -259,7 +259,7 @@ def generate_composite(year_month: str, tile_id: str, tile_geom: dict):
         else:
             REFINEMENT_FLAG = 'REFINED'
 
-        N = 8
+        N = 6
         logging.info(f'Looking for up to {N} cleanest images within spatiotemporal range of each MGRS tile')
         filtered_items = []
         mgrs_tiles = np.unique([i.properties['s2:mgrs_tile'] for i in refined_items])

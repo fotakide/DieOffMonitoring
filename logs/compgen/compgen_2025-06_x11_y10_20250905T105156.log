@@ -1,0 +1,32 @@
+2025-09-05 10:51:56,245 - INFO - composites.py:102 - #######################################################################
+2025-09-05 10:51:56,245 - INFO - composites.py:104 - Processing started
+2025-09-05 10:51:56,245 - INFO - composites.py:105 -         Tile: x11_y10
+2025-09-05 10:51:56,246 - INFO - composites.py:106 -         Time: 2025-06
+2025-09-05 10:51:56,246 - INFO - composites.py:109 -                           
+2025-09-05 10:51:56,246 - INFO - composites.py:110 - Establishing connection to datacube
+2025-09-05 10:51:56,851 - INFO - composites.py:113 -                           
+2025-09-05 10:51:56,851 - INFO - composites.py:114 - Sanity test: Check if dataset already exists in the datacube
+2025-09-05 10:51:56,875 - INFO - composites.py:133 - The composite requested was not found and it will be computed
+2025-09-05 10:51:56,875 - INFO - composites.py:136 -                                  
+2025-09-05 10:51:56,875 - INFO - composites.py:137 - Initializing Dask cluster for parallelization
+2025-09-05 10:52:07,410 - ERROR - base_events.py:1826 - Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<ensure_future.<locals>._wrap_awaitable() done, defined at C:\Users\fotakidis\anaconda3\envs\drought\Lib\asyncio\tasks.py:683> exception=RuntimeError('Nanny failed to start.')>
+Traceback (most recent call last):
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\site-packages\distributed\core.py", line 528, in start
+    await wait_for(self.start_unsafe(), timeout=timeout)
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\site-packages\distributed\utils.py", line 1923, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\site-packages\distributed\nanny.py", line 372, in start_unsafe
+    raise RuntimeError("Nanny failed to start worker process")
+RuntimeError: Nanny failed to start worker process
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\asyncio\tasks.py", line 684, in _wrap_awaitable
+    return await awaitable
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fotakidis\anaconda3\envs\drought\Lib\site-packages\distributed\core.py", line 536, in start
+    raise RuntimeError(f"{type(self).__name__} failed to start.") from exc
+RuntimeError: Nanny failed to start.

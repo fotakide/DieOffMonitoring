@@ -99,7 +99,7 @@ def odc_stac_load_Items(unsigned_items, aoi_bbox, bands, epsg, resolution):
         signed_items,
         bbox=aoi_bbox,
         bands=bands,
-        chunks=dict(y=1024, x=1024),
+        chunks=dict(y=512, x=1024),
         crs=f'EPSG:{epsg}',  # {epsgs[0]}
         resolution=resolution,
         groupby='time', # if 'time' loads all items, retaining duplicates
