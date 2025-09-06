@@ -8,8 +8,7 @@
 ## SCRIPT:           composites.py
 ## AUTHOR:           Vangelis Fotakidis (fotakidis@topo.auth.gr)
 ##
-## DESCRIPTION:      Script to compute the Mean and Standard deviation of the Baseline period (2020-2022)
-#                       from Median Sentinel-2 L2A NDVI, EVI, and PSRI2 Composites and index into ODC
+## DESCRIPTION:      Script to Normalize NDVI, EVI, and PSRI2 time series to the Baseline period (2020-2022) and index into ODC
 ##
 #######################################################################
 '''
@@ -17,23 +16,27 @@
 import datacube
 from utils.utils import nas_patch
 
-def baseline_metrics(baseline_start: str, baseline_end: str, tile_id: str):
+def baseline_metrics(monitor_start: str, monitor_end: str, tile_id: str):
     
-    dc = datacube.Datacube(app='basecomp', env='drought')
+    dc = datacube.Datacube(app='znorm', env='drought')
     
     for spectral_index in ["NDVI", "EVI", "PSRI2"]:
         
+        ds_base = dc.load(
+            product='baseline',
+            tile_id=tile_id,
+            measurements=[f'{spectral_index}_mean', f'{spectral_index}_std'],
+            dask_chunks=dict(x=512, y=512),
+            patch_url=nas_patch
+        )
+
         ds = dc.load(
             product='composites',
             tile_id=tile_id,
-            time=(baseline_start, baseline_end),
+            time=(monitor_start, monitor_end),
             measurements=spectral_index,
             dask_chunks=dict(x=512, y=512),
             patch_url=nas_patch
         )
-        
-        base_mean = ds.mean(dim="time", skipna=True).compute()
-        base_std = ds.std(dim="time", skipna=True).compute()
-        
-        base_mean.name = f'{spectral_index}_mean'
-        base_std.name = f'{spectral_index}_std'
+
+        ds_znorm = ((ds - ds_base[f'{spectral_index}_mean']) / ds_base[f'{spectral_index}_std']).compute()
