@@ -259,7 +259,7 @@ def generate_composite(year_month: str, tile_id: str, tile_geom: dict):
         else:
             REFINEMENT_FLAG = 'REFINED'
 
-        N = 10
+        N = 7
         logging.info(f'Looking for up to {N} cleanest images within spatiotemporal range of each MGRS tile')
         filtered_items = []
         mgrs_tiles = np.unique([i.properties['s2:mgrs_tile'] for i in refined_items])
