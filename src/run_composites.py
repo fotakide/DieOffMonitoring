@@ -27,7 +27,9 @@ if __name__ == "__main__":
     # Set up logger.
     mkdir("../logs/compgen")
     log = setup_logger(logger_name='admin_compgen_',
-                        logger_path=f'../logs/compgen/admin_compgen_{datetime.datetime.now(pytz.timezone("Europe/Athens")).strftime("%Y%m%dT%H%M%S")}.log', 
+                        logger_path
+                        
+                        =f'../logs/compgen/admin_compgen_{datetime.datetime.now(pytz.timezone("Europe/Athens")).strftime("%Y%m%dT%H%M%S")}.log', 
                         logger_format='%(asctime)s - %(levelname)s - %(filename)s:%(lineno)d - %(message)s',
                         )
     
