@@ -38,8 +38,8 @@ if __name__ == "__main__":
     generate_geojson_files_for_composites(
         output_dir=geojson_path,
         tile_geojson_filepath='../anciliary/grid_20_v2.geojson',
-        start_date=datetime.datetime(2025, 9, 1),
-        end_date=datetime.datetime(2025, 9, 30),
+        start_date=datetime.datetime(2020, 1, 1),
+        end_date=datetime.datetime(2025, 11, 30),
     )
     
     # 2) collect tasks

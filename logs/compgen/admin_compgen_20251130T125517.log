@@ -1,0 +1,2 @@
+2025-11-30 12:55:19,064 - INFO - run_composites.py:63 - Skip already completed: ../geojsons/compgen\compgen_202001_x06_y10.geojson [1/1633]
+2025-11-30 12:55:19,064 - INFO - run_composites.py:66 - [>] Launching single-shot: ../geojsons/compgen\compgen_202001_x07_y11.geojson [2/1633]

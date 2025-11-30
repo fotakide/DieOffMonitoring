@@ -25,7 +25,7 @@ def baseline_metrics(baseline_start: str, baseline_end: str, tile_id: str):
         
         ds = dc.load(
             product='composites',
-            tile_id=tile_id,
+            region_code=tile_id,
             time=(baseline_start, baseline_end),
             measurements=spectral_index,
             dask_chunks=dict(x=512, y=512),

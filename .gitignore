@@ -1,5 +1,10 @@
 *.docx
 
+/anciliary/Habitats2018*
+/anciliary/*.qgz
+/anciliary/*.lock
+/anciliary/plots
+
 /wiki_img/*.png
 /wiki_img/*.jpg
 /wiki_img/*.pdf

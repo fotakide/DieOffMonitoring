@@ -1,0 +1,37 @@
+2025-11-30 12:55:22,986 - INFO - composites.py:102 - #######################################################################
+2025-11-30 12:55:22,986 - INFO - composites.py:104 - Processing started
+2025-11-30 12:55:22,986 - INFO - composites.py:105 -         Tile: x07_y11
+2025-11-30 12:55:22,986 - INFO - composites.py:106 -         Time: 2020-01
+2025-11-30 12:55:22,986 - INFO - composites.py:109 -                           
+2025-11-30 12:55:22,986 - INFO - composites.py:110 - Establishing connection to datacube
+2025-11-30 12:55:23,579 - INFO - composites.py:113 -                           
+2025-11-30 12:55:23,579 - INFO - composites.py:114 - Sanity test: Check if dataset already exists in the datacube
+2025-11-30 12:55:23,605 - INFO - composites.py:133 - The composite requested was not found and it will be computed
+2025-11-30 12:55:23,605 - INFO - composites.py:136 -                                  
+2025-11-30 12:55:23,605 - INFO - composites.py:137 - Initializing Dask cluster for parallelization
+2025-11-30 12:55:29,492 - INFO - composites.py:161 - Dask dashboard is available at: http://127.0.0.1:8787/status
+2025-11-30 12:55:29,492 - INFO - composites.py:164 - Create directories and naming conversions
+2025-11-30 12:55:29,558 - INFO - composites.py:177 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/composites/x07/y11/2020/01/01
+2025-11-30 12:55:29,558 - INFO - composites.py:180 -                           
+2025-11-30 12:55:29,558 - INFO - composites.py:181 - Retrieve tile geometry
+2025-11-30 12:55:29,596 - INFO - composites.py:192 - Create the Bounding Box (φ,λ)
+2025-11-30 12:55:29,596 - INFO - composites.py:198 - Create the Bounding Box (x,y)
+2025-11-30 12:55:29,596 - INFO - composites.py:211 -                           
+2025-11-30 12:55:29,596 - INFO - composites.py:212 - Connect to Planetary Computer STAC Catalog
+2025-11-30 12:55:30,045 - INFO - composites.py:220 - Search the STAC Catalog
+2025-11-30 12:55:30,121 - INFO - composites.py:232 -         Query parameters:
+2025-11-30 12:55:30,121 - INFO - composites.py:233 -             url:          https://planetarycomputer.microsoft.com/api/stac/v1/search
+2025-11-30 12:55:30,121 - INFO - composites.py:234 -             client:       microsoft-pc
+2025-11-30 12:55:30,121 - INFO - composites.py:235 -             collection:   sentinel-2-l2a
+2025-11-30 12:55:30,121 - INFO - composites.py:236 -             bbox:         (20.928573606105775, 38.35819969704171, 21.59502923200265, 38.902149455513275)
+2025-11-30 12:55:30,121 - INFO - composites.py:237 -             time range:   2020-01-01T00:00:00Z/2020-01-31T23:59:59Z
+2025-11-30 12:55:30,121 - INFO - composites.py:238 -             cloud cover:  0% - 70%
+2025-11-30 12:55:30,121 - INFO - composites.py:239 -             nodata cover: 0% - 33%
+2025-11-30 12:55:30,121 - INFO - composites.py:241 -                           
+2025-11-30 12:55:30,121 - INFO - composites.py:242 - Searching...
+2025-11-30 12:55:30,710 - INFO - composites.py:245 - Query found 20 items
+2025-11-30 12:55:30,710 - INFO - composites.py:247 - Searching for GRI REFINED scenes:
+2025-11-30 12:55:35,438 - INFO - sentinel2.py:78 - 1/20 - S2A_MSIL2A_20200124T092251_R093_T34SEJ_20201002T083605 -> Not Found
+2025-11-30 12:55:39,914 - INFO - sentinel2.py:78 - 2/20 - S2A_MSIL2A_20200124T092251_R093_T34SEH_20201002T083602 -> Not Found
+2025-11-30 12:55:44,877 - INFO - sentinel2.py:78 - 3/20 - S2A_MSIL2A_20200124T092251_R093_T34SDH_20201002T083600 -> Not Found
+2025-11-30 12:55:48,991 - INFO - sentinel2.py:78 - 4/20 - S2B_MSIL2A_20200122T093209_R136_T34SDJ_20201002T060450 -> Not Found
