@@ -31,3 +31,4 @@
 2025-11-30 15:14:48,965 - INFO - composites.py:242 - Searching...
 2025-11-30 15:14:49,539 - INFO - composites.py:245 - Query found 33 items
 2025-11-30 15:14:49,539 - INFO - composites.py:247 - Searching for GRI REFINED scenes:
+2025-11-30 15:14:56,729 - INFO - sentinel2.py:78 - 1/33 - S2A_MSIL2A_20200831T092031_R093_T34SEJ_20200907T201726 -> Not Found
