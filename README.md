@@ -36,9 +36,15 @@ The composite pipeline automates the creation of 20-m monthly median mosaics of 
 - **Compositing**: A [median temporal](https://docs.xarray.dev/en/latest/generated/xarray.Dataset.median.html#xarray-dataset-median) composite is produced per tile and month.
 - **Output**: Results are stored as Cloud-Optimized GeoTIFFs (COGs), with metadata ([dataset definitions](https://opendatacube.readthedocs.io/en/latest/installation/dataset-documents.html)) recorded in both [EO3 YAML](https://eodatasets.readthedocs.io/en/eodatasets3-1.9.3/) and [STAC JSON](https://pystac.readthedocs.io/en/latest/index.html) formats for datacube indexing. The `assets`/`measurements` of the bands are recorded in paths relevant to the metadata document location. *To do so on a local machine, raster information were referenced [by explicitly providing geo and pixel](https://eodatasets.readthedocs.io/en/eodatasets3-1.9.3/_modules/eodatasets3/assemble.html#DatasetPrepare.note_measurement) information to the metadata preparation module.* To load the relevant paths of raster images from NAS into `xarray`, [url patching](https://opendatacube.readthedocs.io/en/stable/api/indexed-data/generate/datacube.Datacube.load.html#datacube.Datacube.load) is required.
 
+
+## Identify Baseline and Monitoring periods
+
+
 ## Time series z-normalization
 
+
 ## Classification
+
 
 ## OWS
 
