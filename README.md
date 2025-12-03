@@ -1,7 +1,7 @@
 # *Abies Cephalonica* Stress Monitoring in Greece
 
 ## Description
-This research project analyzes drought impacts on Greek mountain ecosystems, focusing on fir forest (Abies cephalonica) die-off in regions such as Chelmos, Mainalo, Taygetos, Parnonas, and Epirus. The work includes environmental monitoring, GIS mapping, and climate data analysis, under the scope of providing valuable insights for the development of resilience and restoration strategies. [source: [dasarxeio.com](https://dasarxeio.com/2025/08/01/145507/?fbclid=IwQ0xDSwL56MVleHRuA2FlbQIxMQABHkbJokQhCMbPWyp9B5BhfTiQjc_i3rtFTZOzDlfeDrLWeoQALBKSSqs7HktX_aem_boICuxbIGToYjKLmx3ZoFQ)]
+This research project analyzes drought impacts on Greek mountain ecosystems, focusing on fir forest (*Abies cephalonica*) die-off in regions such as Chelmos, Mainalo, Taygetos, Parnonas, and Epirus. The work includes environmental monitoring, GIS mapping, and climate data analysis, under the scope of providing valuable insights for the development of resilience and restoration strategies. [source: [dasarxeio.com](https://dasarxeio.com/2025/08/01/145507/?fbclid=IwQ0xDSwL56MVleHRuA2FlbQIxMQABHkbJokQhCMbPWyp9B5BhfTiQjc_i3rtFTZOzDlfeDrLWeoQALBKSSqs7HktX_aem_boICuxbIGToYjKLmx3ZoFQ)]
 
 The extent of *Abies Cephalonica* species within the Natura 2000 network is provided by [FORESTLIFE](https://www.arcgis.com/home/item.html?id=56154daffc044c99a6a12083c4d814c6#overview) in vector format. 
 
