@@ -10,7 +10,7 @@ def evi(ds):
     red = ds.B04 / 10000.0
     blue = ds.B02 / 10000.0
     
-    return (G * ((nir-red) / (nir + C1 * red - C2 * blue +L))).astype('float32')
+    return (G * ((nir-red) / (nir + C1 * red - C2 * blue + L))).astype('float32')
 
 def ndvi(ds):
     
