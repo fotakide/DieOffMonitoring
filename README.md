@@ -38,21 +38,39 @@ The composite pipeline automates the creation of 20-m monthly median mosaics of 
 
 
 ## Identify Baseline and Monitoring periods
-
+Based on expert and in-situ knowledge, as well as following visual inspection of imagery, the baseline period was defined from **2020-Q1 to 2023-Q1**. The monitoring period was defined from **2023-Q2 onwards**.
 
 ## Time series z-normalization
+
+
+## Reference data and Sampling strategy
+
+## Anciliary Data
+### Tree Canopy Density
+To minimize the inclusion of pixels that are not cover by vegetation, or they are sparsly vegetated, we emply the [Tree Cover Density 2023 (raster 10 m, 100 m), Europe, yearly](https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/tree-cover-density-2023-raster-10-m-100-m-europe-yearly) dataset. The dataset provides at pan-European level in the spatial resolution of 10 m and 100 m the level of tree cover density in a range from 0% to100% for the 2023 reference year. We use the [10m layer](https://doi.org/10.2909/e677441e-fb94-431c-b4f9-304f10e4dfd8) and apply a 30% density cover threshold to acquire the vegetated pixels. The dataset is provided by the vendor in EPSG:3035 - ETRS89-extended / LAEA Europe projection.
+
+### Copernicus DEM (30m)
 
 
 ## Classification
 
 
 ## OWS
-
 To serve data indeced in the EODC as visualizations, datacube-ows provides the WMS web service endpoint to (in our case) a TerriaJS web map client, by [configuring](https://datacube-ows.readthedocs.io/en/latest/cfg_wms.html) the OWS
 - Styles: Styles and Layers are configured in the [`ows` configuration module](https://github.com/fotakide/drought/blob/main/ows/drought_config/ows_cfg_drought.py)
 - Update: Periodically withing the EO pipelines, or at the end of each one, the OWS database [is triggered](https://github.com/fotakide/drought/blob/main/src/run_composites.py#L81) automatically [to be updated](https://datacube-ows.readthedocs.io/en/latest/database.html).
 - Reading: The images are loaded from NAS by [patching the URL](https://datacube-ows.readthedocs.io/en/latest/cfg_layers.html#url-patching-patch-url-function) to the mounted volume inside the Docker container.
 - Vizualization: The [WMS](http://localhost:9000/?service=WMS&request=GetCapabilities) of the data indexed is provided to a [TerriaJS](https://terria.io/) client, and are available via a NGROK app (https://emt-datacube-viewer.ngrok.app/).
+
+*Table 1.* Served dataset with ODC-OWS in TerriaMap.
+
+| Product Layer | Description |
+|--------|-------|
+| Sentinel-2 L2A Composites  | The median monthly composites for all bands and vegetation indices |
+| Normalized Sentinel-2 L2A Time series | The S2L2A median monthly composites normalized according to the mean and dtandard deviation from baseline 2020-Q1 - 2023-Q1  |
+| Tree Canopy Density | The HRL layer of Tree Cover Density 2023 (raster 10 m): https://doi.org/10.2909/e677441e-fb94-431c-b4f9-304f10e4dfd8 |
+
+
 
 Implementation note:
  - *Dont' forget to allow file sharing in Docker*
@@ -65,5 +83,4 @@ Implementation note:
   5. `datacube-ows-update`
 
 ## References
-
 Hislop, S., Stone, C., Gibson, R.K., Roff, A., Choat, B., Nolan, R.H., Nguyen, T.H. and Carnegie, A.J., 2023. [Using dense Sentinel-2 time series to explore combined fire and drought impacts in eucalypt forests](https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2023.1018936). *Frontiers in Forests and Global Change*, 6, p.1018936.

@@ -34,9 +34,9 @@ def prepare_eo3_metadata_NAS(
     dataset_name,
     product_name,
     product_family,
-    bands,
     name_measurements,
     datetime_list,
+    bands=None,
     set_range=False,
     lineage_path=None,
     version=1,
@@ -77,8 +77,10 @@ def prepare_eo3_metadata_NAS(
         preparer.properties["odc:region_code"] = xr_cube.attrs['odc:region_code'].replace('_','')
         preparer.properties["odc:file_format"] = "GeoTIFF"
         preparer.properties["odc:processing_datetime"] = datetime.datetime.now().isoformat()
-        preparer.properties["gri:refinement"] = xr_cube.attrs["gri:refinement"]
-        preparer.properties["composite:input"] = xr_cube.attrs['composite:input']
+        if hasattr(xr_cube, 'gri:refinement"'):
+            preparer.properties["gri:refinement"] = xr_cube.attrs["gri:refinement"]
+        if hasattr(xr_cube, 'composite:input"'):
+            preparer.properties["composite:input"] = xr_cube.attrs['composite:input']
         
         if hasattr(xr_cube, 'eo:instrument"'):
             preparer.properties["eo:instrument"] = xr_cube.attrs['eo:instrument']

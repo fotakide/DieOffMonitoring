@@ -71,7 +71,7 @@ def generate_geojson_files_for_composites(
     output_dir="../geojsons/compgen",
     tile_geojson_filepath="../anciliary/grid_20_v2.geojson",
     start_date=datetime.datetime(2020, 1, 1),
-    end_date=datetime.datetime(2025, 9, 1),
+    end_date=datetime.datetime(2025, datetime.datetime.today().month, 1),
 ):
     os.makedirs(output_dir, exist_ok=True)
 
@@ -104,33 +104,3 @@ def generate_geojson_files_for_composites(
         current_date += relativedelta(months=1)
 
 
-# def generate_json_files_for_composites(
-#     output_dir="../jsons/compgen",
-#     tile_geojson_filepath='../anciliary/grid_v2.geojson',
-#     start_date: datetime.datetime=datetime.datetime(2020, 1, 1),
-#     end_date: datetime.datetime=datetime.datetime(2025, 9, 1),
-#     ):
-    
-#     os.makedirs(output_dir, exist_ok=True)
-    
-#     current_date = start_date
-#     while current_date <= end_date:
-#         year_month = current_date.strftime("%Y-%m")
-#         file_prefix = current_date.strftime("%Y%m")
-        
-#         data = {
-#             "year_month": year_month,
-#             "tilegrid_path": tile_geojson_filepath
-#         }
-            
-#         file_name = f"compgen_{file_prefix}.json"
-#         file_path = os.path.join(output_dir, file_name)
-        
-#         with open(file_path, "w") as f:
-#             json.dump(data, f, indent=4)
-        
-#         # print(f"Saved: {file_path}")
-        
-#         # Move to the next month
-#         current_date += datetime.timedelta(days=32)
-#         current_date = current_date.replace(day=1)  # Ensure we are at the first of the month

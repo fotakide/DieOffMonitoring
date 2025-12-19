@@ -4,6 +4,7 @@
 /anciliary/*.qgz
 /anciliary/*.lock
 /anciliary/plots
+/anciliary/TCD_2023_10m
 
 /wiki_img/*.png
 /wiki_img/*.jpg

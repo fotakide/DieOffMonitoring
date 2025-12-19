@@ -301,6 +301,33 @@ ows_cfg = {
                     style_rgb, style_ndvi
                     ],
             },
-        }
-    ]  ##### End of "layers" list.
+        },
+        # {
+        #     "name": "tcd2023",
+        #     "title": "Tree Canopy Density 2023",
+        #     "abstract": "Provides at pan-Hellenic level in the spatial resolution of 10 m the level of tree cover density in a range from 0% to 100% for the 2023 reference year. DOI (raster 10m):https://doi.org/10.2909/e677441e-fb94-431c-b4f9-304f10e4dfd8",
+        #     "product_name": "tcd2023",
+        #     "bands": bands_tcd2023,
+        #     "resource_limits": standard_resource_limits,
+        #     "native_crs": "EPSG:3035",
+        #     "native_resolution": [10.0, -10.0],
+        #     "flags": None,
+        #     "dynamic": True,
+        #     "patch_url_function":  "datacube_ows.ogc_utils.nas_patch",
+        #         # https://datacube-ows.readthedocs.io/en/latest/cfg_layers.html#url-patching-patch-url-function
+        #         # https://github.com/digitalearthpacific/pacific-cube-in-a-box/blob/main/ows/ows_config/radar_backscatter/ows_s1_cfg.py#L88
+        #     "image_processing": {
+        #         "extent_mask_func": "datacube_ows.ogc_utils.mask_by_val",
+        #         "always_fetch_bands": [],
+        #         "fuse_func": None,
+        #         "manual_merge": False,
+        #         "apply_solar_corrections": False,
+        #     },
+        #     "styling": {
+        #         "styles": [
+        #             style_tcd
+        #             ],
+        #     },
+        # }
+    ] 
 } #### End of configuration object
