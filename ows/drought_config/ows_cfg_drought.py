@@ -218,60 +218,52 @@ style_aspect = {
     },
 }
 
+bands_tcd2023 = {
+    "tcd": ["tcd"],
+}
 
-
-style_mangrove = {
-    "name": "mangrove",
-    "title": "Mangrove Cover",
+style_tcd = {
+    "name": "tcd2023",
+    "title": "Tree Canopy Density (2023)",
     "abstract": "",
-    "value_map": {
-        "canopy_cover_class": [
-            {
-                "title": "Woodland",
-                "abstract": "(20% - 50% cover)",
-                # flags that all must match
-                # in order for this style color to apply
-                # "and" and "or" flags cannot be mixed
-                "flags": {
-                    "and": {
-                        "woodland": True
-                    }
-                },
-                "color": "#9FFF4C",
-                # If specified as True (defaults to False)
-                # Any areas which match this flag set
-                # will be masked out completely, similar to using an extent
-                # mask function or pq masking
-                "mask": True
-            },
-            {
-                "title": "Open Forest",
-                "abstract": "(50% - 80% cover)",
-                # flags that any may match
-                # in order for this style color to apply
-                # "and" and "or" flags cannot be mixed
-                "flags": {
-                    "or": {
-                        "open_forest": True
-                    }
-                },
-                "color": "#5ECC00",
-                # Can set an optional alpha value (0.0 - 1.0) for these colors
-                # will default to 1.0 (fully opaque)
-                "alpha": 0.5
-            },
-            {
-                "title": "Closed Forest",
-                "abstract": "(>80% cover)",
-                "flags": {
-                    "closed_forest": True
-                },
-                "color": "#3B7F00"
-            },
-        ]
-    }
-    # NB: You can also do additional masking using the "pq_mask" section as described above for other
-    #     style types.
+    # Use the single band directly as the index value
+    "index_expression": "tcd",
+    "needed_bands": ["tcd"],
+    "index_function": {
+        "function": "datacube_ows.band_utils.single_band",
+        "mapped_bands": True,
+        "kwargs": {
+            "band": "tcd",
+        }
+    },
+    "color_ramp": [
+        {
+            "value": 0.0,
+            "color": "#f0f0f0",
+            "alpha": 1.0
+        },        
+        {
+            "value": 1.0,
+            "color": "#fdff73",
+            "alpha": 1.0
+        },
+        {
+            "value": 100,
+            "color": "#1c5c24"
+        },
+        {
+            "value": 255.0,
+            "color": "#000000",
+            "alpha": 0.0
+        },
+    ],
+    "range": [0.0, 100.0],
+    "legend": {
+        "title": "Density (%)",
+        "begin": "0",
+        "end": "100",
+        "ticks": ["0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100"],
+    },
 }
 
 standard_resource_limits = {
@@ -497,33 +489,33 @@ ows_cfg = {
                     style_elevation, style_aspect
                     ],
             },
+        },
+        {
+            "name": "tcd2023",
+            "title": "Tree Canopy Density 2023",
+            "abstract": "Provides at pan-Hellenic level in the spatial resolution of 10 m the level of tree cover density in a range from 0% to 100% for the 2023 reference year. DOI (raster 10m):https://doi.org/10.2909/e677441e-fb94-431c-b4f9-304f10e4dfd8",
+            "product_name": "tcd2023",
+            "bands": bands_tcd2023,
+            "resource_limits": standard_resource_limits,
+            "native_crs": "EPSG:3035",
+            "native_resolution": [10.0, -10.0],
+            "flags": None,
+            "dynamic": True,
+            "patch_url_function":  "datacube_ows.ogc_utils.nas_patch",
+                # https://datacube-ows.readthedocs.io/en/latest/cfg_layers.html#url-patching-patch-url-function
+                # https://github.com/digitalearthpacific/pacific-cube-in-a-box/blob/main/ows/ows_config/radar_backscatter/ows_s1_cfg.py#L88
+            "image_processing": {
+                "extent_mask_func": "datacube_ows.ogc_utils.mask_by_val",
+                "always_fetch_bands": [],
+                "fuse_func": None,
+                "manual_merge": False,
+                "apply_solar_corrections": False,
+            },
+            "styling": {
+                "styles": [
+                    style_tcd
+                    ],
+            },
         }
-        # {
-        #     "name": "tcd2023",
-        #     "title": "Tree Canopy Density 2023",
-        #     "abstract": "Provides at pan-Hellenic level in the spatial resolution of 10 m the level of tree cover density in a range from 0% to 100% for the 2023 reference year. DOI (raster 10m):https://doi.org/10.2909/e677441e-fb94-431c-b4f9-304f10e4dfd8",
-        #     "product_name": "tcd2023",
-        #     "bands": bands_tcd2023,
-        #     "resource_limits": standard_resource_limits,
-        #     "native_crs": "EPSG:3035",
-        #     "native_resolution": [10.0, -10.0],
-        #     "flags": None,
-        #     "dynamic": True,
-        #     "patch_url_function":  "datacube_ows.ogc_utils.nas_patch",
-        #         # https://datacube-ows.readthedocs.io/en/latest/cfg_layers.html#url-patching-patch-url-function
-        #         # https://github.com/digitalearthpacific/pacific-cube-in-a-box/blob/main/ows/ows_config/radar_backscatter/ows_s1_cfg.py#L88
-        #     "image_processing": {
-        #         "extent_mask_func": "datacube_ows.ogc_utils.mask_by_val",
-        #         "always_fetch_bands": [],
-        #         "fuse_func": None,
-        #         "manual_merge": False,
-        #         "apply_solar_corrections": False,
-        #     },
-        #     "styling": {
-        #         "styles": [
-        #             style_tcd
-        #             ],
-        #     },
-        # }
     ] 
 } #### End of configuration object

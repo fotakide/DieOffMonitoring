@@ -1,0 +1,1157 @@
+2025-12-21 19:23:44,731 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E50N18_03035_V01_R00.zip
+2025-12-21 19:23:44,731 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E50N18_03035_V01_R00
+2025-12-21 19:23:44,731 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E50N18_03035_V01_R00
+2025-12-21 19:23:44,792 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:44,792 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:44,867 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:44,905 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:44,922 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:44,935 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E50N18_03035_V01_R00 into datacube
+2025-12-21 19:23:44,935 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E50N18_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E50N18_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:44,936 - INFO - _datasets.py:191 - Indexing fada72a5-bfe0-4ef3-bbea-c8d80b098118
+2025-12-21 19:23:44,942 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:44,942 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E50N18_03035_V01_R00 | In 0.01 minutes
+2025-12-21 19:23:44,942 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:44,947 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E50N19_03035_V01_R00.zip
+2025-12-21 19:23:44,947 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E50N19_03035_V01_R00
+2025-12-21 19:23:44,947 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E50N19_03035_V01_R00
+2025-12-21 19:23:45,115 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:45,115 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:45,156 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:45,165 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:45,183 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:45,186 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E50N19_03035_V01_R00 into datacube
+2025-12-21 19:23:45,186 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E50N19_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E50N19_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:45,187 - INFO - _datasets.py:191 - Indexing 8e42d27d-59cc-47cb-9d2b-2c0207e60112
+2025-12-21 19:23:45,191 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:45,191 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E50N19_03035_V01_R00 | In 0.02 minutes
+2025-12-21 19:23:45,191 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:45,198 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E50N21_03035_V01_R00.zip
+2025-12-21 19:23:45,198 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E50N21_03035_V01_R00
+2025-12-21 19:23:45,198 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E50N21_03035_V01_R00
+2025-12-21 19:23:45,463 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:45,463 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:45,511 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:45,518 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:45,537 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:45,540 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E50N21_03035_V01_R00 into datacube
+2025-12-21 19:23:45,540 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E50N21_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E50N21_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:45,540 - INFO - _datasets.py:191 - Indexing adb35112-591b-4585-ae2b-9f650345c705
+2025-12-21 19:23:45,547 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:45,547 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E50N21_03035_V01_R00 | In 0.02 minutes
+2025-12-21 19:23:45,547 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:45,553 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E51N18_03035_V01_R00.zip
+2025-12-21 19:23:45,553 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E51N18_03035_V01_R00
+2025-12-21 19:23:45,553 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E51N18_03035_V01_R00
+2025-12-21 19:23:45,663 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:45,663 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:45,701 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:45,709 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:45,726 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:45,730 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E51N18_03035_V01_R00 into datacube
+2025-12-21 19:23:45,730 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E51N18_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E51N18_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:45,730 - INFO - _datasets.py:191 - Indexing 4bee44c6-09cc-44ee-bf24-1bd960e1867a
+2025-12-21 19:23:45,736 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:45,736 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E51N18_03035_V01_R00 | In 0.03 minutes
+2025-12-21 19:23:45,736 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:45,741 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E51N19_03035_V01_R00.zip
+2025-12-21 19:23:45,741 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E51N19_03035_V01_R00
+2025-12-21 19:23:45,741 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E51N19_03035_V01_R00
+2025-12-21 19:23:46,112 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:46,112 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:46,150 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:46,159 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:46,176 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:46,180 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E51N19_03035_V01_R00 into datacube
+2025-12-21 19:23:46,180 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E51N19_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E51N19_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:46,180 - INFO - _datasets.py:191 - Indexing 4399054a-4455-4c7b-b812-56fbef50f8a8
+2025-12-21 19:23:46,185 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:46,185 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E51N19_03035_V01_R00 | In 0.03 minutes
+2025-12-21 19:23:46,185 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:46,191 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E51N20_03035_V01_R00.zip
+2025-12-21 19:23:46,191 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E51N20_03035_V01_R00
+2025-12-21 19:23:46,191 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E51N20_03035_V01_R00
+2025-12-21 19:23:46,761 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:46,761 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:46,804 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:46,813 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:46,831 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:46,835 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E51N20_03035_V01_R00 into datacube
+2025-12-21 19:23:46,835 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E51N20_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E51N20_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:46,835 - INFO - _datasets.py:191 - Indexing 73d4015f-1e8f-4f6e-baf4-daecbecbe58d
+2025-12-21 19:23:46,842 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:46,842 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E51N20_03035_V01_R00 | In 0.04 minutes
+2025-12-21 19:23:46,842 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:46,847 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E51N21_03035_V01_R00.zip
+2025-12-21 19:23:46,848 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E51N21_03035_V01_R00
+2025-12-21 19:23:46,848 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E51N21_03035_V01_R00
+2025-12-21 19:23:47,494 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:47,494 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:47,542 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:47,551 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:47,569 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:47,572 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E51N21_03035_V01_R00 into datacube
+2025-12-21 19:23:47,572 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E51N21_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E51N21_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:47,572 - INFO - _datasets.py:191 - Indexing 9b69a584-a135-4d71-8b01-4a5e3b243d08
+2025-12-21 19:23:47,576 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:47,576 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E51N21_03035_V01_R00 | In 0.06 minutes
+2025-12-21 19:23:47,576 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:47,581 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E52N16_03035_V01_R00.zip
+2025-12-21 19:23:47,581 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E52N16_03035_V01_R00
+2025-12-21 19:23:47,581 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E52N16_03035_V01_R00
+2025-12-21 19:23:47,643 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:47,643 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:47,680 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:47,690 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:47,706 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:47,710 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E52N16_03035_V01_R00 into datacube
+2025-12-21 19:23:47,710 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E52N16_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E52N16_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:47,710 - INFO - _datasets.py:191 - Indexing 982846ad-2ec0-4841-9a86-4eca13daf1d4
+2025-12-21 19:23:47,715 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:47,715 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E52N16_03035_V01_R00 | In 0.06 minutes
+2025-12-21 19:23:47,715 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:47,722 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E52N17_03035_V01_R00.zip
+2025-12-21 19:23:47,722 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E52N17_03035_V01_R00
+2025-12-21 19:23:47,722 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E52N17_03035_V01_R00
+2025-12-21 19:23:47,867 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:47,867 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:47,912 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:47,921 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:47,937 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:47,940 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E52N17_03035_V01_R00 into datacube
+2025-12-21 19:23:47,940 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E52N17_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E52N17_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:47,941 - INFO - _datasets.py:191 - Indexing fe2eeba9-7269-4b09-8e92-555f9cf0bec7
+2025-12-21 19:23:47,946 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:47,946 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E52N17_03035_V01_R00 | In 0.06 minutes
+2025-12-21 19:23:47,946 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:47,952 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E52N18_03035_V01_R00.zip
+2025-12-21 19:23:47,952 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E52N18_03035_V01_R00
+2025-12-21 19:23:47,952 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E52N18_03035_V01_R00
+2025-12-21 19:23:48,435 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:48,435 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:48,475 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:48,483 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:48,501 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:48,504 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E52N18_03035_V01_R00 into datacube
+2025-12-21 19:23:48,504 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E52N18_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E52N18_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:48,504 - INFO - _datasets.py:191 - Indexing 1d0f79ff-0b07-4e2d-8a11-1cdd86045a1f
+2025-12-21 19:23:48,508 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:48,508 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E52N18_03035_V01_R00 | In 0.07 minutes
+2025-12-21 19:23:48,508 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:48,514 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E52N19_03035_V01_R00.zip
+2025-12-21 19:23:48,514 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E52N19_03035_V01_R00
+2025-12-21 19:23:48,514 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E52N19_03035_V01_R00
+2025-12-21 19:23:49,357 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:49,357 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:49,402 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:49,411 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:49,428 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:49,433 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E52N19_03035_V01_R00 into datacube
+2025-12-21 19:23:49,433 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E52N19_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E52N19_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:49,433 - INFO - _datasets.py:191 - Indexing fd8cd770-11c3-47a4-843b-9e0c271975c6
+2025-12-21 19:23:49,438 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:49,438 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E52N19_03035_V01_R00 | In 0.09 minutes
+2025-12-21 19:23:49,438 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:49,443 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E52N20_03035_V01_R00.zip
+2025-12-21 19:23:49,443 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E52N20_03035_V01_R00
+2025-12-21 19:23:49,443 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E52N20_03035_V01_R00
+2025-12-21 19:23:50,088 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:50,088 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:50,127 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:50,134 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:50,152 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:50,156 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E52N20_03035_V01_R00 into datacube
+2025-12-21 19:23:50,156 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E52N20_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E52N20_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:50,156 - INFO - _datasets.py:191 - Indexing f7d747c0-0184-4844-99a9-6309a7a1f6ba
+2025-12-21 19:23:50,162 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:50,162 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E52N20_03035_V01_R00 | In 0.1 minutes
+2025-12-21 19:23:50,162 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:50,168 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E52N21_03035_V01_R00.zip
+2025-12-21 19:23:50,168 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E52N21_03035_V01_R00
+2025-12-21 19:23:50,168 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E52N21_03035_V01_R00
+2025-12-21 19:23:50,852 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:50,852 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:50,891 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:50,899 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:50,918 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:50,921 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E52N21_03035_V01_R00 into datacube
+2025-12-21 19:23:50,921 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E52N21_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E52N21_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:50,921 - INFO - _datasets.py:191 - Indexing 9236b1dd-f0d1-4216-9e8a-20870214a1e3
+2025-12-21 19:23:50,925 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:50,925 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E52N21_03035_V01_R00 | In 0.11 minutes
+2025-12-21 19:23:50,925 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:50,930 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E53N15_03035_V01_R00.zip
+2025-12-21 19:23:50,930 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E53N15_03035_V01_R00
+2025-12-21 19:23:50,930 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N15_03035_V01_R00
+2025-12-21 19:23:50,984 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:50,984 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:51,023 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:51,034 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:51,052 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:51,055 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E53N15_03035_V01_R00 into datacube
+2025-12-21 19:23:51,055 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N15_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E53N15_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:51,056 - INFO - _datasets.py:191 - Indexing 1e930561-9100-4085-9a2e-816cae3faf4b
+2025-12-21 19:23:51,060 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:51,060 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E53N15_03035_V01_R00 | In 0.11 minutes
+2025-12-21 19:23:51,060 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:51,066 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E53N16_03035_V01_R00.zip
+2025-12-21 19:23:51,066 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E53N16_03035_V01_R00
+2025-12-21 19:23:51,066 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N16_03035_V01_R00
+2025-12-21 19:23:51,507 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:51,507 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:51,545 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:51,554 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:51,572 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:51,576 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E53N16_03035_V01_R00 into datacube
+2025-12-21 19:23:51,576 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N16_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E53N16_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:51,576 - INFO - _datasets.py:191 - Indexing 7a8a83ab-0e77-4698-8b37-46dba82b9f7d
+2025-12-21 19:23:51,582 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:51,582 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E53N16_03035_V01_R00 | In 0.12 minutes
+2025-12-21 19:23:51,582 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:51,587 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E53N17_03035_V01_R00.zip
+2025-12-21 19:23:51,587 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E53N17_03035_V01_R00
+2025-12-21 19:23:51,587 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N17_03035_V01_R00
+2025-12-21 19:23:52,216 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:52,216 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:52,262 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:52,271 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:52,290 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:52,293 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E53N17_03035_V01_R00 into datacube
+2025-12-21 19:23:52,293 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N17_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E53N17_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:52,293 - INFO - _datasets.py:191 - Indexing f15eb551-dc42-42f9-b6f3-073d5bd279b7
+2025-12-21 19:23:52,299 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:52,299 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E53N17_03035_V01_R00 | In 0.13 minutes
+2025-12-21 19:23:52,299 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:52,304 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E53N18_03035_V01_R00.zip
+2025-12-21 19:23:52,304 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E53N18_03035_V01_R00
+2025-12-21 19:23:52,304 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N18_03035_V01_R00
+2025-12-21 19:23:53,123 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:53,123 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:53,162 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:53,172 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:53,189 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:53,193 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E53N18_03035_V01_R00 into datacube
+2025-12-21 19:23:53,193 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N18_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E53N18_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:53,193 - INFO - _datasets.py:191 - Indexing 720946ff-b0ed-4b64-88eb-e194ac26023e
+2025-12-21 19:23:53,198 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:53,199 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E53N18_03035_V01_R00 | In 0.15 minutes
+2025-12-21 19:23:53,199 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:53,203 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E53N19_03035_V01_R00.zip
+2025-12-21 19:23:53,203 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E53N19_03035_V01_R00
+2025-12-21 19:23:53,203 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N19_03035_V01_R00
+2025-12-21 19:23:53,716 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:53,716 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:53,758 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:53,766 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:53,784 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:53,787 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E53N19_03035_V01_R00 into datacube
+2025-12-21 19:23:53,788 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N19_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E53N19_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:53,788 - INFO - _datasets.py:191 - Indexing 5bea471a-5ea5-4795-b662-30e418ede78e
+2025-12-21 19:23:53,794 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:53,794 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E53N19_03035_V01_R00 | In 0.16 minutes
+2025-12-21 19:23:53,794 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:53,801 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E53N20_03035_V01_R00.zip
+2025-12-21 19:23:53,801 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E53N20_03035_V01_R00
+2025-12-21 19:23:53,801 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N20_03035_V01_R00
+2025-12-21 19:23:54,385 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:54,385 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:54,424 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:54,432 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:54,449 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:54,452 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E53N20_03035_V01_R00 into datacube
+2025-12-21 19:23:54,452 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N20_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E53N20_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:54,452 - INFO - _datasets.py:191 - Indexing 08efb206-e433-4a2a-8999-594d397e9a46
+2025-12-21 19:23:54,457 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:54,457 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E53N20_03035_V01_R00 | In 0.17 minutes
+2025-12-21 19:23:54,457 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:54,462 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E53N21_03035_V01_R00.zip
+2025-12-21 19:23:54,462 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E53N21_03035_V01_R00
+2025-12-21 19:23:54,462 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N21_03035_V01_R00
+2025-12-21 19:23:55,198 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:55,198 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:55,240 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:55,249 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:55,267 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:55,271 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E53N21_03035_V01_R00 into datacube
+2025-12-21 19:23:55,271 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E53N21_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E53N21_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:55,271 - INFO - _datasets.py:191 - Indexing 096e11c2-4eb1-4190-9a1f-1b65380b9a41
+2025-12-21 19:23:55,275 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:55,275 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E53N21_03035_V01_R00 | In 0.18 minutes
+2025-12-21 19:23:55,275 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:55,280 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E54N15_03035_V01_R00.zip
+2025-12-21 19:23:55,281 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E54N15_03035_V01_R00
+2025-12-21 19:23:55,281 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N15_03035_V01_R00
+2025-12-21 19:23:55,367 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:55,367 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:55,409 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:55,416 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:55,435 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:55,438 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E54N15_03035_V01_R00 into datacube
+2025-12-21 19:23:55,438 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N15_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E54N15_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:55,439 - INFO - _datasets.py:191 - Indexing 1401484c-9e6c-4d5e-886d-442482eec920
+2025-12-21 19:23:55,445 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:55,445 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E54N15_03035_V01_R00 | In 0.19 minutes
+2025-12-21 19:23:55,445 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:55,451 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E54N16_03035_V01_R00.zip
+2025-12-21 19:23:55,452 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E54N16_03035_V01_R00
+2025-12-21 19:23:55,452 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N16_03035_V01_R00
+2025-12-21 19:23:55,989 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:55,989 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:56,036 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:56,045 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:56,064 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:56,067 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E54N16_03035_V01_R00 into datacube
+2025-12-21 19:23:56,067 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N16_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E54N16_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:56,068 - INFO - _datasets.py:191 - Indexing d46e3f7f-0b69-4e10-b2a4-4137977c0a0b
+2025-12-21 19:23:56,073 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:56,073 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E54N16_03035_V01_R00 | In 0.2 minutes
+2025-12-21 19:23:56,073 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:56,079 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E54N17_03035_V01_R00.zip
+2025-12-21 19:23:56,079 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E54N17_03035_V01_R00
+2025-12-21 19:23:56,079 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N17_03035_V01_R00
+2025-12-21 19:23:56,592 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:56,592 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:56,633 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:56,641 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:56,660 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:56,662 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E54N17_03035_V01_R00 into datacube
+2025-12-21 19:23:56,662 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N17_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E54N17_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:56,663 - INFO - _datasets.py:191 - Indexing 330b0660-af67-41f5-9bac-19b6175a0c92
+2025-12-21 19:23:56,668 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:56,668 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E54N17_03035_V01_R00 | In 0.21 minutes
+2025-12-21 19:23:56,668 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:56,674 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E54N18_03035_V01_R00.zip
+2025-12-21 19:23:56,674 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E54N18_03035_V01_R00
+2025-12-21 19:23:56,674 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N18_03035_V01_R00
+2025-12-21 19:23:57,293 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:57,293 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:57,336 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:57,344 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:57,362 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:57,366 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E54N18_03035_V01_R00 into datacube
+2025-12-21 19:23:57,366 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N18_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E54N18_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:57,366 - INFO - _datasets.py:191 - Indexing 0098e3cb-9ad6-4024-aa18-cb12d7ef6b67
+2025-12-21 19:23:57,373 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:57,373 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E54N18_03035_V01_R00 | In 0.22 minutes
+2025-12-21 19:23:57,373 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:57,377 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E54N19_03035_V01_R00.zip
+2025-12-21 19:23:57,377 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E54N19_03035_V01_R00
+2025-12-21 19:23:57,377 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N19_03035_V01_R00
+2025-12-21 19:23:57,611 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:57,611 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:57,652 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:57,659 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:57,677 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:57,682 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E54N19_03035_V01_R00 into datacube
+2025-12-21 19:23:57,682 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N19_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E54N19_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:57,682 - INFO - _datasets.py:191 - Indexing 1c1de16f-c456-4106-9075-a69cc9b09c15
+2025-12-21 19:23:57,688 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:57,688 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E54N19_03035_V01_R00 | In 0.22 minutes
+2025-12-21 19:23:57,688 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:57,695 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E54N20_03035_V01_R00.zip
+2025-12-21 19:23:57,695 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E54N20_03035_V01_R00
+2025-12-21 19:23:57,695 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N20_03035_V01_R00
+2025-12-21 19:23:58,179 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:58,179 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:58,221 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:58,230 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:58,248 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:58,253 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E54N20_03035_V01_R00 into datacube
+2025-12-21 19:23:58,253 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N20_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E54N20_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:58,254 - INFO - _datasets.py:191 - Indexing e35047dd-c0aa-4c2e-baa4-35e1278aa40c
+2025-12-21 19:23:58,258 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:58,258 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E54N20_03035_V01_R00 | In 0.23 minutes
+2025-12-21 19:23:58,258 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:58,266 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E54N21_03035_V01_R00.zip
+2025-12-21 19:23:58,266 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E54N21_03035_V01_R00
+2025-12-21 19:23:58,266 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N21_03035_V01_R00
+2025-12-21 19:23:59,115 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:59,115 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:23:59,156 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:23:59,164 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:23:59,183 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:23:59,186 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E54N21_03035_V01_R00 into datacube
+2025-12-21 19:23:59,186 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N21_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E54N21_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:23:59,186 - INFO - _datasets.py:191 - Indexing 1bf8ddcd-7b05-4301-a7d9-72b5688713b5
+2025-12-21 19:23:59,192 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:23:59,192 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E54N21_03035_V01_R00 | In 0.25 minutes
+2025-12-21 19:23:59,192 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:23:59,197 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E54N22_03035_V01_R00.zip
+2025-12-21 19:23:59,197 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E54N22_03035_V01_R00
+2025-12-21 19:23:59,197 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N22_03035_V01_R00
+2025-12-21 19:23:59,997 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:23:59,998 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:00,043 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:00,053 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:00,070 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:00,073 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E54N22_03035_V01_R00 into datacube
+2025-12-21 19:24:00,073 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E54N22_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E54N22_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:00,074 - INFO - _datasets.py:191 - Indexing fa67d96d-f0f9-4332-8767-eb44f226d6ff
+2025-12-21 19:24:00,079 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:00,079 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E54N22_03035_V01_R00 | In 0.26 minutes
+2025-12-21 19:24:00,079 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:00,086 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E55N14_03035_V01_R00.zip
+2025-12-21 19:24:00,086 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E55N14_03035_V01_R00
+2025-12-21 19:24:00,086 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N14_03035_V01_R00
+2025-12-21 19:24:00,238 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:00,238 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:00,277 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:00,285 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:00,302 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:00,307 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E55N14_03035_V01_R00 into datacube
+2025-12-21 19:24:00,307 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N14_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E55N14_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:00,307 - INFO - _datasets.py:191 - Indexing b02b7c1c-c6f9-4337-86d2-eba1cc51696c
+2025-12-21 19:24:00,311 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:00,311 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E55N14_03035_V01_R00 | In 0.27 minutes
+2025-12-21 19:24:00,311 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:00,317 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E55N15_03035_V01_R00.zip
+2025-12-21 19:24:00,317 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E55N15_03035_V01_R00
+2025-12-21 19:24:00,317 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N15_03035_V01_R00
+2025-12-21 19:24:00,378 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:00,378 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:00,420 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:00,428 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:00,444 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:00,448 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E55N15_03035_V01_R00 into datacube
+2025-12-21 19:24:00,448 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N15_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E55N15_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:00,449 - INFO - _datasets.py:191 - Indexing e613c4f8-cb8a-4b93-8ab9-0375aa5cbca6
+2025-12-21 19:24:00,453 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:00,453 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E55N15_03035_V01_R00 | In 0.27 minutes
+2025-12-21 19:24:00,453 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:00,461 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E55N16_03035_V01_R00.zip
+2025-12-21 19:24:00,461 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E55N16_03035_V01_R00
+2025-12-21 19:24:00,461 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N16_03035_V01_R00
+2025-12-21 19:24:00,526 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:00,526 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:00,568 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:00,576 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:00,595 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:00,599 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E55N16_03035_V01_R00 into datacube
+2025-12-21 19:24:00,599 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N16_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E55N16_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:00,599 - INFO - _datasets.py:191 - Indexing 2196f40b-31e8-4d05-98ac-78d95f1815a4
+2025-12-21 19:24:00,603 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:00,603 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E55N16_03035_V01_R00 | In 0.27 minutes
+2025-12-21 19:24:00,603 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:00,609 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E55N17_03035_V01_R00.zip
+2025-12-21 19:24:00,609 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E55N17_03035_V01_R00
+2025-12-21 19:24:00,609 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N17_03035_V01_R00
+2025-12-21 19:24:00,865 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:00,865 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:00,906 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:00,913 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:00,932 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:00,936 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E55N17_03035_V01_R00 into datacube
+2025-12-21 19:24:00,936 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N17_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E55N17_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:00,936 - INFO - _datasets.py:191 - Indexing 6e1311a6-fb1c-4825-a9ef-3d9a9e84037b
+2025-12-21 19:24:00,940 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:00,940 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E55N17_03035_V01_R00 | In 0.28 minutes
+2025-12-21 19:24:00,940 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:00,944 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E55N18_03035_V01_R00.zip
+2025-12-21 19:24:00,944 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E55N18_03035_V01_R00
+2025-12-21 19:24:00,944 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N18_03035_V01_R00
+2025-12-21 19:24:01,213 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:01,213 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:01,256 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:01,265 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:01,284 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:01,287 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E55N18_03035_V01_R00 into datacube
+2025-12-21 19:24:01,287 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N18_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E55N18_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:01,287 - INFO - _datasets.py:191 - Indexing 35f1d8b1-f2fa-44e5-9b15-19948742ac58
+2025-12-21 19:24:01,292 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:01,292 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E55N18_03035_V01_R00 | In 0.28 minutes
+2025-12-21 19:24:01,292 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:01,296 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E55N19_03035_V01_R00.zip
+2025-12-21 19:24:01,296 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E55N19_03035_V01_R00
+2025-12-21 19:24:01,296 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N19_03035_V01_R00
+2025-12-21 19:24:01,374 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:01,375 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:01,419 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:01,428 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:01,444 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:01,448 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E55N19_03035_V01_R00 into datacube
+2025-12-21 19:24:01,448 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N19_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E55N19_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:01,448 - INFO - _datasets.py:191 - Indexing 2d744485-ba67-46bc-a7b9-ee03169e8849
+2025-12-21 19:24:01,452 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:01,452 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E55N19_03035_V01_R00 | In 0.29 minutes
+2025-12-21 19:24:01,452 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:01,459 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E55N20_03035_V01_R00.zip
+2025-12-21 19:24:01,459 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E55N20_03035_V01_R00
+2025-12-21 19:24:01,459 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N20_03035_V01_R00
+2025-12-21 19:24:01,626 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:01,626 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:01,669 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:01,679 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:01,699 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:01,702 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E55N20_03035_V01_R00 into datacube
+2025-12-21 19:24:01,702 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N20_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E55N20_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:01,702 - INFO - _datasets.py:191 - Indexing 3d6d4e99-e0d2-49bf-a2a8-c4152fea8c47
+2025-12-21 19:24:01,708 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:01,708 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E55N20_03035_V01_R00 | In 0.29 minutes
+2025-12-21 19:24:01,708 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:01,714 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E55N21_03035_V01_R00.zip
+2025-12-21 19:24:01,714 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E55N21_03035_V01_R00
+2025-12-21 19:24:01,714 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N21_03035_V01_R00
+2025-12-21 19:24:02,674 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:02,674 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:02,717 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:02,727 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:02,744 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:02,748 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E55N21_03035_V01_R00 into datacube
+2025-12-21 19:24:02,748 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N21_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E55N21_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:02,748 - INFO - _datasets.py:191 - Indexing a3c3b5ba-04ff-4536-a387-6fa450765589
+2025-12-21 19:24:02,753 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:02,753 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E55N21_03035_V01_R00 | In 0.31 minutes
+2025-12-21 19:24:02,753 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:02,757 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E55N22_03035_V01_R00.zip
+2025-12-21 19:24:02,757 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E55N22_03035_V01_R00
+2025-12-21 19:24:02,757 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N22_03035_V01_R00
+2025-12-21 19:24:03,363 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:03,363 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:03,412 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:03,420 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:03,443 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:03,448 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E55N22_03035_V01_R00 into datacube
+2025-12-21 19:24:03,448 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E55N22_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E55N22_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:03,448 - INFO - _datasets.py:191 - Indexing c467354f-0a0e-4b5a-8500-95ac95b0d0fc
+2025-12-21 19:24:03,457 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:03,457 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E55N22_03035_V01_R00 | In 0.32 minutes
+2025-12-21 19:24:03,457 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:03,465 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E56N14_03035_V01_R00.zip
+2025-12-21 19:24:03,465 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E56N14_03035_V01_R00
+2025-12-21 19:24:03,465 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N14_03035_V01_R00
+2025-12-21 19:24:03,691 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:03,692 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:03,732 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:03,741 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:03,760 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:03,764 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E56N14_03035_V01_R00 into datacube
+2025-12-21 19:24:03,764 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N14_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E56N14_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:03,764 - INFO - _datasets.py:191 - Indexing 556e77ca-cb39-4250-998b-e0561a2c1bf5
+2025-12-21 19:24:03,769 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:03,769 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E56N14_03035_V01_R00 | In 0.33 minutes
+2025-12-21 19:24:03,769 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:03,773 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E56N15_03035_V01_R00.zip
+2025-12-21 19:24:03,773 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E56N15_03035_V01_R00
+2025-12-21 19:24:03,773 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N15_03035_V01_R00
+2025-12-21 19:24:03,847 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:03,847 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:03,889 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:03,896 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:03,913 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:03,916 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E56N15_03035_V01_R00 into datacube
+2025-12-21 19:24:03,917 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N15_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E56N15_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:03,917 - INFO - _datasets.py:191 - Indexing 9115768b-1334-4803-a304-885e19954ca2
+2025-12-21 19:24:03,921 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:03,921 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E56N15_03035_V01_R00 | In 0.33 minutes
+2025-12-21 19:24:03,921 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:03,929 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E56N16_03035_V01_R00.zip
+2025-12-21 19:24:03,929 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E56N16_03035_V01_R00
+2025-12-21 19:24:03,929 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N16_03035_V01_R00
+2025-12-21 19:24:04,009 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:04,009 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:04,048 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:04,058 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:04,075 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:04,078 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E56N16_03035_V01_R00 into datacube
+2025-12-21 19:24:04,078 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N16_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E56N16_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:04,078 - INFO - _datasets.py:191 - Indexing 26be74de-6207-4903-a570-6e615f90a527
+2025-12-21 19:24:04,082 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:04,082 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E56N16_03035_V01_R00 | In 0.33 minutes
+2025-12-21 19:24:04,082 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:04,089 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E56N17_03035_V01_R00.zip
+2025-12-21 19:24:04,089 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E56N17_03035_V01_R00
+2025-12-21 19:24:04,089 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N17_03035_V01_R00
+2025-12-21 19:24:04,171 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:04,171 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:04,214 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:04,221 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:04,242 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:04,245 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E56N17_03035_V01_R00 into datacube
+2025-12-21 19:24:04,245 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N17_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E56N17_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:04,245 - INFO - _datasets.py:191 - Indexing 1377fd31-570f-449c-9124-10862f390e06
+2025-12-21 19:24:04,252 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:04,252 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E56N17_03035_V01_R00 | In 0.33 minutes
+2025-12-21 19:24:04,252 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:04,260 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E56N18_03035_V01_R00.zip
+2025-12-21 19:24:04,260 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E56N18_03035_V01_R00
+2025-12-21 19:24:04,260 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N18_03035_V01_R00
+2025-12-21 19:24:04,313 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:04,313 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:04,352 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:04,362 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:04,379 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:04,383 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E56N18_03035_V01_R00 into datacube
+2025-12-21 19:24:04,383 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N18_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E56N18_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:04,383 - INFO - _datasets.py:191 - Indexing 14302c5b-cd72-48e3-989d-6bca423de614
+2025-12-21 19:24:04,388 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:04,388 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E56N18_03035_V01_R00 | In 0.34 minutes
+2025-12-21 19:24:04,388 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:04,393 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E56N19_03035_V01_R00.zip
+2025-12-21 19:24:04,393 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E56N19_03035_V01_R00
+2025-12-21 19:24:04,393 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N19_03035_V01_R00
+2025-12-21 19:24:04,450 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:04,450 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:04,492 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:04,500 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:04,522 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:04,527 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E56N19_03035_V01_R00 into datacube
+2025-12-21 19:24:04,527 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N19_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E56N19_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:04,527 - INFO - _datasets.py:191 - Indexing a0eb2d50-e374-4c51-901f-6a6e231c1cae
+2025-12-21 19:24:04,535 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:04,535 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E56N19_03035_V01_R00 | In 0.34 minutes
+2025-12-21 19:24:04,535 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:04,541 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E56N20_03035_V01_R00.zip
+2025-12-21 19:24:04,541 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E56N20_03035_V01_R00
+2025-12-21 19:24:04,541 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N20_03035_V01_R00
+2025-12-21 19:24:04,629 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:04,629 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:04,673 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:04,683 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:04,702 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:04,704 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E56N20_03035_V01_R00 into datacube
+2025-12-21 19:24:04,704 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N20_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E56N20_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:04,705 - INFO - _datasets.py:191 - Indexing 5ef9a34b-c0cd-4db1-acf6-78984c6cb41e
+2025-12-21 19:24:04,709 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:04,709 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E56N20_03035_V01_R00 | In 0.34 minutes
+2025-12-21 19:24:04,709 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:04,717 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E56N21_03035_V01_R00.zip
+2025-12-21 19:24:04,718 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E56N21_03035_V01_R00
+2025-12-21 19:24:04,718 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N21_03035_V01_R00
+2025-12-21 19:24:05,448 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:05,448 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:05,491 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:05,500 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:05,522 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:05,526 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E56N21_03035_V01_R00 into datacube
+2025-12-21 19:24:05,526 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N21_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E56N21_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:05,526 - INFO - _datasets.py:191 - Indexing eb889a75-df3f-42d4-aac7-d5a24cfb5bb1
+2025-12-21 19:24:05,532 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:05,532 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E56N21_03035_V01_R00 | In 0.36 minutes
+2025-12-21 19:24:05,532 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:05,538 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E56N22_03035_V01_R00.zip
+2025-12-21 19:24:05,538 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E56N22_03035_V01_R00
+2025-12-21 19:24:05,538 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N22_03035_V01_R00
+2025-12-21 19:24:05,924 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:05,924 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:05,962 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:05,971 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:05,990 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:05,995 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E56N22_03035_V01_R00 into datacube
+2025-12-21 19:24:05,995 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E56N22_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E56N22_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:05,995 - INFO - _datasets.py:191 - Indexing 6905af55-51b8-473e-a0fe-0b815d807305
+2025-12-21 19:24:06,000 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:06,000 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E56N22_03035_V01_R00 | In 0.36 minutes
+2025-12-21 19:24:06,000 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:06,005 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E57N14_03035_V01_R00.zip
+2025-12-21 19:24:06,005 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E57N14_03035_V01_R00
+2025-12-21 19:24:06,005 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N14_03035_V01_R00
+2025-12-21 19:24:06,211 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:06,211 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:06,258 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:06,268 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:06,286 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:06,289 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E57N14_03035_V01_R00 into datacube
+2025-12-21 19:24:06,289 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N14_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E57N14_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:06,291 - INFO - _datasets.py:191 - Indexing ef26b9a5-ecee-4d59-ad41-d22e70490e87
+2025-12-21 19:24:06,294 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:06,294 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E57N14_03035_V01_R00 | In 0.37 minutes
+2025-12-21 19:24:06,294 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:06,299 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E57N15_03035_V01_R00.zip
+2025-12-21 19:24:06,299 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E57N15_03035_V01_R00
+2025-12-21 19:24:06,299 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N15_03035_V01_R00
+2025-12-21 19:24:06,377 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:06,377 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:06,418 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:06,427 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:06,446 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:06,449 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E57N15_03035_V01_R00 into datacube
+2025-12-21 19:24:06,449 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N15_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E57N15_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:06,449 - INFO - _datasets.py:191 - Indexing 08ce6a09-dff3-4175-b39d-83f38a7eb2a4
+2025-12-21 19:24:06,453 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:06,453 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E57N15_03035_V01_R00 | In 0.37 minutes
+2025-12-21 19:24:06,453 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:06,461 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E57N16_03035_V01_R00.zip
+2025-12-21 19:24:06,461 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E57N16_03035_V01_R00
+2025-12-21 19:24:06,462 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N16_03035_V01_R00
+2025-12-21 19:24:06,526 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:06,526 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:06,564 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:06,571 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:06,589 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:06,592 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E57N16_03035_V01_R00 into datacube
+2025-12-21 19:24:06,592 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N16_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E57N16_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:06,593 - INFO - _datasets.py:191 - Indexing fd571d0f-4b6f-4bae-a1c7-8f4e46f8d06a
+2025-12-21 19:24:06,596 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:06,596 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E57N16_03035_V01_R00 | In 0.37 minutes
+2025-12-21 19:24:06,596 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:06,604 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E57N17_03035_V01_R00.zip
+2025-12-21 19:24:06,604 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E57N17_03035_V01_R00
+2025-12-21 19:24:06,604 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N17_03035_V01_R00
+2025-12-21 19:24:06,700 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:06,700 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:06,744 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:06,752 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:06,771 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:06,774 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E57N17_03035_V01_R00 into datacube
+2025-12-21 19:24:06,774 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N17_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E57N17_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:06,774 - INFO - _datasets.py:191 - Indexing ee7943c4-04e7-4204-b79a-9d900f8fad1f
+2025-12-21 19:24:06,778 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:06,778 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E57N17_03035_V01_R00 | In 0.38 minutes
+2025-12-21 19:24:06,778 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:06,787 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E57N18_03035_V01_R00.zip
+2025-12-21 19:24:06,787 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E57N18_03035_V01_R00
+2025-12-21 19:24:06,787 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N18_03035_V01_R00
+2025-12-21 19:24:06,980 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:06,980 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:07,020 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:07,028 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:07,047 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:07,052 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E57N18_03035_V01_R00 into datacube
+2025-12-21 19:24:07,052 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N18_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E57N18_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:07,052 - INFO - _datasets.py:191 - Indexing c89cb0e5-e68a-4c3f-a758-1107c5573a58
+2025-12-21 19:24:07,058 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:07,058 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E57N18_03035_V01_R00 | In 0.38 minutes
+2025-12-21 19:24:07,058 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:07,065 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E57N19_03035_V01_R00.zip
+2025-12-21 19:24:07,065 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E57N19_03035_V01_R00
+2025-12-21 19:24:07,065 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N19_03035_V01_R00
+2025-12-21 19:24:07,503 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:07,503 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:07,542 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:07,550 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:07,568 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:07,571 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E57N19_03035_V01_R00 into datacube
+2025-12-21 19:24:07,571 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N19_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E57N19_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:07,571 - INFO - _datasets.py:191 - Indexing 3f7a21e3-60bf-4179-bd19-bba6c18acac3
+2025-12-21 19:24:07,575 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:07,575 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E57N19_03035_V01_R00 | In 0.39 minutes
+2025-12-21 19:24:07,575 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:07,579 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E57N20_03035_V01_R00.zip
+2025-12-21 19:24:07,579 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E57N20_03035_V01_R00
+2025-12-21 19:24:07,579 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N20_03035_V01_R00
+2025-12-21 19:24:08,185 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:08,185 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:08,224 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:08,232 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:08,251 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:08,255 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E57N20_03035_V01_R00 into datacube
+2025-12-21 19:24:08,255 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N20_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E57N20_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:08,255 - INFO - _datasets.py:191 - Indexing 0f47beed-8660-491a-bf60-d2b993a83408
+2025-12-21 19:24:08,259 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:08,259 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E57N20_03035_V01_R00 | In 0.4 minutes
+2025-12-21 19:24:08,259 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:08,263 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E57N21_03035_V01_R00.zip
+2025-12-21 19:24:08,263 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E57N21_03035_V01_R00
+2025-12-21 19:24:08,263 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N21_03035_V01_R00
+2025-12-21 19:24:08,513 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:08,513 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:08,558 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:08,567 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:08,586 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:08,588 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E57N21_03035_V01_R00 into datacube
+2025-12-21 19:24:08,588 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N21_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E57N21_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:08,589 - INFO - _datasets.py:191 - Indexing 93983c85-bc77-4433-8e5a-06c704d35b60
+2025-12-21 19:24:08,592 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:08,592 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E57N21_03035_V01_R00 | In 0.41 minutes
+2025-12-21 19:24:08,592 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:08,601 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E57N22_03035_V01_R00.zip
+2025-12-21 19:24:08,601 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E57N22_03035_V01_R00
+2025-12-21 19:24:08,601 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N22_03035_V01_R00
+2025-12-21 19:24:09,231 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:09,231 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:09,272 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:09,282 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:09,299 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:09,302 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E57N22_03035_V01_R00 into datacube
+2025-12-21 19:24:09,302 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E57N22_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E57N22_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:09,302 - INFO - _datasets.py:191 - Indexing 38b505a2-22f7-4e1f-927a-8162e56b85ed
+2025-12-21 19:24:09,307 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:09,307 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E57N22_03035_V01_R00 | In 0.42 minutes
+2025-12-21 19:24:09,307 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:09,311 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E58N14_03035_V01_R00.zip
+2025-12-21 19:24:09,311 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E58N14_03035_V01_R00
+2025-12-21 19:24:09,311 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N14_03035_V01_R00
+2025-12-21 19:24:09,369 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:09,370 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:09,412 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:09,422 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:09,443 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:09,446 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E58N14_03035_V01_R00 into datacube
+2025-12-21 19:24:09,446 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N14_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E58N14_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:09,446 - INFO - _datasets.py:191 - Indexing 3bcd0082-e0dc-4c8f-8d64-24a7e061a72f
+2025-12-21 19:24:09,449 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:09,449 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E58N14_03035_V01_R00 | In 0.42 minutes
+2025-12-21 19:24:09,449 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:09,458 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E58N15_03035_V01_R00.zip
+2025-12-21 19:24:09,458 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E58N15_03035_V01_R00
+2025-12-21 19:24:09,458 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N15_03035_V01_R00
+2025-12-21 19:24:09,524 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:09,524 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:09,563 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:09,571 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:09,590 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:09,595 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E58N15_03035_V01_R00 into datacube
+2025-12-21 19:24:09,595 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N15_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E58N15_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:09,595 - INFO - _datasets.py:191 - Indexing c3cb6ee3-9555-4c9d-aaaa-ade3743f4f7c
+2025-12-21 19:24:09,600 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:09,600 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E58N15_03035_V01_R00 | In 0.42 minutes
+2025-12-21 19:24:09,600 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:09,609 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E58N16_03035_V01_R00.zip
+2025-12-21 19:24:09,609 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E58N16_03035_V01_R00
+2025-12-21 19:24:09,609 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N16_03035_V01_R00
+2025-12-21 19:24:09,691 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:09,691 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:09,731 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:09,738 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:09,756 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:09,760 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E58N16_03035_V01_R00 into datacube
+2025-12-21 19:24:09,760 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N16_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E58N16_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:09,761 - INFO - _datasets.py:191 - Indexing 3c06a4eb-02d0-4cba-a9b6-c7b4ed9813bf
+2025-12-21 19:24:09,765 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:09,765 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E58N16_03035_V01_R00 | In 0.43 minutes
+2025-12-21 19:24:09,765 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:09,774 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E58N17_03035_V01_R00.zip
+2025-12-21 19:24:09,774 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E58N17_03035_V01_R00
+2025-12-21 19:24:09,774 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N17_03035_V01_R00
+2025-12-21 19:24:10,098 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:10,098 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:10,137 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:10,145 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:10,164 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:10,168 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E58N17_03035_V01_R00 into datacube
+2025-12-21 19:24:10,168 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N17_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E58N17_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:10,168 - INFO - _datasets.py:191 - Indexing cd58fd83-cf68-478d-8871-90c51560a889
+2025-12-21 19:24:10,173 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:10,173 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E58N17_03035_V01_R00 | In 0.43 minutes
+2025-12-21 19:24:10,173 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:10,178 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E58N18_03035_V01_R00.zip
+2025-12-21 19:24:10,178 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E58N18_03035_V01_R00
+2025-12-21 19:24:10,178 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N18_03035_V01_R00
+2025-12-21 19:24:10,782 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:10,782 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:10,819 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:10,828 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:10,847 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:10,850 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E58N18_03035_V01_R00 into datacube
+2025-12-21 19:24:10,850 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N18_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E58N18_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:10,850 - INFO - _datasets.py:191 - Indexing e8c0516a-0f7a-4ed1-a090-6d72d8ee7a8d
+2025-12-21 19:24:10,855 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:10,855 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E58N18_03035_V01_R00 | In 0.44 minutes
+2025-12-21 19:24:10,855 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:10,860 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E58N19_03035_V01_R00.zip
+2025-12-21 19:24:10,860 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E58N19_03035_V01_R00
+2025-12-21 19:24:10,860 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N19_03035_V01_R00
+2025-12-21 19:24:11,394 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:11,394 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:11,440 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:11,449 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:11,468 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:11,471 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E58N19_03035_V01_R00 into datacube
+2025-12-21 19:24:11,471 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N19_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E58N19_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:11,471 - INFO - _datasets.py:191 - Indexing d8fe93f1-e903-47c3-81c0-c89d26c20629
+2025-12-21 19:24:11,477 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:11,477 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E58N19_03035_V01_R00 | In 0.45 minutes
+2025-12-21 19:24:11,477 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:11,485 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E58N20_03035_V01_R00.zip
+2025-12-21 19:24:11,485 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E58N20_03035_V01_R00
+2025-12-21 19:24:11,485 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N20_03035_V01_R00
+2025-12-21 19:24:11,897 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:11,897 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:11,939 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:11,946 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:11,965 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:11,969 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E58N20_03035_V01_R00 into datacube
+2025-12-21 19:24:11,969 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N20_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E58N20_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:11,969 - INFO - _datasets.py:191 - Indexing be5b9e1c-90da-4c47-9a14-0125dca4dee6
+2025-12-21 19:24:11,974 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:11,974 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E58N20_03035_V01_R00 | In 0.46 minutes
+2025-12-21 19:24:11,974 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:11,979 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E58N21_03035_V01_R00.zip
+2025-12-21 19:24:11,979 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E58N21_03035_V01_R00
+2025-12-21 19:24:11,979 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N21_03035_V01_R00
+2025-12-21 19:24:12,143 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:12,143 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:12,186 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:12,198 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:12,216 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:12,222 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E58N21_03035_V01_R00 into datacube
+2025-12-21 19:24:12,222 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N21_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E58N21_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:12,223 - INFO - _datasets.py:191 - Indexing c0fdf921-072d-441e-8926-f70fec3ff65a
+2025-12-21 19:24:12,231 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:12,231 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E58N21_03035_V01_R00 | In 0.47 minutes
+2025-12-21 19:24:12,231 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:12,241 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E58N22_03035_V01_R00.zip
+2025-12-21 19:24:12,241 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E58N22_03035_V01_R00
+2025-12-21 19:24:12,241 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N22_03035_V01_R00
+2025-12-21 19:24:12,495 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:12,495 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:12,538 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:12,546 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:12,565 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:12,568 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E58N22_03035_V01_R00 into datacube
+2025-12-21 19:24:12,568 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E58N22_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E58N22_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:12,568 - INFO - _datasets.py:191 - Indexing 1072324f-5a20-4dca-b87e-cee1ea1754b3
+2025-12-21 19:24:12,572 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:12,572 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E58N22_03035_V01_R00 | In 0.47 minutes
+2025-12-21 19:24:12,572 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:12,577 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E59N16_03035_V01_R00.zip
+2025-12-21 19:24:12,577 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E59N16_03035_V01_R00
+2025-12-21 19:24:12,577 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N16_03035_V01_R00
+2025-12-21 19:24:12,729 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:12,729 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:12,767 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:12,775 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:12,792 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:12,796 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E59N16_03035_V01_R00 into datacube
+2025-12-21 19:24:12,796 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N16_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E59N16_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:12,796 - INFO - _datasets.py:191 - Indexing 03930dde-52b9-45b2-bc08-6dd889b71f45
+2025-12-21 19:24:12,800 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:12,800 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E59N16_03035_V01_R00 | In 0.48 minutes
+2025-12-21 19:24:12,800 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:12,809 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E59N17_03035_V01_R00.zip
+2025-12-21 19:24:12,809 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E59N17_03035_V01_R00
+2025-12-21 19:24:12,809 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N17_03035_V01_R00
+2025-12-21 19:24:13,395 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:13,396 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:13,441 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:13,450 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:13,468 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:13,471 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E59N17_03035_V01_R00 into datacube
+2025-12-21 19:24:13,471 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N17_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E59N17_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:13,472 - INFO - _datasets.py:191 - Indexing 2b431fa0-e82e-41dd-9c1e-5d108323e5a8
+2025-12-21 19:24:13,476 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:13,476 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E59N17_03035_V01_R00 | In 0.49 minutes
+2025-12-21 19:24:13,476 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:13,481 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E59N18_03035_V01_R00.zip
+2025-12-21 19:24:13,481 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E59N18_03035_V01_R00
+2025-12-21 19:24:13,481 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N18_03035_V01_R00
+2025-12-21 19:24:14,023 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:14,023 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:14,065 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:14,072 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:14,092 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:14,097 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E59N18_03035_V01_R00 into datacube
+2025-12-21 19:24:14,097 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N18_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E59N18_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:14,097 - INFO - _datasets.py:191 - Indexing b1f922bb-da7a-4096-a1e7-cda3d5af4b15
+2025-12-21 19:24:14,104 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:14,104 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E59N18_03035_V01_R00 | In 0.5 minutes
+2025-12-21 19:24:14,104 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:14,113 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E59N19_03035_V01_R00.zip
+2025-12-21 19:24:14,113 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E59N19_03035_V01_R00
+2025-12-21 19:24:14,113 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N19_03035_V01_R00
+2025-12-21 19:24:14,561 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:14,561 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:14,615 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:14,625 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:14,643 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:14,646 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E59N19_03035_V01_R00 into datacube
+2025-12-21 19:24:14,646 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N19_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E59N19_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:14,647 - INFO - _datasets.py:191 - Indexing 02b9a224-8c71-4605-af0f-319e418cf890
+2025-12-21 19:24:14,653 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:14,654 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E59N19_03035_V01_R00 | In 0.51 minutes
+2025-12-21 19:24:14,654 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:14,658 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E59N20_03035_V01_R00.zip
+2025-12-21 19:24:14,658 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E59N20_03035_V01_R00
+2025-12-21 19:24:14,658 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N20_03035_V01_R00
+2025-12-21 19:24:15,335 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:15,335 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:15,384 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:15,394 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:15,414 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:15,419 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E59N20_03035_V01_R00 into datacube
+2025-12-21 19:24:15,419 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N20_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E59N20_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:15,419 - INFO - _datasets.py:191 - Indexing 6e6c4721-1442-44d8-b558-caf879dbdaee
+2025-12-21 19:24:15,427 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:15,427 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E59N20_03035_V01_R00 | In 0.52 minutes
+2025-12-21 19:24:15,427 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:15,431 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E59N21_03035_V01_R00.zip
+2025-12-21 19:24:15,431 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E59N21_03035_V01_R00
+2025-12-21 19:24:15,431 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N21_03035_V01_R00
+2025-12-21 19:24:15,913 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:15,913 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:15,955 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:15,964 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:15,981 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:15,984 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E59N21_03035_V01_R00 into datacube
+2025-12-21 19:24:15,984 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N21_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E59N21_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:15,984 - INFO - _datasets.py:191 - Indexing fafcd5f4-4535-4ca0-a501-1bbf7fdb08c1
+2025-12-21 19:24:15,990 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:15,990 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E59N21_03035_V01_R00 | In 0.53 minutes
+2025-12-21 19:24:15,990 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:15,995 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E59N22_03035_V01_R00.zip
+2025-12-21 19:24:15,995 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E59N22_03035_V01_R00
+2025-12-21 19:24:15,995 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N22_03035_V01_R00
+2025-12-21 19:24:16,215 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:16,215 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:16,256 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:16,264 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:16,283 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:16,286 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E59N22_03035_V01_R00 into datacube
+2025-12-21 19:24:16,286 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E59N22_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E59N22_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:16,286 - INFO - _datasets.py:191 - Indexing cfe605c0-f71b-4903-8e60-1c3a7ab2e5d3
+2025-12-21 19:24:16,290 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:16,290 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E59N22_03035_V01_R00 | In 0.53 minutes
+2025-12-21 19:24:16,290 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:16,299 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E60N16_03035_V01_R00.zip
+2025-12-21 19:24:16,299 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E60N16_03035_V01_R00
+2025-12-21 19:24:16,299 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E60N16_03035_V01_R00
+2025-12-21 19:24:16,432 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:16,432 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:16,472 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:16,479 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:16,498 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:16,501 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E60N16_03035_V01_R00 into datacube
+2025-12-21 19:24:16,501 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E60N16_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E60N16_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:16,502 - INFO - _datasets.py:191 - Indexing 8cad0bfe-351a-4d63-8eb3-b5b3d4c27db5
+2025-12-21 19:24:16,507 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:16,507 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E60N16_03035_V01_R00 | In 0.54 minutes
+2025-12-21 19:24:16,507 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:16,517 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E60N17_03035_V01_R00.zip
+2025-12-21 19:24:16,517 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E60N17_03035_V01_R00
+2025-12-21 19:24:16,517 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E60N17_03035_V01_R00
+2025-12-21 19:24:17,031 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:17,031 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:17,078 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:17,086 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:17,103 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:17,107 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E60N17_03035_V01_R00 into datacube
+2025-12-21 19:24:17,107 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E60N17_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E60N17_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:17,107 - INFO - _datasets.py:191 - Indexing acf73b54-3be1-4577-9a0b-b1ed7dbd6b8e
+2025-12-21 19:24:17,112 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:17,112 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E60N17_03035_V01_R00 | In 0.55 minutes
+2025-12-21 19:24:17,112 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:17,116 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E60N18_03035_V01_R00.zip
+2025-12-21 19:24:17,116 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E60N18_03035_V01_R00
+2025-12-21 19:24:17,116 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E60N18_03035_V01_R00
+2025-12-21 19:24:17,436 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:17,436 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:17,474 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:17,483 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:17,500 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:17,503 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E60N18_03035_V01_R00 into datacube
+2025-12-21 19:24:17,503 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E60N18_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E60N18_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:17,504 - INFO - _datasets.py:191 - Indexing e4da583f-0a7c-483e-a5cc-0543b57ad94a
+2025-12-21 19:24:17,509 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:17,509 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E60N18_03035_V01_R00 | In 0.55 minutes
+2025-12-21 19:24:17,509 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:17,514 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E60N19_03035_V01_R00.zip
+2025-12-21 19:24:17,514 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E60N19_03035_V01_R00
+2025-12-21 19:24:17,515 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E60N19_03035_V01_R00
+2025-12-21 19:24:17,824 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:17,824 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:17,869 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:17,879 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:17,897 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:17,901 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E60N19_03035_V01_R00 into datacube
+2025-12-21 19:24:17,901 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E60N19_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E60N19_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:17,901 - INFO - _datasets.py:191 - Indexing 19c63b74-9b19-480d-a1ad-91200c2bd44d
+2025-12-21 19:24:17,904 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:17,904 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E60N19_03035_V01_R00 | In 0.56 minutes
+2025-12-21 19:24:17,906 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:17,916 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E60N20_03035_V01_R00.zip
+2025-12-21 19:24:17,916 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E60N20_03035_V01_R00
+2025-12-21 19:24:17,916 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E60N20_03035_V01_R00
+2025-12-21 19:24:18,273 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:18,273 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:18,313 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:18,321 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:18,338 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:18,342 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E60N20_03035_V01_R00 into datacube
+2025-12-21 19:24:18,342 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E60N20_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E60N20_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:18,343 - INFO - _datasets.py:191 - Indexing 1ef951ab-57d0-4357-9751-91d91dcce5db
+2025-12-21 19:24:18,348 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:18,348 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E60N20_03035_V01_R00 | In 0.57 minutes
+2025-12-21 19:24:18,348 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:18,353 - INFO - run_tcd_ingestion.py:88 - 
+→ Unzipping: CLMS_HRLVLCC_TCD_S2023_R10m_E61N16_03035_V01_R00.zip
+2025-12-21 19:24:18,353 - INFO - run_tcd_ingestion.py:89 -   Dataset  : CLMS_HRLVLCC_TCD_S2023_R10m_E61N16_03035_V01_R00
+2025-12-21 19:24:18,353 - INFO - run_tcd_ingestion.py:90 -   Target   : //nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E61N16_03035_V01_R00
+2025-12-21 19:24:18,416 - INFO - run_tcd_ingestion.py:100 -   ✓ Found 1 tif(s)
+2025-12-21 19:24:18,416 - INFO - run_tcd_ingestion.py:102 - Edit metadata for indexing
+2025-12-21 19:24:18,454 - INFO - run_tcd_ingestion.py:111 - Writing metadata files
+2025-12-21 19:24:18,464 - INFO - run_tcd_ingestion.py:127 - Write metadata YAML document to disk
+2025-12-21 19:24:18,482 - INFO - run_tcd_ingestion.py:132 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 19:24:18,486 - INFO - run_tcd_ingestion.py:145 - Index TCD CLMS_HRLVLCC_TCD_S2023_R10m_E61N16_03035_V01_R00 into datacube
+2025-12-21 19:24:18,486 - INFO - run_tcd_ingestion.py:146 - file://///nas-rs.topo.auth.gr/Latomeia/DROUGHT/tcd2023/CLMS_HRLVLCC_TCD_S2023_R10m_E61N16_03035_V01_R00/CLMS_HRLVLCC_TCD_S2023_R10m_E61N16_03035_V01_R00.odc-metadata.yaml
+2025-12-21 19:24:18,487 - INFO - _datasets.py:191 - Indexing 905716d1-9e04-4411-a1c2-e0f45d59f255
+2025-12-21 19:24:18,490 - INFO - run_tcd_ingestion.py:149 - 
+2025-12-21 19:24:18,490 - INFO - run_tcd_ingestion.py:150 - ✔✔✔ COMPLETED: CLMS_HRLVLCC_TCD_S2023_R10m_E61N16_03035_V01_R00 | In 0.57 minutes
+2025-12-21 19:24:18,490 - INFO - run_tcd_ingestion.py:151 - 
+2025-12-21 19:24:18,490 - INFO - run_tcd_ingestion.py:158 - Triggering OWS update
+2025-12-21 19:24:25,531 - INFO - run_tcd_ingestion.py:184 - OWS update completed successfully.
