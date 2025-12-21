@@ -1,0 +1,414 @@
+2025-12-21 15:26:59,420 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:26:59,437 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y07
+2025-12-21 15:26:59,437 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:27:00,015 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:27:00,015 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:27:00,023 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:27:00,023 - INFO - dem_indexing.py:100 - Processing tile x09y07
+2025-12-21 15:27:04,149 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:27:04,149 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:27:07,870 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y07/COPDEM30_x09y07_elevation.tif
+2025-12-21 15:27:11,571 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y07/COPDEM30_x09y07_aspect.tif
+2025-12-21 15:27:11,571 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:27:11,596 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:27:11,617 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:27:11,631 - INFO - dem_indexing.py:164 - Index DEM of x09y07 into datacube
+2025-12-21 15:27:11,643 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:27:11,643 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x09y07 | In 0.2 minutes
+2025-12-21 15:27:11,643 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:27:11,645 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:27:11,656 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y07
+2025-12-21 15:27:11,656 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:27:11,690 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:27:11,690 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:27:11,696 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:27:11,696 - INFO - dem_indexing.py:100 - Processing tile x10y07
+2025-12-21 15:27:15,766 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:27:15,767 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:27:19,455 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y07/COPDEM30_x10y07_elevation.tif
+2025-12-21 15:27:22,849 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y07/COPDEM30_x10y07_aspect.tif
+2025-12-21 15:27:22,849 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:27:22,858 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:27:22,873 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:27:22,888 - INFO - dem_indexing.py:164 - Index DEM of x10y07 into datacube
+2025-12-21 15:27:22,893 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:27:22,893 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x10y07 | In 0.19 minutes
+2025-12-21 15:27:22,893 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:27:22,895 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:27:22,901 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y08
+2025-12-21 15:27:22,901 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:27:22,940 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:27:22,940 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:27:22,945 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:27:22,945 - INFO - dem_indexing.py:100 - Processing tile x09y08
+2025-12-21 15:27:26,850 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:27:26,851 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:27:30,868 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y08/COPDEM30_x09y08_elevation.tif
+2025-12-21 15:27:34,648 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y08/COPDEM30_x09y08_aspect.tif
+2025-12-21 15:27:34,648 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:27:34,658 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:27:34,674 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:27:34,687 - INFO - dem_indexing.py:164 - Index DEM of x09y08 into datacube
+2025-12-21 15:27:34,696 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:27:34,696 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x09y08 | In 0.2 minutes
+2025-12-21 15:27:34,696 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:27:34,698 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:27:34,703 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y08
+2025-12-21 15:27:34,703 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:27:34,739 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:27:34,739 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:27:34,743 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:27:34,744 - INFO - dem_indexing.py:100 - Processing tile x10y08
+2025-12-21 15:27:38,681 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:27:38,681 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:27:42,730 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y08/COPDEM30_x10y08_elevation.tif
+2025-12-21 15:27:46,668 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y08/COPDEM30_x10y08_aspect.tif
+2025-12-21 15:27:46,668 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:27:46,677 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:27:46,693 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:27:46,703 - INFO - dem_indexing.py:164 - Index DEM of x10y08 into datacube
+2025-12-21 15:27:46,710 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:27:46,710 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x10y08 | In 0.2 minutes
+2025-12-21 15:27:46,710 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:27:46,711 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:27:46,723 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y08
+2025-12-21 15:27:46,723 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:27:46,755 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:27:46,755 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:27:46,762 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:27:46,762 - INFO - dem_indexing.py:100 - Processing tile x11y08
+2025-12-21 15:27:50,921 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:27:50,921 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:27:54,390 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y08/COPDEM30_x11y08_elevation.tif
+2025-12-21 15:27:57,522 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y08/COPDEM30_x11y08_aspect.tif
+2025-12-21 15:27:57,522 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:27:57,531 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:27:57,547 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:27:57,559 - INFO - dem_indexing.py:164 - Index DEM of x11y08 into datacube
+2025-12-21 15:27:57,568 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:27:57,568 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x11y08 | In 0.18 minutes
+2025-12-21 15:27:57,568 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:27:57,570 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:27:57,577 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y09
+2025-12-21 15:27:57,577 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:27:57,613 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:27:57,613 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:27:57,617 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:27:57,618 - INFO - dem_indexing.py:100 - Processing tile x09y09
+2025-12-21 15:28:01,639 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:28:01,639 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:28:05,586 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y09/COPDEM30_x09y09_elevation.tif
+2025-12-21 15:28:09,613 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y09/COPDEM30_x09y09_aspect.tif
+2025-12-21 15:28:09,613 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:28:09,622 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:28:09,638 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:28:09,650 - INFO - dem_indexing.py:164 - Index DEM of x09y09 into datacube
+2025-12-21 15:28:09,657 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:28:09,657 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x09y09 | In 0.2 minutes
+2025-12-21 15:28:09,657 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:28:09,659 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:28:09,665 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y09
+2025-12-21 15:28:09,665 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:28:09,700 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:28:09,700 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:28:09,704 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:28:09,704 - INFO - dem_indexing.py:100 - Processing tile x10y09
+2025-12-21 15:28:13,666 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:28:13,666 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:28:17,574 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y09/COPDEM30_x10y09_elevation.tif
+2025-12-21 15:28:21,215 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y09/COPDEM30_x10y09_aspect.tif
+2025-12-21 15:28:21,215 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:28:21,223 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:28:21,239 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:28:21,252 - INFO - dem_indexing.py:164 - Index DEM of x10y09 into datacube
+2025-12-21 15:28:21,258 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:28:21,258 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x10y09 | In 0.19 minutes
+2025-12-21 15:28:21,258 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:28:21,259 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:28:21,272 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x06/y10
+2025-12-21 15:28:21,272 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:28:21,303 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:28:21,303 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:28:21,307 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:28:21,307 - INFO - dem_indexing.py:100 - Processing tile x06y10
+2025-12-21 15:28:25,361 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:28:25,361 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:28:29,190 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x06/y10/COPDEM30_x06y10_elevation.tif
+2025-12-21 15:28:32,518 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x06/y10/COPDEM30_x06y10_aspect.tif
+2025-12-21 15:28:32,518 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:28:32,529 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:28:32,546 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:28:32,560 - INFO - dem_indexing.py:164 - Index DEM of x06y10 into datacube
+2025-12-21 15:28:32,569 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:28:32,569 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x06y10 | In 0.19 minutes
+2025-12-21 15:28:32,569 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:28:32,571 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:28:32,583 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x08/y10
+2025-12-21 15:28:32,583 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:28:32,616 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:28:32,616 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:28:32,622 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:28:32,622 - INFO - dem_indexing.py:100 - Processing tile x08y10
+2025-12-21 15:28:36,610 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:28:36,610 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:28:40,431 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x08/y10/COPDEM30_x08y10_elevation.tif
+2025-12-21 15:28:44,103 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x08/y10/COPDEM30_x08y10_aspect.tif
+2025-12-21 15:28:44,103 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:28:44,113 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:28:44,130 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:28:44,140 - INFO - dem_indexing.py:164 - Index DEM of x08y10 into datacube
+2025-12-21 15:28:44,148 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:28:44,148 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x08y10 | In 0.19 minutes
+2025-12-21 15:28:44,148 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:28:44,149 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:28:44,156 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y10
+2025-12-21 15:28:44,156 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:28:44,186 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:28:44,186 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:28:44,192 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:28:44,192 - INFO - dem_indexing.py:100 - Processing tile x09y10
+2025-12-21 15:28:48,158 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:28:48,159 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:28:52,016 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y10/COPDEM30_x09y10_elevation.tif
+2025-12-21 15:28:56,016 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y10/COPDEM30_x09y10_aspect.tif
+2025-12-21 15:28:56,016 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:28:56,025 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:28:56,041 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:28:56,053 - INFO - dem_indexing.py:164 - Index DEM of x09y10 into datacube
+2025-12-21 15:28:56,061 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:28:56,061 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x09y10 | In 0.2 minutes
+2025-12-21 15:28:56,061 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:28:56,063 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:28:56,069 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y10
+2025-12-21 15:28:56,069 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:28:56,109 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:28:56,109 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:28:56,113 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:28:56,113 - INFO - dem_indexing.py:100 - Processing tile x10y10
+2025-12-21 15:29:00,041 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:29:00,042 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:29:03,702 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y10/COPDEM30_x10y10_elevation.tif
+2025-12-21 15:29:07,159 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y10/COPDEM30_x10y10_aspect.tif
+2025-12-21 15:29:07,159 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:29:07,168 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:29:07,182 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:29:07,194 - INFO - dem_indexing.py:164 - Index DEM of x10y10 into datacube
+2025-12-21 15:29:07,200 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:29:07,201 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x10y10 | In 0.19 minutes
+2025-12-21 15:29:07,201 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:29:07,201 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:29:07,209 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y10
+2025-12-21 15:29:07,209 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:29:07,240 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:29:07,240 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:29:07,244 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:29:07,244 - INFO - dem_indexing.py:100 - Processing tile x11y10
+2025-12-21 15:29:11,148 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:29:11,148 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:29:14,825 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y10/COPDEM30_x11y10_elevation.tif
+2025-12-21 15:29:18,355 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y10/COPDEM30_x11y10_aspect.tif
+2025-12-21 15:29:18,355 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:29:18,363 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:29:18,379 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:29:18,391 - INFO - dem_indexing.py:164 - Index DEM of x11y10 into datacube
+2025-12-21 15:29:18,397 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:29:18,397 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x11y10 | In 0.19 minutes
+2025-12-21 15:29:18,397 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:29:18,398 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:29:18,411 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x07/y11
+2025-12-21 15:29:18,411 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:29:18,444 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:29:18,444 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:29:18,449 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:29:18,449 - INFO - dem_indexing.py:100 - Processing tile x07y11
+2025-12-21 15:29:22,790 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:29:22,790 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:29:27,035 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x07/y11/COPDEM30_x07y11_elevation.tif
+2025-12-21 15:29:30,879 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x07/y11/COPDEM30_x07y11_aspect.tif
+2025-12-21 15:29:30,880 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:29:30,890 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:29:30,905 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:29:30,921 - INFO - dem_indexing.py:164 - Index DEM of x07y11 into datacube
+2025-12-21 15:29:30,929 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:29:30,929 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x07y11 | In 0.21 minutes
+2025-12-21 15:29:30,929 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:29:30,930 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:29:30,938 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x08/y11
+2025-12-21 15:29:30,938 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:29:30,971 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:29:30,971 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:29:30,977 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:29:30,977 - INFO - dem_indexing.py:100 - Processing tile x08y11
+2025-12-21 15:29:35,058 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:29:35,058 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:29:39,430 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x08/y11/COPDEM30_x08y11_elevation.tif
+2025-12-21 15:29:43,799 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x08/y11/COPDEM30_x08y11_aspect.tif
+2025-12-21 15:29:43,799 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:29:43,808 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:29:43,825 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:29:43,837 - INFO - dem_indexing.py:164 - Index DEM of x08y11 into datacube
+2025-12-21 15:29:43,845 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:29:43,845 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x08y11 | In 0.22 minutes
+2025-12-21 15:29:43,845 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:29:43,846 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:29:43,852 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y11
+2025-12-21 15:29:43,852 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:29:43,885 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:29:43,885 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:29:43,890 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:29:43,890 - INFO - dem_indexing.py:100 - Processing tile x09y11
+2025-12-21 15:29:48,071 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:29:48,071 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:29:52,636 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y11/COPDEM30_x09y11_elevation.tif
+2025-12-21 15:29:56,525 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y11/COPDEM30_x09y11_aspect.tif
+2025-12-21 15:29:56,525 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:29:56,536 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:29:56,553 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:29:56,567 - INFO - dem_indexing.py:164 - Index DEM of x09y11 into datacube
+2025-12-21 15:29:56,575 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:29:56,575 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x09y11 | In 0.21 minutes
+2025-12-21 15:29:56,575 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:29:56,577 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:29:56,584 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y11
+2025-12-21 15:29:56,584 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:29:56,621 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:29:56,621 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:29:56,628 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:29:56,628 - INFO - dem_indexing.py:100 - Processing tile x10y11
+2025-12-21 15:30:01,163 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:30:01,163 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:30:05,342 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y11/COPDEM30_x10y11_elevation.tif
+2025-12-21 15:30:09,191 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y11/COPDEM30_x10y11_aspect.tif
+2025-12-21 15:30:09,191 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:30:09,200 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:30:09,215 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:30:09,226 - INFO - dem_indexing.py:164 - Index DEM of x10y11 into datacube
+2025-12-21 15:30:09,235 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:30:09,235 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x10y11 | In 0.21 minutes
+2025-12-21 15:30:09,235 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:30:09,236 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:30:09,243 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y11
+2025-12-21 15:30:09,243 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:30:09,273 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:30:09,274 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:30:09,278 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:30:09,278 - INFO - dem_indexing.py:100 - Processing tile x11y11
+2025-12-21 15:30:13,410 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:30:13,411 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:30:17,422 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y11/COPDEM30_x11y11_elevation.tif
+2025-12-21 15:30:21,085 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y11/COPDEM30_x11y11_aspect.tif
+2025-12-21 15:30:21,085 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:30:21,094 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:30:21,110 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:30:21,121 - INFO - dem_indexing.py:164 - Index DEM of x11y11 into datacube
+2025-12-21 15:30:21,132 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:30:21,132 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x11y11 | In 0.2 minutes
+2025-12-21 15:30:21,132 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:30:21,134 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:30:21,145 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x12/y11
+2025-12-21 15:30:21,145 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:30:21,182 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:30:21,182 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:30:21,186 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:30:21,187 - INFO - dem_indexing.py:100 - Processing tile x12y11
+2025-12-21 15:30:25,127 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:30:25,127 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:30:28,975 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x12/y11/COPDEM30_x12y11_elevation.tif
+2025-12-21 15:30:32,708 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x12/y11/COPDEM30_x12y11_aspect.tif
+2025-12-21 15:30:32,708 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:30:32,729 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:30:32,744 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:30:32,754 - INFO - dem_indexing.py:164 - Index DEM of x12y11 into datacube
+2025-12-21 15:30:32,762 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:30:32,762 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x12y11 | In 0.19 minutes
+2025-12-21 15:30:32,762 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:30:32,763 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:30:32,771 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x07/y12
+2025-12-21 15:30:32,771 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:30:32,802 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:30:32,802 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:30:32,808 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:30:32,808 - INFO - dem_indexing.py:100 - Processing tile x07y12
+2025-12-21 15:30:36,885 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:30:36,885 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:30:41,248 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x07/y12/COPDEM30_x07y12_elevation.tif
+2025-12-21 15:30:45,254 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x07/y12/COPDEM30_x07y12_aspect.tif
+2025-12-21 15:30:45,254 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:30:45,263 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:30:45,280 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:30:45,292 - INFO - dem_indexing.py:164 - Index DEM of x07y12 into datacube
+2025-12-21 15:30:45,299 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:30:45,299 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x07y12 | In 0.21 minutes
+2025-12-21 15:30:45,299 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:30:45,301 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:30:45,307 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x08/y12
+2025-12-21 15:30:45,307 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:30:45,339 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:30:45,339 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:30:45,346 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:30:45,346 - INFO - dem_indexing.py:100 - Processing tile x08y12
+2025-12-21 15:30:49,504 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:30:49,505 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:30:53,468 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x08/y12/COPDEM30_x08y12_elevation.tif
+2025-12-21 15:30:57,661 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x08/y12/COPDEM30_x08y12_aspect.tif
+2025-12-21 15:30:57,661 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:30:57,672 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:30:57,690 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:30:57,704 - INFO - dem_indexing.py:164 - Index DEM of x08y12 into datacube
+2025-12-21 15:30:57,712 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:30:57,712 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x08y12 | In 0.21 minutes
+2025-12-21 15:30:57,712 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:30:57,714 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:30:57,724 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y12
+2025-12-21 15:30:57,724 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:30:57,755 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:30:57,755 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:30:57,760 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:30:57,760 - INFO - dem_indexing.py:100 - Processing tile x09y12
+2025-12-21 15:31:02,344 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:31:02,344 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:31:07,369 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y12/COPDEM30_x09y12_elevation.tif
+2025-12-21 15:31:11,723 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y12/COPDEM30_x09y12_aspect.tif
+2025-12-21 15:31:11,723 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:31:11,734 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:31:11,750 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:31:11,763 - INFO - dem_indexing.py:164 - Index DEM of x09y12 into datacube
+2025-12-21 15:31:11,769 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:31:11,770 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x09y12 | In 0.23 minutes
+2025-12-21 15:31:11,770 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:31:11,771 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:31:11,778 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y12
+2025-12-21 15:31:11,778 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:31:11,819 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:31:11,819 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:31:11,824 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:31:11,824 - INFO - dem_indexing.py:100 - Processing tile x11y12
+2025-12-21 15:31:16,087 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:31:16,087 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:31:19,914 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y12/COPDEM30_x11y12_elevation.tif
+2025-12-21 15:31:23,531 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y12/COPDEM30_x11y12_aspect.tif
+2025-12-21 15:31:23,531 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:31:23,540 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:31:23,557 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:31:23,568 - INFO - dem_indexing.py:164 - Index DEM of x11y12 into datacube
+2025-12-21 15:31:23,574 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:31:23,574 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x11y12 | In 0.2 minutes
+2025-12-21 15:31:23,574 - INFO - dem_indexing.py:169 - 
+2025-12-21 15:31:23,575 - INFO - dem_indexing.py:73 - Create directories and naming conversions
+2025-12-21 15:31:23,582 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x12/y12
+2025-12-21 15:31:23,582 - INFO - dem_indexing.py:89 - Connecting to Data Cube
+2025-12-21 15:31:23,614 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
+2025-12-21 15:31:23,614 - INFO - dem_indexing.py:93 - Sanity check that product exist
+2025-12-21 15:31:23,618 - INFO - dem_indexing.py:95 - Sanity check: PASS
+2025-12-21 15:31:23,618 - INFO - dem_indexing.py:100 - Processing tile x12y12
+2025-12-21 15:31:27,665 - INFO - dem_indexing.py:103 - Assign time range and tile ID in metadata
+2025-12-21 15:31:27,666 - INFO - dem_indexing.py:109 - Writing GTiff (COG) to disk
+2025-12-21 15:31:31,153 - INFO - dem_indexing.py:125 - Write ELEVATION -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x12/y12/COPDEM30_x12y12_elevation.tif
+2025-12-21 15:31:34,426 - INFO - dem_indexing.py:125 - Write ASPECT -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x12/y12/COPDEM30_x12y12_aspect.tif
+2025-12-21 15:31:34,426 - INFO - dem_indexing.py:127 - Prepare metadata YAML document
+2025-12-21 15:31:34,436 - INFO - dem_indexing.py:146 - Write metadata YAML document to disk
+2025-12-21 15:31:34,451 - INFO - dem_indexing.py:151 - Create datacube.model.Dataset from eo3 metadata
+2025-12-21 15:31:34,462 - INFO - dem_indexing.py:164 - Index DEM of x12y12 into datacube
+2025-12-21 15:31:34,470 - INFO - dem_indexing.py:167 - 
+2025-12-21 15:31:34,470 - INFO - dem_indexing.py:168 - ✔✔✔ COMPLETED: Tile x12y12 | In 0.18 minutes
+2025-12-21 15:31:34,470 - INFO - dem_indexing.py:169 - 
