@@ -97,6 +97,12 @@ if __name__ == "__main__":
             ["docker", "exec", "drought-drought_ows-1", "bash", "-lc", "datacube-ows-update"],
             check=False
         ).returncode
+        
+        # 3) Restart OWS
+        rc_restart = subprocess.run(
+            ["docker", "restart", "drought-drought_ows-1"],
+            check=False
+        ).returncode
 
         if rc_main != 0:
             log.error(f"datacube-ows-update failed (rc={rc_main})")
