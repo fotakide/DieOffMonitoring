@@ -7,6 +7,14 @@ The extent of *Abies Cephalonica* species within the Natura 2000 network is prov
 
 The methodology is based on lessons learned from our work with [Copernicus Emergency Management Service (EMS)](https://emergency.copernicus.eu/), in activation [EMSN217 - Fire risk assessment in East Sardinia, Italy](https://riskandrecovery.emergency.copernicus.eu/EMSN217/).
 
+## Results
+What we found
+
+## Notebooks of analysis results
+| Notebook | Description |
+|----------|-------------|
+| NB1  | TBD |
+
 ## EODC Development
 Based on [Open Data Cube](https://www.opendatacube.org/). For the EODC, the following steps have been completed:
 1. Created a [database](https://opendatacube.readthedocs.io/en/latest/installation/database/setup.html) and [credentials](https://opendatacube.readthedocs.io/en/latest/installation/database/passing-configuration.html)
@@ -41,12 +49,12 @@ The composite pipeline automates the creation of 20-m monthly median mosaics of 
 Based on expert and in-situ knowledge, as well as following visual inspection of imagery, the baseline period was defined from **2020-Q1 to 2023-Q1**. The monitoring period was defined from **2023-Q2 onwards**.
 
 ## Time series z-normalization
-
+How it was normalized
 
 ## Reference data and Sampling strategy
+Sampling Strategy
 
 ## Anciliary Data
-
 ### Copernicus DEM (30m)
 Water stress has been observed to deviate based on sun exposure. Therefore the [Copernicus Global DEM of 30m](https://doi.org/10.5270/ESA-c5d3d65) was used to extract the aspect of the terrain. The Copernicus DEM is a Digital Surface Model (DSM) which represents the top-reflective surface of the Earth including buildings, infrastructure and vegetation. Data were acquired by the TanDEM-X mission. The `xarray-spatial` package was used to compute the [aspect](https://xarray-spatial.readthedocs.io/en/latest/reference/_autosummary/xrspatial.aspect.aspect.html#xrspatial-aspect-aspect).
 **© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved**
@@ -54,9 +62,8 @@ Water stress has been observed to deviate based on sun exposure. Therefore the [
 ### Tree Canopy Density
 To minimize the inclusion of pixels that are not cover by vegetation, or they are sparsly vegetated, we emply the [Tree Cover Density 2023 (raster 10 m, 100 m), Europe, yearly](https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/tree-cover-density-2023-raster-10-m-100-m-europe-yearly) dataset. The dataset provides at pan-European level in the spatial resolution of 10 m and 100 m the level of tree cover density in a range from 0% to 100% for the 2023 reference year. We use the [10m layer](https://doi.org/10.2909/e677441e-fb94-431c-b4f9-304f10e4dfd8) and apply a 30% density cover threshold to acquire the vegetated pixels. The dataset is provided by the vendor in EPSG:3035 - ETRS89-extended / LAEA Europe projection.
 
-
 ## Classification
-
+Classification method
 
 ## OWS
 To serve data indeced in the EODC as visualizations, datacube-ows provides the WMS web service endpoint to (in our case) a TerriaJS web map client, by [configuring](https://datacube-ows.readthedocs.io/en/latest/cfg_wms.html) the OWS
@@ -65,7 +72,7 @@ To serve data indeced in the EODC as visualizations, datacube-ows provides the W
 - Reading: The images are loaded from NAS by [patching the URL](https://datacube-ows.readthedocs.io/en/latest/cfg_layers.html#url-patching-patch-url-function) to the mounted volume inside the Docker container.
 - Vizualization: The [WMS](http://localhost:9000/?service=WMS&request=GetCapabilities) of the data indexed is provided to a [TerriaJS](https://terria.io/) client, and are available via a NGROK app (https://emt-datacube-viewer.ngrok.app/).
 
-*Table 1.* Served dataset with ODC-OWS in TerriaMap.
+*Served dataset with ODC-OWS in TerriaMap.*
 
 | Product Layer | Description |
 |--------|-------|
