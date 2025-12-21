@@ -46,10 +46,13 @@ Based on expert and in-situ knowledge, as well as following visual inspection of
 ## Reference data and Sampling strategy
 
 ## Anciliary Data
-### Tree Canopy Density
-To minimize the inclusion of pixels that are not cover by vegetation, or they are sparsly vegetated, we emply the [Tree Cover Density 2023 (raster 10 m, 100 m), Europe, yearly](https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/tree-cover-density-2023-raster-10-m-100-m-europe-yearly) dataset. The dataset provides at pan-European level in the spatial resolution of 10 m and 100 m the level of tree cover density in a range from 0% to100% for the 2023 reference year. We use the [10m layer](https://doi.org/10.2909/e677441e-fb94-431c-b4f9-304f10e4dfd8) and apply a 30% density cover threshold to acquire the vegetated pixels. The dataset is provided by the vendor in EPSG:3035 - ETRS89-extended / LAEA Europe projection.
 
 ### Copernicus DEM (30m)
+Water stress has been observed to deviate based on sun exposure. Therefore the [Copernicus Global DEM of 30m](https://doi.org/10.5270/ESA-c5d3d65) was used to extract the aspect of the terrain. The Copernicus DEM is a Digital Surface Model (DSM) which represents the top-reflective surface of the Earth including buildings, infrastructure and vegetation. Data were acquired by the TanDEM-X mission. The `xarray-spatial` package was used to compute the [aspect](https://xarray-spatial.readthedocs.io/en/latest/reference/_autosummary/xrspatial.aspect.aspect.html#xrspatial-aspect-aspect).
+**© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved**
+
+### Tree Canopy Density
+To minimize the inclusion of pixels that are not cover by vegetation, or they are sparsly vegetated, we emply the [Tree Cover Density 2023 (raster 10 m, 100 m), Europe, yearly](https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/tree-cover-density-2023-raster-10-m-100-m-europe-yearly) dataset. The dataset provides at pan-European level in the spatial resolution of 10 m and 100 m the level of tree cover density in a range from 0% to 100% for the 2023 reference year. We use the [10m layer](https://doi.org/10.2909/e677441e-fb94-431c-b4f9-304f10e4dfd8) and apply a 30% density cover threshold to acquire the vegetated pixels. The dataset is provided by the vendor in EPSG:3035 - ETRS89-extended / LAEA Europe projection.
 
 
 ## Classification
@@ -68,7 +71,8 @@ To serve data indeced in the EODC as visualizations, datacube-ows provides the W
 |--------|-------|
 | Sentinel-2 L2A Composites  | The median monthly composites for all bands and vegetation indices |
 | Normalized Sentinel-2 L2A Time series | The S2L2A median monthly composites normalized according to the mean and dtandard deviation from baseline 2020-Q1 - 2023-Q1  |
-| Tree Canopy Density | The HRL layer of Tree Cover Density 2023 (raster 10 m): https://doi.org/10.2909/e677441e-fb94-431c-b4f9-304f10e4dfd8 |
+| Tree Canopy Density | The HRL layer of Tree Cover Density 2023 (%, raster 10 m): https://doi.org/10.2909/e677441e-fb94-431c-b4f9-304f10e4dfd8 |
+| GLO-30 | The elevation and aspect layers of GLO-30 resampled at 20 metres. https://doi.org/10.5270/ESA-c5d3d65 |
 
 
 
