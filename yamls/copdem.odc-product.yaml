@@ -1,0 +1,34 @@
+---
+name: copdem
+license: CC-BY-4.0
+metadata_type: eo3
+description: Copernicus DEM
+
+metadata:
+  product:
+    name: copdem
+  properties:
+    odc:file_format: GeoTIFF
+    odc:product_family: ard
+    dea:product_maturity: stable
+
+load:
+  crs: EPSG:3035
+  resolution:
+    x: 20
+    y: -20
+  align:
+    x: 0
+    y: 0
+
+measurements:
+  - name: "elevation"
+    aliases: [z]
+    units: "1"
+    dtype: float32
+    nodata: nan
+  - name: "aspect"
+    aliases: [Aspect]
+    units: "1"
+    dtype: float32
+    nodata: nan

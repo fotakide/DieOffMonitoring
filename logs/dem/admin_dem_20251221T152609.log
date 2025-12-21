@@ -1,0 +1,92 @@
+2025-12-21 15:26:09,468 - INFO - run_dem_ingestion.py:59 - [>] Ingesting DEM covering total bounds of 23 tiles
+2025-12-21 15:26:09,468 - INFO - dem_ingestion.py:63 - #######################################################################
+2025-12-21 15:26:09,468 - INFO - dem_ingestion.py:65 - Processing started
+2025-12-21 15:26:09,468 - INFO - dem_ingestion.py:67 - Initializing Dask cluster
+2025-12-21 15:26:15,284 - INFO - dem_ingestion.py:78 - Dask dashboard is available at: http://127.0.0.1:8787/status
+2025-12-21 15:26:15,284 - INFO - dem_ingestion.py:81 - Extracting BoungBox and buffering it by 0.01 degrees
+2025-12-21 15:26:15,285 - INFO - dem_ingestion.py:90 - Constructing the GeoBox
+2025-12-21 15:26:15,316 - INFO - dem_ingestion.py:96 - Connecting to MPC
+2025-12-21 15:26:15,687 - INFO - dem_ingestion.py:102 - Searching for COP-DEM-GLO-30meter in MPC
+2025-12-21 15:26:16,364 - INFO - dem_ingestion.py:108 - Loading with odc.stac ...
+2025-12-21 15:26:52,235 - INFO - dem_ingestion.py:116 - Loading with odc.stac ... Completed
+2025-12-21 15:26:52,235 - INFO - dem_ingestion.py:118 - Renaming elevation variable
+2025-12-21 15:26:52,235 - INFO - dem_ingestion.py:121 - Computing the aspect ...
+2025-12-21 15:26:58,094 - INFO - dem_ingestion.py:124 - Computing the aspect ... Completed
+2025-12-21 15:26:58,106 - INFO - dem_ingestion.py:126 - Configure metadata of each variable
+2025-12-21 15:26:58,654 - INFO - dem_ingestion.py:134 - 
+2025-12-21 15:26:58,654 - INFO - dem_ingestion.py:135 - ✔✔✔ COMPLETED loading COP-DEM-GLO-30 | In 0.82 minutes
+2025-12-21 15:26:58,654 - INFO - dem_ingestion.py:136 - 
+2025-12-21 15:26:58,654 - INFO - dem_ingestion.py:147 - Closing Dask client
+2025-12-21 15:26:58,656 - INFO - dem_ingestion.py:151 - Closing Dask cluster
+2025-12-21 15:26:58,656 - INFO - dem_ingestion.py:152 - #######################################################################
+2025-12-21 15:26:59,418 - INFO - run_dem_ingestion.py:62 - DEM loaded successfully
+2025-12-21 15:26:59,419 - INFO - run_dem_ingestion.py:68 - Start the iteration of all tiles intersecting
+2025-12-21 15:26:59,419 - INFO - run_dem_ingestion.py:74 - [>] Launching: x09_y07 [1/23]
+2025-12-21 15:27:11,632 - INFO - _datasets.py:191 - Indexing 1c359dbc-5a12-4ac3-bf7b-ced4142e71dd
+2025-12-21 15:27:11,644 - INFO - run_dem_ingestion.py:84 - ✔ Processed x09_y07 | [1 / 23] (0.0%)
+2025-12-21 15:27:11,645 - INFO - run_dem_ingestion.py:74 - [>] Launching: x10_y07 [2/23]
+2025-12-21 15:27:22,888 - INFO - _datasets.py:191 - Indexing 96ab9765-f084-48b3-8631-3f3faa1eabc3
+2025-12-21 15:27:22,894 - INFO - run_dem_ingestion.py:84 - ✔ Processed x10_y07 | [2 / 23] (4.35%)
+2025-12-21 15:27:22,895 - INFO - run_dem_ingestion.py:74 - [>] Launching: x09_y08 [3/23]
+2025-12-21 15:27:34,687 - INFO - _datasets.py:191 - Indexing 1692d3ef-20e3-4fb8-adf2-a456742cda66
+2025-12-21 15:27:34,696 - INFO - run_dem_ingestion.py:84 - ✔ Processed x09_y08 | [3 / 23] (8.7%)
+2025-12-21 15:27:34,697 - INFO - run_dem_ingestion.py:74 - [>] Launching: x10_y08 [4/23]
+2025-12-21 15:27:46,703 - INFO - _datasets.py:191 - Indexing fe6b206b-0eaa-4cf5-8a16-2255d89083df
+2025-12-21 15:27:46,711 - INFO - run_dem_ingestion.py:84 - ✔ Processed x10_y08 | [4 / 23] (13.04%)
+2025-12-21 15:27:46,711 - INFO - run_dem_ingestion.py:74 - [>] Launching: x11_y08 [5/23]
+2025-12-21 15:27:57,559 - INFO - _datasets.py:191 - Indexing d2b5575a-d4eb-40b5-83dc-d25fd96084e4
+2025-12-21 15:27:57,569 - INFO - run_dem_ingestion.py:84 - ✔ Processed x11_y08 | [5 / 23] (17.39%)
+2025-12-21 15:27:57,569 - INFO - run_dem_ingestion.py:74 - [>] Launching: x09_y09 [6/23]
+2025-12-21 15:28:09,650 - INFO - _datasets.py:191 - Indexing 50278f28-97d3-47b6-bdde-59829c977aec
+2025-12-21 15:28:09,657 - INFO - run_dem_ingestion.py:84 - ✔ Processed x09_y09 | [6 / 23] (21.74%)
+2025-12-21 15:28:09,658 - INFO - run_dem_ingestion.py:74 - [>] Launching: x10_y09 [7/23]
+2025-12-21 15:28:21,252 - INFO - _datasets.py:191 - Indexing fd2923f1-199b-4d98-b8ce-d62ee45e06da
+2025-12-21 15:28:21,258 - INFO - run_dem_ingestion.py:84 - ✔ Processed x10_y09 | [7 / 23] (26.09%)
+2025-12-21 15:28:21,259 - INFO - run_dem_ingestion.py:74 - [>] Launching: x06_y10 [8/23]
+2025-12-21 15:28:32,560 - INFO - _datasets.py:191 - Indexing 696e5c47-0a16-43cf-8248-feabeb851b5c
+2025-12-21 15:28:32,569 - INFO - run_dem_ingestion.py:84 - ✔ Processed x06_y10 | [8 / 23] (30.43%)
+2025-12-21 15:28:32,571 - INFO - run_dem_ingestion.py:74 - [>] Launching: x08_y10 [9/23]
+2025-12-21 15:28:44,141 - INFO - _datasets.py:191 - Indexing 8bc51e95-6920-42ce-aced-ce68badcdfd1
+2025-12-21 15:28:44,148 - INFO - run_dem_ingestion.py:84 - ✔ Processed x08_y10 | [9 / 23] (34.78%)
+2025-12-21 15:28:44,149 - INFO - run_dem_ingestion.py:74 - [>] Launching: x09_y10 [10/23]
+2025-12-21 15:28:56,053 - INFO - _datasets.py:191 - Indexing 1d4926a7-62b1-453f-9347-91db6d4ecd75
+2025-12-21 15:28:56,062 - INFO - run_dem_ingestion.py:84 - ✔ Processed x09_y10 | [10 / 23] (39.13%)
+2025-12-21 15:28:56,063 - INFO - run_dem_ingestion.py:74 - [>] Launching: x10_y10 [11/23]
+2025-12-21 15:29:07,194 - INFO - _datasets.py:191 - Indexing a09c3e88-33f0-4924-8a49-4988360dabcb
+2025-12-21 15:29:07,201 - INFO - run_dem_ingestion.py:84 - ✔ Processed x10_y10 | [11 / 23] (43.48%)
+2025-12-21 15:29:07,201 - INFO - run_dem_ingestion.py:74 - [>] Launching: x11_y10 [12/23]
+2025-12-21 15:29:18,391 - INFO - _datasets.py:191 - Indexing 18110ccc-4fcd-432a-9cab-621183d80b9e
+2025-12-21 15:29:18,397 - INFO - run_dem_ingestion.py:84 - ✔ Processed x11_y10 | [12 / 23] (47.83%)
+2025-12-21 15:29:18,398 - INFO - run_dem_ingestion.py:74 - [>] Launching: x07_y11 [13/23]
+2025-12-21 15:29:30,922 - INFO - _datasets.py:191 - Indexing f9b82b79-caca-4977-af01-fac61e8d9bef
+2025-12-21 15:29:30,930 - INFO - run_dem_ingestion.py:84 - ✔ Processed x07_y11 | [13 / 23] (52.17%)
+2025-12-21 15:29:30,930 - INFO - run_dem_ingestion.py:74 - [>] Launching: x08_y11 [14/23]
+2025-12-21 15:29:43,837 - INFO - _datasets.py:191 - Indexing 4958dd19-53c9-4702-a38d-82ab55fbd45c
+2025-12-21 15:29:43,845 - INFO - run_dem_ingestion.py:84 - ✔ Processed x08_y11 | [14 / 23] (56.52%)
+2025-12-21 15:29:43,846 - INFO - run_dem_ingestion.py:74 - [>] Launching: x09_y11 [15/23]
+2025-12-21 15:29:56,567 - INFO - _datasets.py:191 - Indexing 77dd63a7-5a84-45a8-901b-ed4df7435a42
+2025-12-21 15:29:56,576 - INFO - run_dem_ingestion.py:84 - ✔ Processed x09_y11 | [15 / 23] (60.87%)
+2025-12-21 15:29:56,577 - INFO - run_dem_ingestion.py:74 - [>] Launching: x10_y11 [16/23]
+2025-12-21 15:30:09,226 - INFO - _datasets.py:191 - Indexing 4e22be3d-307f-4a13-83d0-83d4d0d0e406
+2025-12-21 15:30:09,235 - INFO - run_dem_ingestion.py:84 - ✔ Processed x10_y11 | [16 / 23] (65.22%)
+2025-12-21 15:30:09,236 - INFO - run_dem_ingestion.py:74 - [>] Launching: x11_y11 [17/23]
+2025-12-21 15:30:21,122 - INFO - _datasets.py:191 - Indexing fdceee29-547e-458a-8319-783d8f24619a
+2025-12-21 15:30:21,133 - INFO - run_dem_ingestion.py:84 - ✔ Processed x11_y11 | [17 / 23] (69.57%)
+2025-12-21 15:30:21,134 - INFO - run_dem_ingestion.py:74 - [>] Launching: x12_y11 [18/23]
+2025-12-21 15:30:32,755 - INFO - _datasets.py:191 - Indexing 1f43d367-d639-45df-9dd5-e7debb08a6bc
+2025-12-21 15:30:32,762 - INFO - run_dem_ingestion.py:84 - ✔ Processed x12_y11 | [18 / 23] (73.91%)
+2025-12-21 15:30:32,763 - INFO - run_dem_ingestion.py:74 - [>] Launching: x07_y12 [19/23]
+2025-12-21 15:30:45,292 - INFO - _datasets.py:191 - Indexing 16e6d075-e4ad-4861-bb39-a3f55e7e0c38
+2025-12-21 15:30:45,300 - INFO - run_dem_ingestion.py:84 - ✔ Processed x07_y12 | [19 / 23] (78.26%)
+2025-12-21 15:30:45,300 - INFO - run_dem_ingestion.py:74 - [>] Launching: x08_y12 [20/23]
+2025-12-21 15:30:57,704 - INFO - _datasets.py:191 - Indexing 37198ee3-54a1-4f6f-a231-db6d31ee130a
+2025-12-21 15:30:57,712 - INFO - run_dem_ingestion.py:84 - ✔ Processed x08_y12 | [20 / 23] (82.61%)
+2025-12-21 15:30:57,713 - INFO - run_dem_ingestion.py:74 - [>] Launching: x09_y12 [21/23]
+2025-12-21 15:31:11,764 - INFO - _datasets.py:191 - Indexing 055601ea-f291-4c2b-8f07-b87230728f2c
+2025-12-21 15:31:11,770 - INFO - run_dem_ingestion.py:84 - ✔ Processed x09_y12 | [21 / 23] (86.96%)
+2025-12-21 15:31:11,771 - INFO - run_dem_ingestion.py:74 - [>] Launching: x11_y12 [22/23]
+2025-12-21 15:31:23,569 - INFO - _datasets.py:191 - Indexing 46e998b4-959f-4d60-b75b-39fe8a70281b
+2025-12-21 15:31:23,574 - INFO - run_dem_ingestion.py:84 - ✔ Processed x11_y12 | [22 / 23] (91.3%)
+2025-12-21 15:31:23,575 - INFO - run_dem_ingestion.py:74 - [>] Launching: x12_y12 [23/23]
+2025-12-21 15:31:34,463 - INFO - _datasets.py:191 - Indexing 4c8a511b-16a8-4938-8908-c96fc00f2488
+2025-12-21 15:31:34,470 - INFO - run_dem_ingestion.py:84 - ✔ Processed x12_y12 | [23 / 23] (95.65%)

@@ -1,0 +1,29 @@
+---
+name: tdc2023
+license: CC-BY-4.0
+metadata_type: eo3
+description: Tree Density Cover 2023
+
+metadata:
+  product:
+    name: tdc2023
+  properties:
+    odc:file_format: GeoTIFF
+    odc:product_family: ard
+    dea:product_maturity: stable
+
+load:
+  crs: EPSG:3035
+  resolution:
+    x: 20
+    y: -20
+  align:
+    x: 0
+    y: 0
+
+measurements:
+  - name: "NDVI_mean"
+    aliases: [ndvi_m]
+    units: "1"
+    dtype: int16
+    nodata: -32768

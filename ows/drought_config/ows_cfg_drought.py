@@ -32,7 +32,28 @@ style_rgb = {
     "legend": {
         "show_legend": True,
     }
+}
 
+style_false = {
+    "name": "simple_false_rgb",
+    "title": "False colour",
+    "abstract": "False-colour image, using the NIR, red, and green bands",
+    # The component keys MUST be "red", "green" and "blue" (and optionally "alpha")
+    "components": {
+        "red": {
+            "B8A": 1.0
+        },
+        "green": {
+            "B04": 1.0
+        },
+        "blue": {
+            "B03": 1.0
+        }
+    },
+    "scale_range": [200.0, 3000.0],
+    "legend": {
+        "show_legend": True,
+    }
 }
 
 style_ndvi = {
@@ -103,6 +124,154 @@ style_ndvi = {
     # "legend": {
     #     "show_legend": True,
     # }
+}
+
+bands_dem = {
+    "elevation": ["z"],
+    "aspect": ["a"],
+}
+
+style_elevation = {
+    "name": "elevation",
+    "title": "Elevation",
+    "abstract": "DEM elevation (m) displayed as a continuous colour ramp.",
+    # Use the single band directly as the index value
+    "index_expression": "elevation",
+    "needed_bands": ["elevation"],
+
+    "range": [1.0, 3000.0],
+
+    "mpl_ramp": "terrain",
+
+    "legend": {
+        "title": "Elevation (m)",
+        "begin": "1",
+        "end": "3000",
+        "ticks": ["1", "250", "500", "1000", "1500", "2000", "2500", "3000"],
+    },
+}
+
+EPS = 1e-6  # prevents interpolation across class boundaries
+
+style_aspect = {
+    "name": "aspect",
+    "title": "Aspect (classes)",
+    "abstract": "Aspect (degrees) grouped into 8 directional classes.",
+    "needed_bands": ["aspect"],
+    "index_expression": "aspect",
+    "range": [0.0, 360.0],
+
+    # Piecewise-constant bins encoded as a flat colour ramp
+    "color_ramp": [
+        # North: [0, 22.5) and [337.5, 360]
+        {"value": 0.0,          "color": "#1f77b4"},
+        {"value": 22.5 - EPS,   "color": "#1f77b4"},
+
+        # Northeast: [22.5, 67.5)
+        {"value": 22.5,         "color": "#17becf"},
+        {"value": 67.5 - EPS,   "color": "#17becf"},
+
+        # East: [67.5, 112.5)
+        {"value": 67.5,         "color": "#2ca02c"},
+        {"value": 112.5 - EPS,  "color": "#2ca02c"},
+
+        # Southeast: [112.5, 157.5)
+        {"value": 112.5,        "color": "#bcbd22"},
+        {"value": 157.5 - EPS,  "color": "#bcbd22"},
+
+        # South: [157.5, 202.5)
+        {"value": 157.5,        "color": "#ff7f0e"},
+        {"value": 202.5 - EPS,  "color": "#ff7f0e"},
+
+        # Southwest: [202.5, 247.5)
+        {"value": 202.5,        "color": "#d62728"},
+        {"value": 247.5 - EPS,  "color": "#d62728"},
+
+        # West: [247.5, 292.5)
+        {"value": 247.5,        "color": "#9467bd"},
+        {"value": 292.5 - EPS,  "color": "#9467bd"},
+
+        # Northwest: [292.5, 337.5)
+        {"value": 292.5,        "color": "#8c564b"},
+        {"value": 337.5 - EPS,  "color": "#8c564b"},
+
+        # North wrap: [337.5, 360]
+        {"value": 337.5,        "color": "#1f77b4"},
+        {"value": 360.0,        "color": "#1f77b4"},
+    ],
+
+    # Legend: OWS will still draw a strip (because it's a ramp),
+    # but we can label ticks at class midpoints.
+    "legend": {
+        "title": "Aspect",
+        "ticks": ["0", "45", "90", "135", "180", "225", "270", "315"],
+        "tick_labels": {
+            "0":   {"label": "N"},
+            "45":  {"label": "NE"},
+            "90":  {"label": "E"},
+            "135": {"label": "SE"},
+            "180": {"label": "S"},
+            "225": {"label": "SW"},
+            "270": {"label": "W"},
+            "315": {"label": "NW"},
+        },
+    },
+}
+
+
+
+style_mangrove = {
+    "name": "mangrove",
+    "title": "Mangrove Cover",
+    "abstract": "",
+    "value_map": {
+        "canopy_cover_class": [
+            {
+                "title": "Woodland",
+                "abstract": "(20% - 50% cover)",
+                # flags that all must match
+                # in order for this style color to apply
+                # "and" and "or" flags cannot be mixed
+                "flags": {
+                    "and": {
+                        "woodland": True
+                    }
+                },
+                "color": "#9FFF4C",
+                # If specified as True (defaults to False)
+                # Any areas which match this flag set
+                # will be masked out completely, similar to using an extent
+                # mask function or pq masking
+                "mask": True
+            },
+            {
+                "title": "Open Forest",
+                "abstract": "(50% - 80% cover)",
+                # flags that any may match
+                # in order for this style color to apply
+                # "and" and "or" flags cannot be mixed
+                "flags": {
+                    "or": {
+                        "open_forest": True
+                    }
+                },
+                "color": "#5ECC00",
+                # Can set an optional alpha value (0.0 - 1.0) for these colors
+                # will default to 1.0 (fully opaque)
+                "alpha": 0.5
+            },
+            {
+                "title": "Closed Forest",
+                "abstract": "(>80% cover)",
+                "flags": {
+                    "closed_forest": True
+                },
+                "color": "#3B7F00"
+            },
+        ]
+    }
+    # NB: You can also do additional masking using the "pq_mask" section as described above for other
+    #     style types.
 }
 
 standard_resource_limits = {
@@ -298,10 +467,37 @@ ows_cfg = {
             },
             "styling": {
                 "styles": [
-                    style_rgb, style_ndvi
+                    style_rgb, style_false, style_ndvi
                     ],
             },
         },
+        {
+            "name": "cop-dem-30",
+            "title": "Copernicus DEM",
+            "abstract": "Elevation and Aspect of Copernicus DEM",
+            "product_name": "copdem",
+            "bands": bands_dem,
+            "resource_limits": standard_resource_limits,
+            "native_crs": "EPSG:3035",
+            "native_resolution": [20.0, -20.0],
+            "flags": None,
+            "dynamic": True,
+            "patch_url_function":  "datacube_ows.ogc_utils.nas_patch",
+                # https://datacube-ows.readthedocs.io/en/latest/cfg_layers.html#url-patching-patch-url-function
+                # https://github.com/digitalearthpacific/pacific-cube-in-a-box/blob/main/ows/ows_config/radar_backscatter/ows_s1_cfg.py#L88
+            "image_processing": {
+                "extent_mask_func": "datacube_ows.ogc_utils.mask_by_val",
+                "extent_mask_args": {
+                    "band": "elevation",
+                    "val": 0
+                },
+            },
+            "styling": {
+                "styles": [
+                    style_elevation, style_aspect
+                    ],
+            },
+        }
         # {
         #     "name": "tcd2023",
         #     "title": "Tree Canopy Density 2023",

@@ -195,7 +195,7 @@ def baseline_metrics(baseline_start: str, baseline_end: str, tile_id: str):
         logging.info(f'')
         logging.info(f'✔✔✔ COMPLETED: Tile {tile_id} | In {round((time.time() - start_time)/60, 2)} minutes')
         logging.info(f'')
-            
+
     except Exception as VI_error:
         logging.error(f'✖✖✖ FAILED for : Tile {tile_id} | with Exception: {VI_error}') # ✗
         logging.info('#######################################################################')
@@ -209,6 +209,7 @@ def baseline_metrics(baseline_start: str, baseline_end: str, tile_id: str):
                 logging.info('Closing Dask cluster')
                 logging.info('#######################################################################')
                 cluster.close()
+
 
 if __name__ == "__main__":
     import argparse, json, sys, os, datetime, pytz

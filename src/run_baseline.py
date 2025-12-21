@@ -36,8 +36,6 @@ if __name__ == "__main__":
                         )
     
     # 1) generate/refresh the .geojson tasks
-    geojson_path = "../geojsons/baseline"
-    
     tile_geojson_filepath='../anciliary/grid_20_v2.geojson'
     
     # 2) collect tasks
