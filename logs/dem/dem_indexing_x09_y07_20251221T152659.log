@@ -1,7 +1,7 @@
 2025-12-21 15:26:59,420 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:26:59,437 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y07
 2025-12-21 15:26:59,437 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:27:00,015 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:27:00,015 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:27:00,015 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:27:00,023 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:27:00,023 - INFO - dem_indexing.py:100 - Processing tile x09y07
@@ -19,7 +19,7 @@
 2025-12-21 15:27:11,645 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:27:11,656 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y07
 2025-12-21 15:27:11,656 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:27:11,690 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:27:11,690 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:27:11,690 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:27:11,696 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:27:11,696 - INFO - dem_indexing.py:100 - Processing tile x10y07
@@ -37,7 +37,7 @@
 2025-12-21 15:27:22,895 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:27:22,901 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y08
 2025-12-21 15:27:22,901 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:27:22,940 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:27:22,940 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:27:22,940 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:27:22,945 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:27:22,945 - INFO - dem_indexing.py:100 - Processing tile x09y08
@@ -55,7 +55,7 @@
 2025-12-21 15:27:34,698 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:27:34,703 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y08
 2025-12-21 15:27:34,703 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:27:34,739 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:27:34,739 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:27:34,739 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:27:34,743 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:27:34,744 - INFO - dem_indexing.py:100 - Processing tile x10y08
@@ -73,7 +73,7 @@
 2025-12-21 15:27:46,711 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:27:46,723 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y08
 2025-12-21 15:27:46,723 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:27:46,755 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:27:46,755 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:27:46,755 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:27:46,762 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:27:46,762 - INFO - dem_indexing.py:100 - Processing tile x11y08
@@ -91,7 +91,7 @@
 2025-12-21 15:27:57,570 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:27:57,577 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y09
 2025-12-21 15:27:57,577 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:27:57,613 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:27:57,613 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:27:57,613 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:27:57,617 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:27:57,618 - INFO - dem_indexing.py:100 - Processing tile x09y09
@@ -109,7 +109,7 @@
 2025-12-21 15:28:09,659 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:28:09,665 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y09
 2025-12-21 15:28:09,665 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:28:09,700 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:28:09,700 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:28:09,700 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:28:09,704 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:28:09,704 - INFO - dem_indexing.py:100 - Processing tile x10y09
@@ -127,7 +127,7 @@
 2025-12-21 15:28:21,259 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:28:21,272 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x06/y10
 2025-12-21 15:28:21,272 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:28:21,303 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:28:21,303 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:28:21,303 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:28:21,307 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:28:21,307 - INFO - dem_indexing.py:100 - Processing tile x06y10
@@ -145,7 +145,7 @@
 2025-12-21 15:28:32,571 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:28:32,583 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x08/y10
 2025-12-21 15:28:32,583 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:28:32,616 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:28:32,616 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:28:32,616 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:28:32,622 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:28:32,622 - INFO - dem_indexing.py:100 - Processing tile x08y10
@@ -163,7 +163,7 @@
 2025-12-21 15:28:44,149 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:28:44,156 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y10
 2025-12-21 15:28:44,156 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:28:44,186 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:28:44,186 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:28:44,186 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:28:44,192 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:28:44,192 - INFO - dem_indexing.py:100 - Processing tile x09y10
@@ -181,7 +181,7 @@
 2025-12-21 15:28:56,063 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:28:56,069 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y10
 2025-12-21 15:28:56,069 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:28:56,109 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:28:56,109 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:28:56,109 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:28:56,113 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:28:56,113 - INFO - dem_indexing.py:100 - Processing tile x10y10
@@ -199,7 +199,7 @@
 2025-12-21 15:29:07,201 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:29:07,209 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y10
 2025-12-21 15:29:07,209 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:29:07,240 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:29:07,240 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:29:07,240 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:29:07,244 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:29:07,244 - INFO - dem_indexing.py:100 - Processing tile x11y10
@@ -217,7 +217,7 @@
 2025-12-21 15:29:18,398 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:29:18,411 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x07/y11
 2025-12-21 15:29:18,411 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:29:18,444 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:29:18,444 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:29:18,444 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:29:18,449 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:29:18,449 - INFO - dem_indexing.py:100 - Processing tile x07y11
@@ -235,7 +235,7 @@
 2025-12-21 15:29:30,930 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:29:30,938 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x08/y11
 2025-12-21 15:29:30,938 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:29:30,971 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:29:30,971 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:29:30,971 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:29:30,977 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:29:30,977 - INFO - dem_indexing.py:100 - Processing tile x08y11
@@ -253,7 +253,7 @@
 2025-12-21 15:29:43,846 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:29:43,852 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y11
 2025-12-21 15:29:43,852 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:29:43,885 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:29:43,885 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:29:43,885 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:29:43,890 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:29:43,890 - INFO - dem_indexing.py:100 - Processing tile x09y11
@@ -271,7 +271,7 @@
 2025-12-21 15:29:56,577 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:29:56,584 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x10/y11
 2025-12-21 15:29:56,584 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:29:56,621 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:29:56,621 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:29:56,621 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:29:56,628 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:29:56,628 - INFO - dem_indexing.py:100 - Processing tile x10y11
@@ -289,7 +289,7 @@
 2025-12-21 15:30:09,236 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:30:09,243 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y11
 2025-12-21 15:30:09,243 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:30:09,273 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:30:09,273 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:30:09,274 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:30:09,278 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:30:09,278 - INFO - dem_indexing.py:100 - Processing tile x11y11
@@ -307,7 +307,7 @@
 2025-12-21 15:30:21,134 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:30:21,145 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x12/y11
 2025-12-21 15:30:21,145 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:30:21,182 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:30:21,182 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:30:21,182 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:30:21,186 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:30:21,187 - INFO - dem_indexing.py:100 - Processing tile x12y11
@@ -325,7 +325,7 @@
 2025-12-21 15:30:32,763 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:30:32,771 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x07/y12
 2025-12-21 15:30:32,771 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:30:32,802 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:30:32,802 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:30:32,802 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:30:32,808 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:30:32,808 - INFO - dem_indexing.py:100 - Processing tile x07y12
@@ -343,7 +343,7 @@
 2025-12-21 15:30:45,301 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:30:45,307 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x08/y12
 2025-12-21 15:30:45,307 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:30:45,339 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:30:45,339 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:30:45,339 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:30:45,346 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:30:45,346 - INFO - dem_indexing.py:100 - Processing tile x08y12
@@ -361,7 +361,7 @@
 2025-12-21 15:30:57,714 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:30:57,724 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x09/y12
 2025-12-21 15:30:57,724 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:30:57,755 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:30:57,755 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:30:57,755 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:30:57,760 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:30:57,760 - INFO - dem_indexing.py:100 - Processing tile x09y12
@@ -379,7 +379,7 @@
 2025-12-21 15:31:11,771 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:31:11,778 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x11/y12
 2025-12-21 15:31:11,778 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:31:11,819 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:31:11,819 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:31:11,819 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:31:11,824 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:31:11,824 - INFO - dem_indexing.py:100 - Processing tile x11y12
@@ -397,7 +397,7 @@
 2025-12-21 15:31:23,575 - INFO - dem_indexing.py:73 - Create directories and naming conversions
 2025-12-21 15:31:23,582 - INFO - dem_indexing.py:87 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/copdem/x12/y12
 2025-12-21 15:31:23,582 - INFO - dem_indexing.py:89 - Connecting to Data Cube
-2025-12-21 15:31:23,614 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odc_phd:***@155.207.39.39:5432/drought
+2025-12-21 15:31:23,614 - INFO - dem_indexing.py:91 - postgresql+psycopg2://odcuser:***@the_ip:port/drought
 2025-12-21 15:31:23,614 - INFO - dem_indexing.py:93 - Sanity check that product exist
 2025-12-21 15:31:23,618 - INFO - dem_indexing.py:95 - Sanity check: PASS
 2025-12-21 15:31:23,618 - INFO - dem_indexing.py:100 - Processing tile x12y12
