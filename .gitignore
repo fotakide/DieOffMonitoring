@@ -31,6 +31,9 @@
 /logs/debug*
 /logs/sanity*
 
+/ngrok/*.txt
+/ngrok/ngrok.yml
+
 !/ows/datacube_ows/ogc_utils.py
 /ows/.env
 /ows/.gitignore

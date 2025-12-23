@@ -1,0 +1,16 @@
+version: 3
+
+agent:
+  authtoken: myauthtokeisverylongandhasmanycharactres
+
+endpoints:
+  - name: terria
+    url:  my-viewer.ngrok.app
+    upstream:
+      protocol: http1
+      url: 3001
+  - name: ows
+    url:  my-ows.ngrok.app
+    upstream:
+      protocol: http1
+      url: 8080
