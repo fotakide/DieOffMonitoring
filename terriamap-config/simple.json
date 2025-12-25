@@ -5,7 +5,6 @@
     "south": 36,
     "west": 21
   },
-  "viewerMode": "2D",
   "catalog": [
     {
       "id": "3chNzj13TB",
@@ -14,12 +13,25 @@
       "url": "https://emt-datacube-ows.ngrok.app/wms"
     }
   ],
+  "viewerMode": "2D",
   "baseMaps": {
+    "defaultBaseMapId": "maptiler-satellite",
     "enabledBaseMaps": [
       "maptiler-satellite",
       "basemap-openstreetmap"
     ],
-    "defaultBaseMapId": "maptiler-satellite",
-    "previewBaseMapId": "basemap-openstreetmap"
+    "items": [
+      {
+        "item": {
+          "id": "basemap-esri-world",
+          "type": "esri-mapServer",
+          "name": "Esri World Imagery",
+          "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "layers": "World Imagery",
+          "opacity": 1.0
+        },
+        "image": "basemap-images/satellite.png"
+      }
+    ]
   }
 }
