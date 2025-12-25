@@ -52,7 +52,7 @@ Based on expert and in-situ knowledge, as well as following visual inspection of
 In the next step, for each month from April 2023 to November 2025 (the disturbance “monitoring” period), the values of NDVI, EVI, and PSRI2 median composite images were normalized using:
 
 $$
-z = \frac{x - \mu}{\sigma} \tag{2}
+z = \frac{x - \mu}{\sigma} \
 $$
 
 Where μ and σ are the mean and standard deviation of the NBR values from 2020-Jan to 2023-Mar and x is the median SI (NDVI, EVI, PSRI2) value from each month (April 2023 onward). The time series of z-values forms the basis for the main analysis.
