@@ -1,0 +1,5 @@
+2025-12-26 01:31:51,536 - INFO - z_normalization.py:42 - #######################################################################
+2025-12-26 01:31:52,225 - INFO - z_normalization.py:56 - Starting Z-Normalization for x09_y09 | 2023-05
+2025-12-26 01:31:52,225 - INFO - z_normalization.py:58 - Create directories and naming conversions
+2025-12-26 01:31:52,238 - INFO - z_normalization.py:69 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/z_normalized/x09/y09/2023/5/01
+2025-12-26 01:31:52,238 - INFO - z_normalization.py:74 - Z-Normalization | NDVI

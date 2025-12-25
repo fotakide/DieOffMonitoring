@@ -42,3 +42,15 @@
 ../geojsons/znorm\compgen_202304_x10_y10.geojson
 ../geojsons/znorm\compgen_202304_x10_y11.geojson
 ../geojsons/znorm\compgen_202304_x11_y08.geojson
+../geojsons/znorm\compgen_202304_x11_y10.geojson
+../geojsons/znorm\compgen_202304_x11_y11.geojson
+../geojsons/znorm\compgen_202304_x11_y12.geojson
+../geojsons/znorm\compgen_202304_x12_y11.geojson
+../geojsons/znorm\compgen_202304_x12_y12.geojson
+../geojsons/znorm\compgen_202305_x06_y10.geojson
+../geojsons/znorm\compgen_202305_x07_y11.geojson
+../geojsons/znorm\compgen_202305_x07_y12.geojson
+../geojsons/znorm\compgen_202305_x08_y10.geojson
+../geojsons/znorm\compgen_202305_x08_y11.geojson
+../geojsons/znorm\compgen_202305_x08_y12.geojson
+../geojsons/znorm\compgen_202305_x09_y08.geojson
