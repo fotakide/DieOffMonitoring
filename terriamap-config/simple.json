@@ -15,8 +15,9 @@
   ],
   "viewerMode": "2D",
   "baseMaps": {
-    "defaultBaseMapId": "maptiler-satellite",
+    "defaultBaseMapId": "basemap-esri-world",
     "enabledBaseMaps": [
+      "basemap-esri-world",
       "maptiler-satellite",
       "basemap-openstreetmap"
     ],
