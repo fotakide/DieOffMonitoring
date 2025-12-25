@@ -49,7 +49,13 @@ The composite pipeline automates the creation of 20-m monthly median mosaics of 
 Based on expert and in-situ knowledge, as well as following visual inspection of imagery, the baseline period was defined from **2020-Q1 to 2023-Q1**. The monitoring period was defined from **2023-Q2 onwards**.
 
 ## Time series z-normalization
-How it was normalized
+In the next step, for each month from April 2023 to November 2025 (the disturbance “monitoring” period), the values of NDVI, EVI, and PSRI2 median composite images were normalized using:
+
+$$
+z = \frac{x - \mu}{\sigma} \tag{2}
+$$
+
+Where μ and σ are the mean and standard deviation of the NBR values from 2020-Jan to 2023-Mar and x is the median SI (NDVI, EVI, PSRI2) value from each month (April 2023 onward). The time series of z-values forms the basis for the main analysis.
 
 ## Reference data and Sampling strategy
 Sampling Strategy
