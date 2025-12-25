@@ -85,7 +85,7 @@ To serve data indeced in the EODC as visualizations, datacube-ows provides the W
 | Product Layer | Description |
 |--------|-------|
 | Sentinel-2 L2A Composites  | The median monthly composites for all bands and vegetation indices |
-| Z-Normalized Sentinel-2 L2A Time series | The S2L2A median monthly composites normalized from 2024-April onwards, based on the mean and standard deviation from baseline 2020-01 to 2023-03  |
+| Z-Normalized Sentinel-2 L2A Time series | The S2L2A median monthly composites normalized from 2023-April onwards, based on the mean and standard deviation from baseline 2020-01 to 2023-03  |
 | Tree Canopy Density | The HRL layer of Tree Cover Density 2023 (%, raster 10 m): https://doi.org/10.2909/e677441e-fb94-431c-b4f9-304f10e4dfd8 |
 | GLO-30 | The elevation and aspect layers of GLO-30 resampled at 20 metres. https://doi.org/10.5270/ESA-c5d3d65 |
 

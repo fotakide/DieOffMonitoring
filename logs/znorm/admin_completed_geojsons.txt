@@ -54,3 +54,5 @@
 ../geojsons/znorm\compgen_202305_x08_y11.geojson
 ../geojsons/znorm\compgen_202305_x08_y12.geojson
 ../geojsons/znorm\compgen_202305_x09_y08.geojson
+../geojsons/znorm\compgen_202305_x09_y09.geojson
+../geojsons/znorm\compgen_202305_x09_y10.geojson
