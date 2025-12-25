@@ -37,7 +37,7 @@ style_rgb = {
 style_false = {
     "name": "simple_false_rgb",
     "title": "False colour",
-    "abstract": "False-colour image, using the NIR, red, and green bands",
+    "abstract": "False-colour image, using the B8A, B4, and B3 bands",
     # The component keys MUST be "red", "green" and "blue" (and optionally "alpha")
     "components": {
         "red": {
@@ -55,6 +55,28 @@ style_false = {
         "show_legend": True,
     }
 }
+
+# style_swir = {
+#     "name": "style_swir",
+#     "title": "SWIR",
+#     "abstract": "False-colour image, using the B12, B8A, and B4 bands",
+#     # The component keys MUST be "red", "green" and "blue" (and optionally "alpha")
+#     "components": {
+#         "red": {
+#             "B12": 1.0
+#         },
+#         "green": {
+#             "B8A": 1.0
+#         },
+#         "blue": {
+#             "B04": 1.0
+#         }
+#     },
+#     "scale_range": [200.0, 3000.0],
+#     "legend": {
+#         "show_legend": True,
+#     }
+# }
 
 style_ndvi = {
     "name": "ndvi",
@@ -266,6 +288,67 @@ style_tcd = {
     },
 }
 
+bands_znorm = {
+    "NDVI_z": ["ndvi_z"],
+    "EVI_z": ["evi_z"],
+    "PSRI2_z": ["psri2_z"]
+}
+
+style_ndvi_znorm = {
+    "name": "style_ndvi_znorm",
+    "title": "Z-normalized NDVI",
+    "abstract": "",
+    "index_function": {
+        "function": "datacube_ows.band_utils.single_band",
+        "mapped_bands": True,
+        "kwargs": {
+            "band": "NDVI_z",
+        }
+    },
+    "needed_bands": ["NDVI_z"],
+    "mpl_ramp": "RdBu",
+    "range": [-3.0, 3.0],
+    "include_in_feature_info": True,
+}
+
+style_evi_znorm = {
+    "name": "style_evi_znorm",
+    "title": "Z-normalized EVI",
+    "abstract": "",
+    "index_function": {
+        "function": "datacube_ows.band_utils.single_band",
+        "mapped_bands": True,
+        "kwargs": {
+            "band": "EVI_z",
+        }
+    },
+    "needed_bands": ["EVI_z"],
+    "mpl_ramp": "RdBu",
+    "range": [-3.0, 3.0],
+    "include_in_feature_info": True,
+}
+
+style_psri2_znorm = {
+    "name": "style_psri2_znorm",
+    "title": "Z-normalized PSRI2",
+    "abstract": "",
+    "index_function": {
+        "function": "datacube_ows.band_utils.single_band",
+        "mapped_bands": True,
+        "kwargs": {
+            "band": "PSRI2_z",
+        }
+    },
+    "needed_bands": ["PSRI2_z"],
+    "mpl_ramp": "RdBu_r",
+    "range": [-30.0, 30.0],
+    "include_in_feature_info": True,
+}
+
+
+#############
+# RESOURCES #
+#############
 standard_resource_limits = {
     "wms": {
         "zoomed_out_fill_colour": [150, 180, 200, 160],
@@ -514,6 +597,33 @@ ows_cfg = {
             "styling": {
                 "styles": [
                     style_tcd
+                    ],
+            },
+        },
+        {
+            "name": "znormalized",
+            "title": "Z-Normalized Spectral Indices",
+            "abstract": "For each month from April 2023 onwards (monitoring period), the values of NDVI, EVI, and PSRI2 median composite images were normalized based on 2020-Jan to 2023-Mar. The time series of z-values forms the basis for the main analysis.",
+            "product_name": "z_normalized",
+            "bands": bands_znorm,
+            "resource_limits": standard_resource_limits,
+            "native_crs": "EPSG:3035",
+            "native_resolution": [20.0, -20.0],
+            "flags": None,
+            "dynamic": True,
+            "patch_url_function":  "datacube_ows.ogc_utils.nas_patch",
+                # https://datacube-ows.readthedocs.io/en/latest/cfg_layers.html#url-patching-patch-url-function
+                # https://github.com/digitalearthpacific/pacific-cube-in-a-box/blob/main/ows/ows_config/radar_backscatter/ows_s1_cfg.py#L88
+            "image_processing": {
+                "extent_mask_func": "datacube_ows.ogc_utils.mask_by_val",
+                "always_fetch_bands": [],
+                "fuse_func": None,
+                "manual_merge": False,
+                "apply_solar_corrections": False,
+            },
+            "styling": {
+                "styles": [
+                    style_ndvi_znorm, style_evi_znorm, style_psri2_znorm
                     ],
             },
         }

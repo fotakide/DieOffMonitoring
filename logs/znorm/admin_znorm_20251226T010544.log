@@ -1,0 +1,56 @@
+2025-12-26 01:05:44,269 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202304_x09_y07.geojson [1/27]
+2025-12-26 01:06:01,591 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202304_x09_y07.geojson | [1 / 27] (3.7%)
+2025-12-26 01:06:01,591 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202305_x09_y07.geojson [2/27]
+2025-12-26 01:06:19,826 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202305_x09_y07.geojson | [2 / 27] (7.41%)
+2025-12-26 01:06:19,827 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202306_x09_y07.geojson [3/27]
+2025-12-26 01:06:38,017 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202306_x09_y07.geojson | [3 / 27] (11.11%)
+2025-12-26 01:06:38,017 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202307_x09_y07.geojson [4/27]
+2025-12-26 01:06:56,170 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202307_x09_y07.geojson | [4 / 27] (14.81%)
+2025-12-26 01:06:56,170 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202308_x09_y07.geojson [5/27]
+2025-12-26 01:07:13,904 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202308_x09_y07.geojson | [5 / 27] (18.52%)
+2025-12-26 01:07:13,904 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202309_x09_y07.geojson [6/27]
+2025-12-26 01:07:31,489 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202309_x09_y07.geojson | [6 / 27] (22.22%)
+2025-12-26 01:07:31,489 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202310_x09_y07.geojson [7/27]
+2025-12-26 01:07:48,549 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202310_x09_y07.geojson | [7 / 27] (25.93%)
+2025-12-26 01:07:48,549 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202311_x09_y07.geojson [8/27]
+2025-12-26 01:08:06,272 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202311_x09_y07.geojson | [8 / 27] (29.63%)
+2025-12-26 01:08:06,273 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202312_x09_y07.geojson [9/27]
+2025-12-26 01:08:23,096 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202312_x09_y07.geojson | [9 / 27] (33.33%)
+2025-12-26 01:08:23,096 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202401_x09_y07.geojson [10/27]
+2025-12-26 01:08:40,351 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202401_x09_y07.geojson | [10 / 27] (37.04%)
+2025-12-26 01:08:40,351 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202402_x09_y07.geojson [11/27]
+2025-12-26 01:08:57,598 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202402_x09_y07.geojson | [11 / 27] (40.74%)
+2025-12-26 01:08:57,598 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202403_x09_y07.geojson [12/27]
+2025-12-26 01:09:15,632 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202403_x09_y07.geojson | [12 / 27] (44.44%)
+2025-12-26 01:09:15,632 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202404_x09_y07.geojson [13/27]
+2025-12-26 01:09:32,790 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202404_x09_y07.geojson | [13 / 27] (48.15%)
+2025-12-26 01:09:32,790 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202405_x09_y07.geojson [14/27]
+2025-12-26 01:09:50,151 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202405_x09_y07.geojson | [14 / 27] (51.85%)
+2025-12-26 01:09:50,151 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202406_x09_y07.geojson [15/27]
+2025-12-26 01:10:07,129 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202406_x09_y07.geojson | [15 / 27] (55.56%)
+2025-12-26 01:10:07,129 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202407_x09_y07.geojson [16/27]
+2025-12-26 01:10:24,324 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202407_x09_y07.geojson | [16 / 27] (59.26%)
+2025-12-26 01:10:24,324 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202408_x09_y07.geojson [17/27]
+2025-12-26 01:10:41,125 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202408_x09_y07.geojson | [17 / 27] (62.96%)
+2025-12-26 01:10:41,125 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202409_x09_y07.geojson [18/27]
+2025-12-26 01:10:57,656 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202409_x09_y07.geojson | [18 / 27] (66.67%)
+2025-12-26 01:10:57,656 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202410_x09_y07.geojson [19/27]
+2025-12-26 01:11:14,673 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202410_x09_y07.geojson | [19 / 27] (70.37%)
+2025-12-26 01:11:14,673 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202411_x09_y07.geojson [20/27]
+2025-12-26 01:11:31,076 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202411_x09_y07.geojson | [20 / 27] (74.07%)
+2025-12-26 01:11:31,076 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202412_x09_y07.geojson [21/27]
+2025-12-26 01:11:47,238 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202412_x09_y07.geojson | [21 / 27] (77.78%)
+2025-12-26 01:11:47,239 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202501_x09_y07.geojson [22/27]
+2025-12-26 01:12:03,678 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202501_x09_y07.geojson | [22 / 27] (81.48%)
+2025-12-26 01:12:03,679 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202502_x09_y07.geojson [23/27]
+2025-12-26 01:12:20,278 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202502_x09_y07.geojson | [23 / 27] (85.19%)
+2025-12-26 01:12:20,278 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202503_x09_y07.geojson [24/27]
+2025-12-26 01:12:36,700 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202503_x09_y07.geojson | [24 / 27] (88.89%)
+2025-12-26 01:12:36,700 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202504_x09_y07.geojson [25/27]
+2025-12-26 01:12:53,463 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202504_x09_y07.geojson | [25 / 27] (92.59%)
+2025-12-26 01:12:53,463 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202505_x09_y07.geojson [26/27]
+2025-12-26 01:13:10,782 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202505_x09_y07.geojson | [26 / 27] (96.3%)
+2025-12-26 01:13:10,782 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202506_x09_y07.geojson [27/27]
+2025-12-26 01:13:28,809 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202506_x09_y07.geojson | [27 / 27] (100.0%)
+2025-12-26 01:13:28,809 - INFO - run_z_normalization.py:87 - Triggering OWS update
+2025-12-26 01:13:36,217 - INFO - run_z_normalization.py:113 - OWS update completed successfully.

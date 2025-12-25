@@ -8,7 +8,9 @@ The extent of *Abies Cephalonica* species within the Natura 2000 network is prov
 The methodology is based on lessons learned from our work with [Copernicus Emergency Management Service (EMS)](https://emergency.copernicus.eu/), in activation [EMSN217 - Fire risk assessment in East Sardinia, Italy](https://riskandrecovery.emergency.copernicus.eu/EMSN217/).
 
 ## Results
-What we found
+Interactive maps are served in [PersLab EODC Map](https://emt-datacube-viewer.ngrok.app/).
+
+What we found -- TBD
 
 ## Notebooks of analysis results
 | Notebook | Description |
@@ -49,19 +51,19 @@ The composite pipeline automates the creation of 20-m monthly median mosaics of 
 Based on expert and in-situ knowledge, as well as following visual inspection of imagery, the baseline period was defined from **2020-Q1 to 2023-Q1**. The monitoring period was defined from **2023-Q2 onwards**.
 
 ## Time series z-normalization
-In the next step, for each month from April 2023 to November 2025 (the disturbance “monitoring” period), the values of NDVI, EVI, and PSRI2 median composite images were normalized using:
+In the next step, for each month from **April 2023 to November 2025** (the disturbance “monitoring” period), the values of NDVI, EVI, and PSRI2 median composite images were normalized using:
 
 $$
 z = \frac{x - \mu}{\sigma} \
 $$
 
-Where μ and σ are the mean and standard deviation of the NBR values from 2020-Jan to 2023-Mar and x is the median SI (NDVI, EVI, PSRI2) value from each month (April 2023 onward). The time series of z-values forms the basis for the main analysis.
+Where $μ$ and $σ$ are the mean and standard deviation of the SI (NDVI, EVI, PSRI2) values from 2020-January to 2023-March and $x$ is the median SI value from each month (April 2023 onward). The time series of z-values forms the basis for the main analysis.
 
 ## Reference data and Sampling strategy
-Sampling Strategy
+Sampling Strategy -- TBD
 
 ## Anciliary Data
-### Copernicus DEM (30m)
+### Copernicus DEM
 Water stress has been observed to deviate based on sun exposure. Therefore the [Copernicus Global DEM of 30m](https://doi.org/10.5270/ESA-c5d3d65) was used to extract the aspect of the terrain. The Copernicus DEM is a Digital Surface Model (DSM) which represents the top-reflective surface of the Earth including buildings, infrastructure and vegetation. Data were acquired by the TanDEM-X mission. The `xarray-spatial` package was used to compute the [aspect](https://xarray-spatial.readthedocs.io/en/latest/reference/_autosummary/xrspatial.aspect.aspect.html#xrspatial-aspect-aspect).
 **© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved**
 
@@ -74,7 +76,7 @@ Classification method
 ## OWS
 To serve data indeced in the EODC as visualizations, datacube-ows provides the WMS web service endpoint to (in our case) a TerriaJS web map client, by [configuring](https://datacube-ows.readthedocs.io/en/latest/cfg_wms.html) the OWS
 - Styles: Styles and Layers are configured in the [`ows` configuration module](https://github.com/fotakide/drought/blob/main/ows/drought_config/ows_cfg_drought.py)
-- Update: Periodically withing the EO pipelines, or at the end of each one, the OWS database [is triggered](https://github.com/fotakide/drought/blob/main/src/run_composites.py#L81) automatically [to be updated](https://datacube-ows.readthedocs.io/en/latest/database.html).
+- Update: Periodically withing the EO pipelines, or at the end of each one, the OWS database [is triggered](https://github.com/fotakide/drought/blob/main/src/run_composites.py#L81) automatically [for an update](https://datacube-ows.readthedocs.io/en/latest/database.html).
 - Reading: The images are loaded from NAS by [patching the URL](https://datacube-ows.readthedocs.io/en/latest/cfg_layers.html#url-patching-patch-url-function) to the mounted volume inside the Docker container.
 - Vizualization: The [WMS](http://localhost:9000/?service=WMS&request=GetCapabilities) of the data indexed is provided to a [TerriaJS](https://terria.io/) client, and are available via a NGROK app (https://emt-datacube-viewer.ngrok.app/).
 
@@ -83,7 +85,7 @@ To serve data indeced in the EODC as visualizations, datacube-ows provides the W
 | Product Layer | Description |
 |--------|-------|
 | Sentinel-2 L2A Composites  | The median monthly composites for all bands and vegetation indices |
-| Normalized Sentinel-2 L2A Time series | The S2L2A median monthly composites normalized according to the mean and dtandard deviation from baseline 2020-Q1 - 2023-Q1  |
+| Z-Normalized Sentinel-2 L2A Time series | The S2L2A median monthly composites normalized according to the mean and standard deviation from baseline 2020-01 - 2023-03  |
 | Tree Canopy Density | The HRL layer of Tree Cover Density 2023 (%, raster 10 m): https://doi.org/10.2909/e677441e-fb94-431c-b4f9-304f10e4dfd8 |
 | GLO-30 | The elevation and aspect layers of GLO-30 resampled at 20 metres. https://doi.org/10.5270/ESA-c5d3d65 |
 

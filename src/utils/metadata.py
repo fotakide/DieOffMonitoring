@@ -26,6 +26,8 @@ import datetime
 import pandas as pd
 from pathlib import Path
 
+import logging
+
 
 def prepare_eo3_metadata_NAS(
     dc,

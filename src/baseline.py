@@ -61,24 +61,24 @@ def baseline_metrics(baseline_start: str, baseline_end: str, tile_id: str):
     dc = datacube.Datacube(app='basecomp', env='drought')
     
     try:
+        start_time = time.time()            
+        logging.info('Create directories and naming conversions')   
+        NASROOT='//nas-rs.topo.auth.gr/Latomeia/DROUGHT'
+        PRODUCT_NAME = 'baseline'
+        FOLDER=f'{PRODUCT_NAME}/{tile_id.split('_')[0]}/{tile_id.split('_')[1]}/{baseline_start.replace('-','')}_{baseline_end.replace('-','')}'
+        DATASET= f'S2L2A_baseline_{tile_id.replace('_','')}_{baseline_start.replace('-','')}_{baseline_end.replace('-','')}'
+        
+        collection_path = f"{NASROOT}/{PRODUCT_NAME}"
+        dataset_path = f"{NASROOT}/{FOLDER}"
+        mkdir(dataset_path)
+        eo3_path = f'{dataset_path}/{DATASET}.odc-metadata.yaml'
+        stac_path = f'{dataset_path}/{DATASET}.stac-metadata.json'
+        log.info(f'Dataset location: {dataset_path}')
+        
         ds_vi_list = []
         for spectral_index in ["NDVI", "EVI", "PSRI2"]:
-            start_time = time.time()
             logging.info(f'Computing baseline M and SD for {spectral_index}')
-        
-            logging.info('Create directories and naming conversions')   
-            NASROOT='//nas-rs.topo.auth.gr/Latomeia/DROUGHT'
-            PRODUCT_NAME = 'baseline'
-            FOLDER=f'{PRODUCT_NAME}/{tile_id.split('_')[0]}/{tile_id.split('_')[1]}/{baseline_start.replace('-','')}_{baseline_end.replace('-','')}'
-            DATASET= f'S2L2A_baseline_{tile_id.replace('_','')}_{baseline_start.replace('-','')}_{baseline_end.replace('-','')}'
-            
-            collection_path = f"{NASROOT}/{PRODUCT_NAME}"
-            dataset_path = f"{NASROOT}/{FOLDER}"
-            mkdir(dataset_path)
-            eo3_path = f'{dataset_path}/{DATASET}.odc-metadata.yaml'
-            stac_path = f'{dataset_path}/{DATASET}.stac-metadata.json'
-            log.info(f'Dataset location: {dataset_path}')
-            
+
             logging.info(f'Lazy loading time series')
             ds = dc.load(
                 product='composites',
