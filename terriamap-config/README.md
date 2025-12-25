@@ -1,0 +1,1 @@
+run `launch_terria.bat`
