@@ -1,0 +1,25 @@
+{
+  "homeCamera": {
+    "north": 38,
+    "east": 24,
+    "south": 36,
+    "west": 21
+  },
+  "viewerMode": "2D",
+  "catalog": [
+    {
+      "id": "3chNzj13TB",
+      "type": "wms-group",
+      "name": "Drought Monitoring Data Catalogue",
+      "url": "https://emt-datacube-ows.ngrok.app/wms"
+    }
+  ],
+  "baseMaps": {
+    "enabledBaseMaps": [
+      "maptiler-satellite",
+      "basemap-openstreetmap"
+    ],
+    "defaultBaseMapId": "maptiler-satellite",
+    "previewBaseMapId": "basemap-openstreetmap"
+  }
+}

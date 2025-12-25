@@ -19,6 +19,8 @@
 /debug_notebooks/debug*
 /debug_notebooks/test_binning
 
+/terriamap-config/*.txt
+
 
 *.tif
 
