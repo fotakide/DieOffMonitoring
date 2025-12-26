@@ -52,10 +52,10 @@ if __name__ == "__main__":
         geometry = row['geometry']
         
         if tile_id in already_done:
-            log.info(f"Skip already completed: {tile_id} [{i}/{len(tiles)}]")
+            log.info(f"Skip already completed: {tile_id} [{i+1}/{len(tiles)}]")
             continue
 
-        log.info(f"[>] Launching single-shot: {tile_id} [{i}/{len(tiles)}]")
+        log.info(f"[>] Launching single-shot: {tile_id} [{i+1}/{len(tiles)}]")
         
         rc = subprocess.run(
             [sys.executable, "baseline.py", "--tile", tile_id],
@@ -65,8 +65,8 @@ if __name__ == "__main__":
         if rc == 0:
             with done_file.open("a", encoding="utf-8") as df:
                 df.write(tile_id + "\n")
-            log.info(f"✔ Processed {tile_id} | [{i} / {len(tiles)}] ({round(100*((i)/len(tiles)),2)}%)")
+            log.info(f"✔ Processed {tile_id} | [{i+1} / {len(tiles)}] ({round(100*((i+1)/len(tiles)),2)}%)")
         else:
-            log.error(f"✖ Failed {tile_id} with exit code {rc} | [{i} / {len(tiles)}] ({round(100*((i)/len(tiles)),2)}%)")
+            log.error(f"✖ Failed {tile_id} with exit code {rc} | [{i+1} / {len(tiles)}] ({round(100*((i+1)/len(tiles)),2)}%)")
             # optional small backoff to avoid rapid-fire restarts on a flaky machine
             time.sleep(2)
