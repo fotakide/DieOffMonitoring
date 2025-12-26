@@ -27,7 +27,7 @@ from dask.distributed import LocalCluster, Client
 import tempfile
 from pathlib import Path
 
-from utils.metadata import prepare_eo3_metadata_NAS
+from utils.metadata import prepare_eo3_metadata_NAS, reorder_measurements
 from utils.utils import mkdir, setup_logger
 from utils.utils import nas_patch
 
@@ -150,6 +150,9 @@ def baseline_metrics(baseline_start: str, baseline_end: str, tile_id: str):
             relative_name_measurements.append(f'{DATASET}_{var}.tif')
             
             logging.info(f'Write {var.upper()} -> {file_path}')
+            
+        logging.info(f'Assert relative paths and product measurements are matched')
+        relative_name_measurements = reorder_measurements(product=PRODUCT_NAME, relative_name_measurements=name_measurements)
         
         
         logging.info('Prepare metadata YAML document')

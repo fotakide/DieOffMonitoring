@@ -26,6 +26,8 @@ import datetime
 import pandas as pd
 from pathlib import Path
 
+import datacube
+
 import logging
 
 
@@ -142,3 +144,50 @@ def prepare_eo3_metadata_NAS(
     stac_path = f'{collection_path}/{dataset_name}.stac-metadata.json'
     stac_doc = to_stac_item(dataset=eo3, stac_item_destination_url=stac_path, collection_url=f'file://{collection_path}')
     return eo3_doc, stac_doc
+
+
+
+
+def reorder_measurements(product: str, relative_name_measurements: list[str]) -> list[str]:
+    """
+    Reorder measurement filenames to match the fixed band order for a product.
+
+    Expected filename pattern:
+        <product>_<BAND>.tif
+    Example:
+        baseline_NDVI_mean.tif
+    """
+
+    dc = datacube.Datacube(app='reorder', env='drought')
+    bands = list(dc.list_measurements().loc[product].name.values)
+
+    def extract_band(fname: str) -> str:
+        stem = Path(fname).stem
+        parts = stem.split("_")
+        if len(parts) < 2:
+            raise ValueError(f"Cannot parse measurement name from: {fname}")
+        return "_".join(parts[-2:])
+
+    extracted = [extract_band(f) for f in relative_name_measurements]
+
+    # fast path
+    if extracted == bands:
+        return relative_name_measurements
+
+    # build lookup (and detect duplicates)
+    lookup = {}
+    for f in relative_name_measurements:
+        b = extract_band(f)
+        if b in lookup:
+            raise ValueError(f"Duplicate measurement '{b}' found (e.g., {lookup[b]} and {f})")
+        lookup[b] = f
+
+    missing = [b for b in bands if b not in lookup]
+    if missing:
+        raise ValueError(f"Missing measurements for product '{product}': {missing}")
+
+    reordered = [lookup[b] for b in bands]
+
+    # final hard check
+    assert [extract_band(f) for f in reordered] == bands
+    return reordered
