@@ -80,7 +80,7 @@ To serve data indeced in the EODC as visualizations, datacube-ows provides the W
 - Reading: The images are loaded from NAS by [patching the URL](https://datacube-ows.readthedocs.io/en/latest/cfg_layers.html#url-patching-patch-url-function) to the mounted volume inside the Docker container.
 - Vizualization: The [WMS](http://localhost:9000/?service=WMS&request=GetCapabilities) of the data indexed is provided to a [TerriaJS](https://terria.io/) client, and are available via a NGROK app (https://emt-datacube-viewer.ngrok.app/).
 
-*Served dataset with ODC-OWS in TerriaMap.*
+*Served datasets with ODC-OWS in TerriaMap.*
 
 | Product Layer | Description |
 |--------|-------|

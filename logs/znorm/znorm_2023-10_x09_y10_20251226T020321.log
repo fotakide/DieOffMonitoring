@@ -1,0 +1,49 @@
+2025-12-26 02:03:21,963 - INFO - z_normalization.py:42 - #######################################################################
+2025-12-26 02:03:22,633 - INFO - z_normalization.py:56 - Starting Z-Normalization for x09_y10 | 2023-10
+2025-12-26 02:03:22,633 - INFO - z_normalization.py:58 - Create directories and naming conversions
+2025-12-26 02:03:22,645 - INFO - z_normalization.py:69 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/z_normalized/x09/y10/2023/10/01
+2025-12-26 02:03:22,646 - INFO - z_normalization.py:74 - Z-Normalization | NDVI
+2025-12-26 02:03:23,105 - INFO - z_normalization.py:83 - Loaded baseline
+2025-12-26 02:03:23,105 - INFO - z_normalization.py:86 - Set up values | NDVI_mean
+2025-12-26 02:03:23,144 - INFO - z_normalization.py:86 - Set up values | NDVI_std
+2025-12-26 02:03:23,325 - INFO - z_normalization.py:101 - Loaded composite
+2025-12-26 02:03:23,325 - INFO - z_normalization.py:103 - Set up values | NDVI
+2025-12-26 02:03:23,359 - INFO - z_normalization.py:110 - Setting up normalization ... 
+2025-12-26 02:03:23,359 - INFO - z_normalization.py:114 - Setting up normalization ... done
+2025-12-26 02:03:23,359 - INFO - z_normalization.py:116 - Normalizing ... 
+2025-12-26 02:03:23,452 - INFO - z_normalization.py:121 - Normalizing ... done
+2025-12-26 02:03:23,509 - INFO - z_normalization.py:74 - Z-Normalization | EVI
+2025-12-26 02:03:23,749 - INFO - z_normalization.py:83 - Loaded baseline
+2025-12-26 02:03:23,749 - INFO - z_normalization.py:86 - Set up values | EVI_mean
+2025-12-26 02:03:23,779 - INFO - z_normalization.py:86 - Set up values | EVI_std
+2025-12-26 02:03:23,970 - INFO - z_normalization.py:101 - Loaded composite
+2025-12-26 02:03:23,970 - INFO - z_normalization.py:103 - Set up values | EVI
+2025-12-26 02:03:24,011 - INFO - z_normalization.py:110 - Setting up normalization ... 
+2025-12-26 02:03:24,011 - INFO - z_normalization.py:114 - Setting up normalization ... done
+2025-12-26 02:03:24,011 - INFO - z_normalization.py:116 - Normalizing ... 
+2025-12-26 02:03:24,092 - INFO - z_normalization.py:121 - Normalizing ... done
+2025-12-26 02:03:24,149 - INFO - z_normalization.py:74 - Z-Normalization | PSRI2
+2025-12-26 02:03:24,397 - INFO - z_normalization.py:83 - Loaded baseline
+2025-12-26 02:03:24,397 - INFO - z_normalization.py:86 - Set up values | PSRI2_mean
+2025-12-26 02:03:24,429 - INFO - z_normalization.py:86 - Set up values | PSRI2_std
+2025-12-26 02:03:24,611 - INFO - z_normalization.py:101 - Loaded composite
+2025-12-26 02:03:24,611 - INFO - z_normalization.py:103 - Set up values | PSRI2
+2025-12-26 02:03:24,641 - INFO - z_normalization.py:110 - Setting up normalization ... 
+2025-12-26 02:03:24,641 - INFO - z_normalization.py:114 - Setting up normalization ... done
+2025-12-26 02:03:24,641 - INFO - z_normalization.py:116 - Normalizing ... 
+2025-12-26 02:03:24,724 - INFO - z_normalization.py:121 - Normalizing ... done
+2025-12-26 02:03:24,802 - INFO - z_normalization.py:127 - Merging into one dataset
+2025-12-26 02:03:24,803 - INFO - z_normalization.py:133 - Scale and Define data types & nodata per band
+2025-12-26 02:03:24,805 - INFO - z_normalization.py:145 - Assign time range and tile ID in metadata
+2025-12-26 02:03:24,806 - INFO - z_normalization.py:151 - Write bands to raster COG files
+2025-12-26 02:03:28,791 - INFO - z_normalization.py:164 - Write NDVI_Z -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/z_normalized/x09/y10/2023/10/01/S2L2A_znorm_x09y10_202310_NDVI_z.tif
+2025-12-26 02:03:32,369 - INFO - z_normalization.py:164 - Write EVI_Z -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/z_normalized/x09/y10/2023/10/01/S2L2A_znorm_x09y10_202310_EVI_z.tif
+2025-12-26 02:03:35,982 - INFO - z_normalization.py:164 - Write PSRI2_Z -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/z_normalized/x09/y10/2023/10/01/S2L2A_znorm_x09y10_202310_PSRI2_z.tif
+2025-12-26 02:03:35,982 - INFO - z_normalization.py:166 - Prepare metadata YAML document
+2025-12-26 02:03:36,071 - INFO - z_normalization.py:187 - Write metadata YAML document to disk
+2025-12-26 02:03:36,092 - INFO - z_normalization.py:192 - Create datacube.model.Dataset from eo3 metadata
+2025-12-26 02:03:36,097 - INFO - z_normalization.py:205 - Index to datacube
+2025-12-26 02:03:36,098 - INFO - _datasets.py:191 - Indexing 3d8e6717-90aa-4bdc-ac0e-33bab791ebbf
+2025-12-26 02:03:36,105 - INFO - z_normalization.py:208 - 
+2025-12-26 02:03:36,105 - INFO - z_normalization.py:209 -              ✔✔✔ COMPLETED: Tile x09_y10 | Time: 2023-10 | In 0.22 minutes
+2025-12-26 02:03:36,105 - INFO - z_normalization.py:210 - 
