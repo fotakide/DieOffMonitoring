@@ -341,7 +341,7 @@ style_psri2_znorm = {
     },
     "needed_bands": ["PSRI2_z"],
     "mpl_ramp": "RdBu_r",
-    "range": [-30.0, 30.0],
+    "range": [-3.0, 3.0],
     "include_in_feature_info": True,
 }
 

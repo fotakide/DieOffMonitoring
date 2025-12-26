@@ -152,7 +152,9 @@ def baseline_metrics(baseline_start: str, baseline_end: str, tile_id: str):
             logging.info(f'Write {var.upper()} -> {file_path}')
             
         logging.info(f'Assert relative paths and product measurements are matched')
-        relative_name_measurements = reorder_measurements(product=PRODUCT_NAME, relative_name_measurements=name_measurements)
+        relative_name_measurements = reorder_measurements(
+            product=PRODUCT_NAME, 
+            relative_name_measurements=relative_name_measurements)
         
         
         logging.info('Prepare metadata YAML document')

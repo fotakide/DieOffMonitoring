@@ -1,3 +1,0 @@
-2025-12-26 01:16:17,110 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202304_x06_y10.geojson [1/736]
-2025-12-26 01:16:34,712 - INFO - run_z_normalization.py:79 - ✔ Processed ../geojsons/znorm\compgen_202304_x06_y10.geojson | [1 / 736] (0.14%)
-2025-12-26 01:16:34,712 - INFO - run_z_normalization.py:69 - [>] Launching single-shot: ../geojsons/znorm\compgen_202304_x07_y11.geojson [2/736]
