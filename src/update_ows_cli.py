@@ -1,13 +1,3 @@
-from utils.utils import setup_logger, mkdir, generate_geojson_files_for_composites
-
-import datetime, pytz
-import gc, os, sys, time
-import json
-
-import geopandas as gpd
-
-from pathlib import Path
-
 import subprocess
 
 if __name__ == "__main__":   
