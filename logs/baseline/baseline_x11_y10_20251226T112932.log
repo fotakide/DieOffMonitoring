@@ -1,0 +1,6 @@
+2025-12-26 11:29:32,856 - INFO - baseline.py:44 - #######################################################################
+2025-12-26 11:29:39,045 - INFO - baseline.py:59 - Dask dashboard is available at: http://127.0.0.1:8787/status
+2025-12-26 11:29:39,891 - INFO - baseline.py:65 - Create directories and naming conversions
+2025-12-26 11:29:39,903 - INFO - baseline.py:76 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/baseline/x11/y10/20200101_20230331
+2025-12-26 11:29:39,903 - INFO - baseline.py:80 - Computing baseline M and SD for NDVI
+2025-12-26 11:29:39,905 - INFO - baseline.py:82 - Lazy loading time series

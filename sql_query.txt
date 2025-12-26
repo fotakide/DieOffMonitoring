@@ -1,0 +1,10 @@
+SELECT *
+FROM agdc.dataset
+WHERE dataset_type_ref IN (4, 7);
+
+
+SELECT dl.*
+FROM agdc.dataset_location AS dl
+JOIN agdc.dataset AS d
+  ON dl.dataset_ref = d.id
+WHERE d.dataset_type_ref IN (4, 7);

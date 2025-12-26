@@ -27,7 +27,7 @@ import calendar
 import time
 from pathlib import Path
 
-from utils.metadata import prepare_eo3_metadata_NAS
+from utils.metadata import prepare_eo3_metadata_NAS, reorder_measurements
 from utils.utils import mkdir, setup_logger
 from utils.utils import nas_patch
 
@@ -162,6 +162,11 @@ def z_normalization(year_month: str, tile_id: str):
             name_measurements.append(file_path)
             
             logging.info(f'Write {var.upper()} -> {file_path}')
+            
+        logging.info(f'Assert relative paths and product measurements are matched')
+        relative_name_measurements = reorder_measurements(
+            product=PRODUCT_NAME, 
+            relative_name_measurements=relative_name_measurements)
         
         logging.info('Prepare metadata YAML document')
         relative_name_measurements = [p.split("/")[-1] for p in name_measurements]
