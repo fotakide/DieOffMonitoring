@@ -1,0 +1,57 @@
+2025-12-26 11:41:17,934 - INFO - baseline.py:44 - #######################################################################
+2025-12-26 11:41:22,894 - INFO - baseline.py:59 - Dask dashboard is available at: http://127.0.0.1:8787/status
+2025-12-26 11:41:23,615 - INFO - baseline.py:65 - Create directories and naming conversions
+2025-12-26 11:41:23,629 - INFO - baseline.py:76 - Dataset location: //nas-rs.topo.auth.gr/Latomeia/DROUGHT/baseline/x07/y12/20200101_20230331
+2025-12-26 11:41:23,629 - INFO - baseline.py:80 - Computing baseline M and SD for NDVI
+2025-12-26 11:41:23,629 - INFO - baseline.py:82 - Lazy loading time series
+2025-12-26 11:41:40,568 - INFO - baseline.py:92 - Lazy applying nodata mask
+2025-12-26 11:41:41,799 - INFO - baseline.py:99 - Computing Mean (M)
+2025-12-26 11:41:44,125 - INFO - baseline.py:101 - Computing Standard Deviation (SD)
+2025-12-26 11:41:45,489 - INFO - baseline.py:104 - Assigning names to xr.DataArrays
+2025-12-26 11:41:45,489 - INFO - baseline.py:108 - Merge into xr.Dataset
+2025-12-26 11:41:45,490 - INFO - baseline.py:111 - Scale and nodata -32768
+2025-12-26 11:41:45,490 - INFO - baseline.py:112 - Configure metadata of baseline dataset
+2025-12-26 11:41:45,714 - INFO - baseline.py:122 - Append baseline dataset of NDVI in list
+2025-12-26 11:41:45,714 - INFO - baseline.py:80 - Computing baseline M and SD for EVI
+2025-12-26 11:41:45,715 - INFO - baseline.py:82 - Lazy loading time series
+2025-12-26 11:42:02,460 - INFO - baseline.py:92 - Lazy applying nodata mask
+2025-12-26 11:42:03,652 - INFO - baseline.py:99 - Computing Mean (M)
+2025-12-26 11:42:06,040 - INFO - baseline.py:101 - Computing Standard Deviation (SD)
+2025-12-26 11:42:06,658 - INFO - baseline.py:104 - Assigning names to xr.DataArrays
+2025-12-26 11:42:06,658 - INFO - baseline.py:108 - Merge into xr.Dataset
+2025-12-26 11:42:06,659 - INFO - baseline.py:111 - Scale and nodata -32768
+2025-12-26 11:42:06,659 - INFO - baseline.py:112 - Configure metadata of baseline dataset
+2025-12-26 11:42:06,900 - INFO - baseline.py:122 - Append baseline dataset of EVI in list
+2025-12-26 11:42:06,901 - INFO - baseline.py:80 - Computing baseline M and SD for PSRI2
+2025-12-26 11:42:06,901 - INFO - baseline.py:82 - Lazy loading time series
+2025-12-26 11:42:21,954 - INFO - baseline.py:92 - Lazy applying nodata mask
+2025-12-26 11:42:23,238 - INFO - baseline.py:99 - Computing Mean (M)
+2025-12-26 11:42:25,612 - INFO - baseline.py:101 - Computing Standard Deviation (SD)
+2025-12-26 11:42:26,247 - INFO - baseline.py:104 - Assigning names to xr.DataArrays
+2025-12-26 11:42:26,248 - INFO - baseline.py:108 - Merge into xr.Dataset
+2025-12-26 11:42:26,248 - INFO - baseline.py:111 - Scale and nodata -32768
+2025-12-26 11:42:26,248 - INFO - baseline.py:112 - Configure metadata of baseline dataset
+2025-12-26 11:42:26,475 - INFO - baseline.py:122 - Append baseline dataset of PSRI2 in list
+2025-12-26 11:42:26,475 - INFO - baseline.py:126 - Done with computing baseline of all spectral indices
+2025-12-26 11:42:26,475 - INFO - baseline.py:127 - Now creating the overall baseline dataset
+2025-12-26 11:42:26,475 - INFO - baseline.py:129 - Overall baseline dataset constructed
+2025-12-26 11:42:26,475 - INFO - baseline.py:131 - Assign time range and tile ID in metadata
+2025-12-26 11:42:26,477 - INFO - baseline.py:136 - Writing GTiff (COG) to disk
+2025-12-26 11:42:30,762 - INFO - baseline.py:152 - Write NDVI_MEAN -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/baseline/x07/y12/20200101_20230331/S2L2A_baseline_x07y12_20200101_20230331_NDVI_mean.tif
+2025-12-26 11:42:35,120 - INFO - baseline.py:152 - Write NDVI_STD -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/baseline/x07/y12/20200101_20230331/S2L2A_baseline_x07y12_20200101_20230331_NDVI_std.tif
+2025-12-26 11:42:39,690 - INFO - baseline.py:152 - Write EVI_MEAN -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/baseline/x07/y12/20200101_20230331/S2L2A_baseline_x07y12_20200101_20230331_EVI_mean.tif
+2025-12-26 11:42:43,878 - INFO - baseline.py:152 - Write EVI_STD -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/baseline/x07/y12/20200101_20230331/S2L2A_baseline_x07y12_20200101_20230331_EVI_std.tif
+2025-12-26 11:42:47,918 - INFO - baseline.py:152 - Write PSRI2_MEAN -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/baseline/x07/y12/20200101_20230331/S2L2A_baseline_x07y12_20200101_20230331_PSRI2_mean.tif
+2025-12-26 11:42:52,170 - INFO - baseline.py:152 - Write PSRI2_STD -> //nas-rs.topo.auth.gr/Latomeia/DROUGHT/baseline/x07/y12/20200101_20230331/S2L2A_baseline_x07y12_20200101_20230331_PSRI2_std.tif
+2025-12-26 11:42:52,188 - INFO - baseline.py:154 - Assert relative paths and product measurements are matched
+2025-12-26 11:42:52,273 - INFO - baseline.py:160 - Prepare metadata YAML document
+2025-12-26 11:42:52,371 - INFO - baseline.py:179 - Write metadata YAML document to disk
+2025-12-26 11:42:52,394 - INFO - baseline.py:184 - Create datacube.model.Dataset from eo3 metadata
+2025-12-26 11:42:52,418 - INFO - baseline.py:197 - Index to datacube
+2025-12-26 11:42:52,418 - INFO - _datasets.py:191 - Indexing 5ce22758-0cd0-44e1-bdbe-33aa4cbc4c71
+2025-12-26 11:42:52,429 - INFO - baseline.py:200 - 
+2025-12-26 11:42:52,429 - INFO - baseline.py:201 - ✔✔✔ COMPLETED: Tile x07_y12 | In 1.48 minutes
+2025-12-26 11:42:52,429 - INFO - baseline.py:202 - 
+2025-12-26 11:42:52,429 - INFO - baseline.py:210 - Closing Dask client
+2025-12-26 11:42:52,432 - INFO - baseline.py:214 - Closing Dask cluster
+2025-12-26 11:42:52,432 - INFO - baseline.py:215 - #######################################################################

@@ -72,6 +72,7 @@ def generate_geojson_files_for_composites(
     tile_geojson_filepath="../anciliary/grid_20_v2.geojson",
     start_date=datetime.datetime(2020, 1, 1),
     end_date=datetime.datetime(2025, datetime.datetime.today().month, 1),
+    prefix='compgen'
 ):
     os.makedirs(output_dir, exist_ok=True)
 
@@ -95,7 +96,7 @@ def generate_geojson_files_for_composites(
             }
 
             file_prefix = f"{date_prefix}_{tile_id}"
-            file_name = f"compgen_{file_prefix}.geojson"
+            file_name = f"{prefix}_{file_prefix}.geojson"
             file_path = os.path.join(output_dir, file_name)
 
             with open(file_path, "w", encoding="utf-8") as f:

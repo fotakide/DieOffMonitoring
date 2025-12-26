@@ -43,6 +43,7 @@ if __name__ == "__main__":
         tile_geojson_filepath='../anciliary/grid_20_v2.geojson',
         start_date=datetime.datetime(2023, 4, 1),
         end_date=datetime.datetime(2025, 11, 30),
+        prefix='znorm'
     )
     
     # 2) collect tasks
